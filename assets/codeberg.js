@@ -1,7 +1,9 @@
 (() => {
   const platform = "Codeberg";
+  const platformKey = platform.toLowerCase();
   const account = "sprunglesontheberg";
   const workerUrl = "https://repos.acreetionos.org";
+  const mutationDebounceMs = 50;
   let rendering = false;
 
   function removeCodebergFromExistingLists() {
@@ -50,7 +52,7 @@
       if (!response.ok) throw new Error(`Worker returned ${response.status}`);
       const payload = await response.json();
       const repositories = (payload.repos || []).filter((repository) =>
-        repository.source?.toLowerCase() === platform.toLowerCase() &&
+        repository.source?.toLowerCase() === platformKey &&
         typeof repository.url === "string" &&
         repository.url.startsWith(`https://codeberg.org/${account}/`)
       );
@@ -64,7 +66,7 @@
       heading.append(icon, ` ${platform}`);
       const summary = document.createElement("p");
       summary.className = "section-sub";
-      summary.textContent = `${repositories.length} repositories from sprunglesontheberg`;
+      summary.textContent = `${repositories.length} repositories from ${account}`;
       const card = document.createElement("div");
       card.className = "card";
       const list = document.createElement("div");
@@ -97,7 +99,7 @@
       observerTimer = setTimeout(() => {
         removeCodebergFromExistingLists();
         renderCodeberg();
-      }, 50);
+      }, mutationDebounceMs);
     });
     observer.observe(app, { childList: true, subtree: true });
     renderCodeberg();
