@@ -3,7 +3,7 @@
   const platformKey = platform.toLowerCase();
   const account = "sprunglesontheberg";
   const workerUrl = "https://repos.acreetionos.org";
-  const mutationDebounceMs = 50;
+  const mutationDebounceMs = 120;
   let rendering = false;
 
   function removeCodebergFromExistingLists() {
@@ -52,7 +52,8 @@
       if (!response.ok) throw new Error(`Worker returned ${response.status}`);
       const payload = await response.json();
       const repositories = (payload.repos || []).filter((repository) =>
-        repository.source?.toLowerCase() === platformKey &&
+        typeof repository.source === "string" &&
+        repository.source.toLowerCase() === platformKey &&
         typeof repository.url === "string" &&
         repository.url.startsWith(`https://codeberg.org/${account}/`)
       );
@@ -94,7 +95,15 @@
     if (!app) return;
 
     let observerTimer;
-    const observer = new MutationObserver(() => {
+    const observer = new MutationObserver((mutations) => {
+      const repositoryMutation = mutations.some(({ addedNodes }) =>
+        [...addedNodes].some((node) =>
+          node.nodeType === Node.ELEMENT_NODE &&
+          (node.id === "ecosystem" || node.matches(".repo-item") || node.querySelector(".repo-item"))
+        )
+      );
+      if (!repositoryMutation) return;
+
       clearTimeout(observerTimer);
       observerTimer = setTimeout(() => {
         removeCodebergFromExistingLists();
