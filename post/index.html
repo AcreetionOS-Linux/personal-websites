@@ -8,412 +8,412 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    /* ===== Root Variables (AcreetionOS Theme) ===== */
+    /* ===== natalie.acreetionos.org Color Scheme ===== */
     :root {
-      --acreetion-green: #2ecc71;
-      --acreetion-body-bg: #111111;
-      --acreetion-panel-bg: #0a0a0a;
-      --acreetion-box-bg: #1c1c1c;
-      --acreetion-box-border: #333333;
-      --acreetion-text-bright: #e0e0e0;
-      --acreetion-text: #a0a0a0;
-      --acreetion-code-bg: rgba(46, 204, 113, 0.1);
-      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
-      --radius: 16px;
-      --radius-sm: 10px;
+      --bg:        #0a0a0f;
+      --panel:     rgba(255,255,255,0.08);
+      --border:    rgba(255,255,255,0.06);
+      --border-hl: rgba(192,132,252,0.3);
+      --accent:    #c084fc;
+      --accent-dk: #7c3aed;
+      --text:      #e1e1e6;
+      --muted:     #a1a1aa;
+      --dim:       #71717a;
+      --faint:     #52525b;
+      --radius:    12px;
+      --radius-sm: 8px;
+      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
     }
 
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: var(--font-sans);
-      background: var(--acreetion-body-bg);
-      color: var(--acreetion-text-bright);
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.8;
       min-height: 100vh;
-      overflow-x: hidden;
-      background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0);
-      background-size: 40px 40px;
     }
 
-    ::selection { background: rgba(46,204,113,0.3); color: var(--acreetion-text-bright); }
+    ::selection { background: rgba(192,132,252,0.25); }
 
-    ::-webkit-scrollbar { width: 10px; }
-    ::-webkit-scrollbar-track { background: var(--acreetion-body-bg); }
-    ::-webkit-scrollbar-thumb { background: var(--acreetion-box-border); border-radius: 10px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--acreetion-green); }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--faint); border-radius: 8px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--accent-dk); }
 
-    /* ===== Navigation ===== */
+    /* ===== Nav ===== */
     nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 1000;
-      background: rgba(24,26,27,0.85);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,10,15,0.9);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      border-bottom: 2px solid var(--acreetion-green);
-      border-radius: 0 0 16px 16px;
-      padding: 0 2rem;
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
     }
 
     .nav-inner {
       max-width: 900px;
       margin: 0 auto;
+      height: 56px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 64px;
     }
 
     .nav-logo {
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 700;
-      color: var(--acreetion-text-bright);
+      color: var(--text);
       text-decoration: none;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
 
-    .nav-logo i { color: var(--acreetion-green); }
-    .nav-logo span { color: var(--acreetion-green); }
+    .nav-logo i { color: var(--accent); font-size: 0.9rem; }
+    .nav-logo span { color: var(--accent); }
 
     .nav-back {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.85rem;
-      color: var(--acreetion-text);
+      font-size: 0.82rem;
+      color: var(--muted);
       text-decoration: none;
-      border: 1px solid var(--acreetion-box-border);
+      border: 1px solid var(--border);
       padding: 6px 14px;
       border-radius: 100px;
-      transition: all 0.2s;
+      transition: all 0.15s;
     }
 
     .nav-back:hover {
-      border-color: var(--acreetion-green);
-      color: var(--acreetion-text-bright);
-      background: rgba(46,204,113,0.06);
+      border-color: var(--border-hl);
+      color: var(--accent);
+      background: rgba(124,58,237,0.08);
     }
 
-    /* ===== Article Layout ===== */
-    .article-wrapper {
-      max-width: 780px;
+    /* ===== Layout ===== */
+    .page {
+      max-width: 800px;
       margin: 0 auto;
-      padding: 7rem 2rem 5rem;
+      padding: 48px 24px 80px;
     }
 
-    /* ===== Header ===== */
+    /* ===== Article Header ===== */
     .article-header {
-      margin-bottom: 3rem;
-      border-bottom: 1px solid var(--acreetion-box-border);
-      padding-bottom: 2rem;
+      margin-bottom: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
     }
 
     .article-label {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.75rem;
-      font-family: var(--font-mono);
-      color: var(--acreetion-green);
+      font-size: 0.72rem;
+      color: var(--accent);
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      margin-bottom: 1.2rem;
-      background: rgba(46,204,113,0.08);
-      border: 1px solid rgba(46,204,113,0.2);
-      padding: 5px 14px;
+      background: rgba(124,58,237,0.12);
+      border: 1px solid rgba(192,132,252,0.15);
+      padding: 4px 12px;
       border-radius: 100px;
+      margin-bottom: 16px;
+      font-weight: 600;
     }
 
     .article-title {
-      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
       font-weight: 700;
-      color: var(--acreetion-text-bright);
+      color: var(--text);
       line-height: 1.25;
-      margin-bottom: 1rem;
+      margin-bottom: 12px;
     }
 
-    .article-title span { color: var(--acreetion-green); }
+    .article-title span { color: var(--accent); }
 
     .article-subtitle {
-      font-size: 1.05rem;
-      color: var(--acreetion-text);
-      max-width: 650px;
-      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 640px;
+      line-height: 1.7;
+      margin-bottom: 20px;
     }
 
     .article-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.2rem;
-      font-size: 0.8rem;
-      color: var(--acreetion-text);
-      font-family: var(--font-mono);
+      gap: 16px;
+      font-size: 0.78rem;
+      color: var(--dim);
     }
 
     .article-meta span {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 5px;
     }
 
-    .article-meta i { color: var(--acreetion-green); }
+    .article-meta i { color: var(--accent-dk); font-size: 0.7rem; }
+
+    /* ===== Callout ===== */
+    .callout {
+      display: flex;
+      gap: 12px;
+      background: rgba(124,58,237,0.06);
+      border: 1px solid rgba(192,132,252,0.15);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin-bottom: 32px;
+    }
+
+    .callout-icon {
+      color: var(--accent);
+      font-size: 1rem;
+      margin-top: 3px;
+      flex-shrink: 0;
+    }
+
+    .callout p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .callout p strong { color: var(--text); }
 
     /* ===== Table of Contents ===== */
     .toc {
-      background: var(--acreetion-panel-bg);
-      border: 1px solid var(--acreetion-box-border);
-      border-left: 3px solid var(--acreetion-green);
-      border-radius: var(--radius-sm);
-      padding: 1.5rem 1.8rem;
-      margin-bottom: 3rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-dk);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      margin-bottom: 40px;
     }
 
     .toc-title {
-      font-size: 0.75rem;
-      font-family: var(--font-mono);
+      font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      color: var(--acreetion-green);
-      margin-bottom: 1rem;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 12px;
       display: flex;
       align-items: center;
       gap: 6px;
     }
 
     .toc ol {
-      padding-left: 1.4rem;
+      padding-left: 18px;
       display: flex;
       flex-direction: column;
-      gap: 0.45rem;
+      gap: 6px;
     }
 
     .toc a {
-      color: var(--acreetion-text);
+      color: var(--muted);
       text-decoration: none;
-      font-size: 0.875rem;
-      transition: color 0.2s;
+      font-size: 0.87rem;
+      transition: color 0.15s;
     }
 
-    .toc a:hover { color: var(--acreetion-green); }
-
-    /* ===== Disclaimer / Callout ===== */
-    .callout {
-      display: flex;
-      gap: 1rem;
-      background: rgba(46,204,113,0.05);
-      border: 1px solid rgba(46,204,113,0.2);
-      border-radius: var(--radius-sm);
-      padding: 1.2rem 1.5rem;
-      margin: 2rem 0;
-    }
-
-    .callout-icon {
-      font-size: 1.2rem;
-      color: var(--acreetion-green);
-      margin-top: 2px;
-      flex-shrink: 0;
-    }
-
-    .callout-body { font-size: 0.9rem; color: var(--acreetion-text); line-height: 1.7; }
-    .callout-body strong { color: var(--acreetion-text-bright); }
+    .toc a:hover { color: var(--accent); }
 
     /* ===== Sections ===== */
     .article-section {
-      margin-bottom: 3.5rem;
+      margin-bottom: 48px;
     }
 
-    .section-anchor { scroll-margin-top: 80px; }
+    .section-anchor { scroll-margin-top: 72px; }
 
     .section-heading {
-      font-size: 1.35rem;
+      font-size: 1.25rem;
       font-weight: 700;
-      color: var(--acreetion-text-bright);
-      margin-bottom: 1.2rem;
+      color: var(--accent);
+      margin-bottom: 16px;
       display: flex;
       align-items: center;
       gap: 10px;
     }
 
     .section-heading i {
-      color: var(--acreetion-green);
-      font-size: 1.1rem;
-      background: rgba(46,204,113,0.1);
+      font-size: 1rem;
+      color: var(--accent-dk);
+      background: rgba(124,58,237,0.12);
       padding: 7px;
       border-radius: 8px;
     }
 
     .article-section p {
-      color: var(--acreetion-text);
-      font-size: 0.975rem;
-      margin-bottom: 1.2rem;
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+      line-height: 1.8;
     }
 
     .article-section p:last-child { margin-bottom: 0; }
+    .article-section p strong { color: var(--text); }
 
-    .article-section p strong { color: var(--acreetion-text-bright); }
-
-    /* ===== Stat Highlights ===== */
+    /* ===== Stat Row ===== */
     .stat-row {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-      margin: 1.8rem 0;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+      margin: 20px 0;
     }
 
     .stat-box {
-      background: var(--acreetion-panel-bg);
-      border: 1px solid var(--acreetion-box-border);
-      border-radius: var(--radius-sm);
-      padding: 1.2rem 1.4rem;
+      background: rgba(124,58,237,0.08);
+      border: 1px solid rgba(124,58,237,0.12);
+      border-radius: var(--radius);
+      padding: 16px;
       text-align: center;
-      transition: border-color 0.25s, transform 0.25s;
+      transition: border-color 0.2s, transform 0.2s;
     }
 
     .stat-box:hover {
-      border-color: rgba(46,204,113,0.4);
-      transform: translateY(-3px);
+      border-color: rgba(192,132,252,0.3);
+      transform: translateY(-2px);
     }
 
-    .stat-box .stat-num {
-      font-family: var(--font-mono);
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: var(--acreetion-green);
+    .stat-num {
       display: block;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--accent);
     }
 
-    .stat-box .stat-desc {
-      font-size: 0.78rem;
-      color: var(--acreetion-text);
+    .stat-desc {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--dim);
       margin-top: 4px;
-      line-height: 1.5;
+      line-height: 1.4;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
     }
 
-    /* ===== Pull Quote ===== */
+    /* ===== Blockquote ===== */
     blockquote {
-      border-left: 3px solid var(--acreetion-green);
-      background: rgba(46,204,113,0.04);
-      padding: 1.2rem 1.5rem;
-      margin: 1.8rem 0;
+      border-left: 3px solid rgba(124,58,237,0.4);
+      background: rgba(124,58,237,0.05);
+      padding: 14px 18px;
+      margin: 20px 0;
       border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
     }
 
     blockquote p {
-      font-size: 1.05rem !important;
+      font-size: 1rem !important;
       font-style: italic;
-      color: var(--acreetion-text-bright) !important;
-      margin-bottom: 0 !important;
+      color: var(--text) !important;
+      margin: 0 !important;
     }
 
-    /* ===== Tag List ===== */
+    /* ===== Tags ===== */
     .tag-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
-      margin: 1.5rem 0;
+      gap: 6px;
+      margin: 16px 0;
     }
 
     .tag {
-      font-size: 0.75rem;
-      padding: 4px 12px;
+      font-size: 0.72rem;
+      padding: 3px 10px;
       border-radius: 100px;
-      background: rgba(46,204,113,0.08);
-      color: var(--acreetion-green);
-      border: 1px solid rgba(46,204,113,0.2);
-      font-family: var(--font-mono);
+      background: rgba(124,58,237,0.12);
+      color: var(--accent);
+      border: 1px solid rgba(192,132,252,0.15);
     }
 
     /* ===== Divider ===== */
     hr {
       border: none;
-      border-top: 1px solid var(--acreetion-box-border);
-      margin: 3rem 0;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
     }
 
-    /* ===== Closing ===== */
+    /* ===== Closing Box ===== */
     .closing-box {
-      background: var(--acreetion-panel-bg);
-      border: 1px solid var(--acreetion-box-border);
+      background: var(--panel);
+      border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 2rem 2.2rem;
-      margin-top: 2rem;
+      padding: 24px 28px;
+      margin-top: 24px;
     }
 
     .closing-box p {
-      color: var(--acreetion-text);
-      font-size: 0.95rem;
-      margin-bottom: 1rem;
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+      line-height: 1.8;
     }
 
     .closing-box p:last-child { margin-bottom: 0; }
-    .closing-box p strong { color: var(--acreetion-text-bright); }
+    .closing-box p strong { color: var(--text); }
 
     /* ===== Footer ===== */
     footer {
       text-align: center;
-      padding: 3rem 2rem;
-      border-top: 1px solid var(--acreetion-box-border);
-      color: var(--acreetion-text);
-      font-size: 0.8rem;
+      padding: 32px 24px 40px;
+      border-top: 1px solid var(--border);
+      color: var(--dim);
+      font-size: 0.82rem;
     }
 
-    footer a {
-      color: var(--acreetion-green);
-      text-decoration: none;
-    }
-
+    footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+    footer p + p { margin-top: 6px; }
 
-    /* ===== Fade Animation ===== */
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(18px); }
-      to { opacity: 1; transform: translateY(0); }
+    /* ===== Scroll-reveal ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.45s ease, transform 0.45s ease;
     }
 
-    .fade-in {
-      animation: fadeInUp 0.5s ease-out forwards;
-      opacity: 0;
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
 
     /* ===== Responsive ===== */
     @media (max-width: 600px) {
-      .article-wrapper { padding: 6rem 1.25rem 4rem; }
-      .section-heading { font-size: 1.15rem; }
+      .page { padding: 32px 16px 60px; }
+      .section-heading { font-size: 1.1rem; }
+      .closing-box { padding: 18px 20px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ===== Navigation ===== -->
+  <!-- Nav -->
   <nav>
     <div class="nav-inner">
       <a href="/" class="nav-logo">
         <i class="fas fa-pen-nib"></i>
         Natalie <span>Spiva</span>
       </a>
-      <a href="/" class="nav-back"><i class="fas fa-arrow-left"></i> Back to Main</a>
+      <a href="/" class="nav-back"><i class="fas fa-arrow-left"></i> Back</a>
     </div>
   </nav>
 
-  <!-- ===== Article ===== -->
-  <main class="article-wrapper">
+  <div class="page">
 
-    <!-- Header -->
-    <header class="article-header fade-in">
+    <!-- Article Header -->
+    <header class="article-header reveal">
       <div class="article-label"><i class="fas fa-landmark"></i> Opinion &amp; Analysis</div>
       <h1 class="article-title">A Stance on the <span>State of the United States</span></h1>
       <p class="article-subtitle">
-        An honest, evidence-based examination of the structural, financial, and political challenges facing the United States in 2026 — and why acknowledging them is not the same as calling the country bad.
+        An honest, evidence-based look at the structural, financial, and political challenges facing the United States in 2026 — and why acknowledging them is not the same as calling the country bad.
       </p>
       <div class="article-meta">
         <span><i class="fas fa-user"></i> Natalie Spiva</span>
@@ -423,15 +423,15 @@
     </header>
 
     <!-- Disclaimer -->
-    <div class="callout fade-in">
+    <div class="callout reveal">
       <div class="callout-icon"><i class="fas fa-circle-info"></i></div>
-      <div class="callout-body">
-        <strong>A note before reading:</strong> Nothing in this post claims the United States is a "bad" country. It is a frank assessment of provable, documented problems — structural, financial, and cultural — that deserve honest conversation, not defensive deflection. The goal is clarity, not condemnation.
-      </div>
+      <p>
+        <strong>A note before reading:</strong> Nothing here claims the United States is a "bad" country. This is a frank assessment of provable, documented problems — structural, financial, and cultural — that deserve honest conversation, not defensive deflection. The goal is clarity, not condemnation.
+      </p>
     </div>
 
     <!-- Table of Contents -->
-    <nav class="toc fade-in" aria-label="Table of Contents">
+    <nav class="toc reveal" aria-label="Table of Contents">
       <div class="toc-title"><i class="fas fa-list"></i> Contents</div>
       <ol>
         <li><a href="#foundations">Foundations: Freemasonry and the Architecture of Government</a></li>
@@ -447,18 +447,17 @@
     </nav>
 
     <!-- Section 1 -->
-    <section id="foundations" class="article-section section-anchor fade-in">
+    <section id="foundations" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-compass-drafting"></i> Foundations: Freemasonry and the Architecture of Government</h2>
       <p>
         The United States was not founded on a blank slate. A substantial number of the Founding Fathers were Freemasons, and the structural DNA of the federal government reflects the organizational model of Masonic lodges with a precision that is difficult to dismiss as coincidence. Having participated in DeMolay — the youth fraternal organization affiliated with Freemasonry — from an early age, I interacted with practicing Masons on a weekly basis. What I observed gave me reason to look more carefully at the systems those interactions mirrored.
       </p>
       <p>
-        Consider the structure of a Masonic lodge: a principal executive officer, a secondary executive, and a tertiary executive — what most people outside the lodge would recognize as roles analogous to a President, Vice President, and Speaker of the House. Both institutions maintain a Chaplain. Both follow formalized oaths of office. Both have a Secretary and a Treasurer. The overlap is not incidental. The lodge's "ritual" — a system of memorized teachings, symbolism, and hierarchical obligation — is reflected in the ceremonies, oaths, and procedural norms that govern federal governance.
+        Consider the structure of a Masonic lodge: a principal executive officer, a secondary executive, and a tertiary executive — roles analogous to a President, Vice President, and Speaker of the House. Both institutions maintain a Chaplain. Both follow formalized oaths of office. Both have a Secretary and a Treasurer. The overlap is not incidental. The lodge's "ritual" — a system of memorized teachings, symbolism, and hierarchical obligation — is reflected in the ceremonies, oaths, and procedural norms that govern federal governance.
       </p>
       <p>
         DeMolay has historically required membership in a monotheistic religion as a condition of participation, a policy many chapters have softened over time but never fully eliminated. The implication is significant: <strong>the organizational blueprint upon which the U.S. government was modeled carries an embedded assumption of religious identity.</strong> That assumption did not disappear when it was translated into governing doctrine — it simply became less explicit.
       </p>
-
       <div class="tag-list">
         <span class="tag">Freemasonry</span>
         <span class="tag">DeMolay</span>
@@ -470,34 +469,32 @@
     <hr />
 
     <!-- Section 2 -->
-    <section id="historical" class="article-section section-anchor fade-in">
+    <section id="historical" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-monument"></i> A Historical Mirror: The Late Roman Empire</h2>
       <p>
         History does not repeat itself perfectly, but it rhymes with uncomfortable regularity. The late Roman Empire — before its fragmentation and eventual collapse — exhibited a pattern of deterioration that maps with striking accuracy onto the conditions present in the United States today.
       </p>
-
       <blockquote>
         <p>"Those who cannot remember the past are condemned to repeat it." — George Santayana, <em>The Life of Reason</em>, 1905</p>
       </blockquote>
-
       <p>
-        Rome's late period was characterized by: a breakdown of effective centralized leadership; a widening gulf between a wealthy governing class and an overtaxed general population; military and administrative overextension; a degradation of the currency's purchasing power; and political representation that served elite interests rather than the citizenry at large. The citizenry, meanwhile, was largely too consumed with daily survival to mount organized resistance.
+        Rome's late period was characterized by: a breakdown of effective centralized leadership; a widening gulf between a wealthy governing class and an overtaxed general population; military and administrative overextension; currency devaluation; and political representation that served elite interests rather than the citizenry at large. The citizenry, meanwhile, was largely too consumed with daily survival to mount organized resistance.
       </p>
       <p>
-        The parallels to 2026 America are not abstract. Currency devaluation through inflation, leadership that serves donor and corporate interests, an administrative apparatus too large and too slow to correct course, and a population fractured along ideological lines that preclude unified civic action — these are not merely rhetorical comparisons. They are documented conditions visible in federal financial reports, polling data, and legislative records. We are not Rome. But we are following a familiar trajectory.
+        The parallels to 2026 America are not abstract. Inflation eroding purchasing power, leadership serving donor and corporate interests, an administrative apparatus too large and too slow to correct course, and a population fractured along ideological lines that preclude unified civic action — these are not merely rhetorical comparisons. They are documented conditions visible in federal financial reports, polling data, and legislative records. We are not Rome. But we are following a familiar trajectory.
       </p>
     </section>
 
     <hr />
 
     <!-- Section 3 -->
-    <section id="scale" class="article-section section-anchor fade-in">
+    <section id="scale" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-chart-line"></i> The Scale Problem: A Republic That Outgrew Itself</h2>
       <p>
         The United States is, technically, a Constitutional Democratic Republic: a republic in which citizens elect representatives, democratic processes determine those representatives, and a written Constitution constrains the scope of governmental power. This is a well-designed system — for the scale at which it was designed.
       </p>
       <p>
-        England, in 2026, operates as a representative constitutional monarchy. The Crown holds ceremonial authority; Parliament holds legislative power. It is a system that functions reasonably well for a nation of roughly 67 million people with centuries of refinement behind it. For the United States — a nation of over 330 million people spread across 50 highly diverse states, with an economy of extraordinary complexity — the same structural logic does not scale in the same way.
+        England, in 2026, operates as a representative constitutional monarchy. The Crown holds ceremonial authority; Parliament holds legislative power. It is a system that functions reasonably well for a nation of roughly 67 million people with centuries of refinement behind it. For the United States — a nation of over 330 million people spread across 50 highly diverse states — the same structural logic does not scale in the same way.
       </p>
       <p>
         The population of the United States grew rapidly, and not always through organic means. Expansion was pursued as a revenue and labor strategy, with the human cost largely absorbed by those without political voice. The infrastructure of representation was never retrofitted to match that growth. A system of 535 voting members of Congress representing 330+ million people creates a ratio that structurally dilutes individual representation to near-meaninglessness in any given legislative cycle.
@@ -510,66 +507,61 @@
     <hr />
 
     <!-- Section 4 -->
-    <section id="representation" class="article-section section-anchor fade-in">
+    <section id="representation" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-user-tie"></i> Representation in Name Only</h2>
       <p>
         In 2026, it is no longer a fringe claim to say that elected officials govern primarily in service of their own financial interests. It is a well-documented, data-supported reality. Members of Congress enter office with modest net worths and leave — after years of public service on government salaries — as multimillionaires. The mechanisms are not always illegal. They are structural: insider trading protections that do not apply to legislators, lobbying pipelines that reward post-service cooperation, and campaign finance frameworks that tie electoral survival to donor satisfaction rather than constituent outcomes.
       </p>
-
       <div class="stat-row">
         <div class="stat-box">
           <span class="stat-num">~$174K</span>
-          <div class="stat-desc">Annual base salary for U.S. Congress members</div>
+          <span class="stat-desc">Annual base salary for U.S. Congress members</span>
         </div>
         <div class="stat-box">
           <span class="stat-num">$1M+</span>
-          <div class="stat-desc">Median net worth of many members after multiple terms</div>
+          <span class="stat-desc">Median net worth of many members after multiple terms</span>
         </div>
         <div class="stat-box">
           <span class="stat-num">535</span>
-          <div class="stat-desc">Voting members of Congress representing 330M+ people</div>
+          <span class="stat-desc">Voting members of Congress representing 330M+ people</span>
         </div>
       </div>
-
       <p>
-        The evidence is available to anyone willing to look — financial disclosures are public record, lobbying registrations are searchable, and voting records are accessible. The pattern is consistent across party lines: legislation that benefits major donors passes with bipartisan support; legislation that would benefit ordinary constituents stalls, is amended into ineffectiveness, or dies in committee. The people are not being represented. They are being managed.
+        The evidence is available to anyone willing to look — financial disclosures are public record, lobbying registrations are searchable, and voting records are accessible. The pattern is consistent across party lines: legislation that benefits major donors passes; legislation that would benefit ordinary constituents stalls, is amended into ineffectiveness, or dies in committee. The people are not being represented. They are being managed.
       </p>
     </section>
 
     <hr />
 
     <!-- Section 5 -->
-    <section id="ssdi" class="article-section section-anchor fade-in">
+    <section id="ssdi" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-piggy-bank"></i> The Social Security Time Bomb</h2>
       <p>
         The Social Security system — formally known as OASDI (Old-Age, Survivors, and Disability Insurance), the combined retirement and disability insurance that virtually every working American pays into — is on a publicly documented path toward insolvency. The Social Security Administration's own trustees have reported that, at current trajectories, the combined trust funds could be depleted by approximately 2034, with some projections pushing that date as early as the third quarter of 2032.
       </p>
-
       <div class="stat-row">
         <div class="stat-box">
           <span class="stat-num">~2034</span>
-          <div class="stat-desc">Projected trust fund depletion (SSA Trustees' Report)</div>
+          <span class="stat-desc">Projected trust fund depletion (SSA Trustees' Report)</span>
         </div>
         <div class="stat-box">
           <span class="stat-num">83%</span>
-          <div class="stat-desc">Estimated benefit payout at depletion if no reform is enacted</div>
+          <span class="stat-desc">Estimated benefit payout at depletion if no reform is enacted</span>
         </div>
         <div class="stat-box">
           <span class="stat-num">~62%</span>
-          <div class="stat-desc">Projected real-dollar value of benefits by 2100, inflation-adjusted</div>
+          <span class="stat-desc">Projected real-dollar value of benefits by 2100, inflation-adjusted</span>
         </div>
       </div>
-
       <p>
         At depletion, current law would result in approximately 83 cents on every dollar of promised benefits being paid out. Factor in inflation at current rates, and that reduction in purchasing power accelerates dramatically. By the year 2100, an 83% nominal payout shrinks to something approaching 62% of today's dollar value in real terms. For a benefit that was already insufficient to cover basic living costs in many regions of the country, this trajectory points toward a significant rise in poverty and homelessness among elderly and disabled populations.
       </p>
       <p>
-        It is worth noting that approximately 97% of Social Security (OASDI) funding comes from payroll taxes, not from a traditional savings account. The "trust fund" is a legal accounting mechanism — not a vault of money set aside for each contributor. Each year, legislative bodies have borrowed against this mechanism, and now the compounding effect of that borrowing, combined with demographic shifts (an aging population drawing more benefits while the workforce-to-beneficiary ratio shrinks), has created a structural shortfall with no politically easy solution.
+        It is worth noting that approximately 97% of Social Security (OASDI) funding comes from payroll taxes, not from a traditional savings account. The "trust fund" is a legal accounting mechanism — not a vault of money set aside for each contributor. Each year, legislative bodies have borrowed against this mechanism, and the compounding effect of that borrowing, combined with demographic shifts (an aging population drawing more benefits while the workforce-to-beneficiary ratio shrinks), has created a structural shortfall with no politically easy solution.
       </p>
       <p>
-        A current legislative proposal would merge the Disability Insurance (DI) trust fund with the Old-Age and Survivors Insurance (OASI) trust fund, potentially extending the system's combined solvency by two to three years. That is not a solution. It is a delay. The question of where the money will come from after that remains unanswered — because the country, by most measures, is already operating at a structural fiscal deficit. A universal basic income replacement, while a compelling concept in theory, is not financially sustainable for a nation of 330+ million people without either dramatic tax increases or an equally dramatic reallocation of existing spending — neither of which currently has political traction.
+        A current legislative proposal would merge the Disability Insurance (DI) trust fund with the Old-Age and Survivors Insurance (OASI) trust fund, potentially extending the system's combined solvency by two to three years. That is not a solution. It is a delay. The question of where the money will come from after that remains unanswered — because the country is already operating at a structural fiscal deficit. A universal basic income replacement, while compelling in theory, is not financially sustainable for a nation of 330+ million people without either dramatic tax increases or an equally dramatic reallocation of existing spending.
       </p>
-
       <blockquote>
         <p>Do not rely on Social Security as your sole retirement strategy. The numbers are publicly available and the trajectory is clear. Plan accordingly.</p>
       </blockquote>
@@ -578,24 +570,20 @@
     <hr />
 
     <!-- Section 6 -->
-    <section id="economy" class="article-section section-anchor fade-in">
+    <section id="economy" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-sack-dollar"></i> Capitalism, Inequality, and the Broken Social Contract</h2>
       <p>
         Capitalism, as an economic model, operates on incentivized self-interest. That is its mechanism and, in many respects, its strength: competition drives innovation, profit incentivizes productivity, and market signaling allocates resources more efficiently than centralized planning in most contexts. These are not opinions; they are the foundational logic of the system.
       </p>
       <p>
-        The problem is not capitalism as a concept. The problem is what happens when the same class of people who profit most from that system also control the institutions that are supposed to provide public goods independent of the market. When the executives who benefit from low-wage labor also influence curriculum standards and school funding — or when the landlords who profit from housing scarcity also shape housing policy — the system's self-correction mechanisms break down.
+        The problem is not capitalism as a concept. The problem is what happens when the same class of people who profit most from that system also control the institutions that are supposed to provide public goods independent of the market. When executives who benefit from low-wage labor also influence curriculum standards and school funding — or when landlords who profit from housing scarcity also shape housing policy — the system's self-correction mechanisms break down.
       </p>
       <p>
-        The consequences are visible and well-documented. The public education system consistently produces graduates optimized for low-skill employment rather than critical reasoning or civic participation. This is not accidental — it is structurally convenient for industries that need a large, compliant labor pool. Housing costs have outpaced wage growth in nearly every major metropolitan area. The cost of basic necessities — food, utilities, transportation, healthcare — has increased at a rate that significantly outpaces median income growth over the past two decades.
+        The consequences are visible and well-documented. The public education system consistently produces graduates optimized for low-skill employment rather than critical reasoning or civic participation. Housing costs have outpaced wage growth in nearly every major metropolitan area. The cost of basic necessities — food, utilities, transportation, healthcare — has increased at a rate that significantly outpaces median income growth over the past two decades.
       </p>
       <p>
-        The job market has developed its own dysfunction: ghost job listings maintained for optics rather than genuine hiring need, credential inflation that locks qualified candidates out of positions for which they are genuinely suited, and wages calibrated not to the value of labor but to the minimum that the market will tolerate given existing desperation. This is not speculation. These are patterns reported by economists, HR professionals, and labor researchers across the ideological spectrum.
+        The job market has developed its own dysfunction: ghost job listings maintained for optics rather than genuine hiring need, credential inflation that locks qualified candidates out of positions for which they are genuinely suited, and wages calibrated to the minimum that the market will tolerate given existing desperation. Meanwhile, as domestic instability continues, international confidence in the U.S. dollar as the world's reserve currency is eroding. When the dollar's reserve status is reduced, every American paycheck purchases less in real terms — not because the employer paid less, but because the unit of value itself has been devalued.
       </p>
-      <p>
-        Meanwhile, as domestic instability continues, international confidence in the U.S. dollar as the world's reserve currency is eroding. Multiple nations have begun exploring bilateral trade arrangements denominated in currencies other than the dollar, and international discussions around de-dollarization — while not imminent — are no longer fringe. When the dollar's reserve currency status is reduced, every American paycheck immediately purchases less in real terms, not because the employer paid less, but because the unit of value itself has been devalued.
-      </p>
-
       <div class="tag-list">
         <span class="tag">Labor Market</span>
         <span class="tag">Housing Costs</span>
@@ -608,10 +596,10 @@
     <hr />
 
     <!-- Section 7 -->
-    <section id="healthcare" class="article-section section-anchor fade-in">
+    <section id="healthcare" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-hospital"></i> Healthcare: Compliance Over Cures</h2>
       <p>
-        The American healthcare system is substantially funded by federal dollars through Medicare, Medicaid, and various regulatory programs. That funding does not come without conditions: institutions that accept federal reimbursement must operate in compliance with policies and frameworks established by the FDA, CDC, HHS, and associated regulatory bodies. The standards those bodies enforce are not inherently malicious, but they are shaped by a system in which compliance and revenue optimization are often more actionable metrics than patient outcomes.
+        The American healthcare system is substantially funded by federal dollars through Medicare, Medicaid, and various regulatory programs. That funding does not come without conditions: institutions that accept federal reimbursement must operate in compliance with policies established by the FDA, CDC, HHS, and associated regulatory bodies. The standards those bodies enforce are not inherently malicious, but they are shaped by a system in which compliance and revenue optimization are often more actionable metrics than patient outcomes.
       </p>
       <p>
         The dominant model of U.S. healthcare does not measure success primarily by whether a patient is cured or genuinely well. It measures it through "outcomes" — a term that, in practice, often means whether a patient is following prescribed treatment protocols and whether those treatments meet reimbursable criteria. A managed chronic condition that keeps a patient returning for regular appointments and ongoing prescriptions is, under many reimbursement models, a more financially viable outcome than a patient who is cured and no longer requires services.
@@ -624,16 +612,16 @@
     <hr />
 
     <!-- Section 8 -->
-    <section id="religion" class="article-section section-anchor fade-in">
+    <section id="religion" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-dove"></i> Freedom of Religion: In Theory and in Practice</h2>
       <p>
         The First Amendment guarantees the free exercise of religion and prohibits the government from establishing an official religion. In formal legal terms, this protection exists and has been consistently upheld. In practical social terms, the experience of religious freedom in the United States in 2026 is considerably more conditional than the text of the Constitution implies.
       </p>
       <p>
-        The Masonic and DeMolay framework from which much of the government's structural design derives carries an assumption of monotheistic belief as a baseline norm. That assumption, embedded in the cultural DNA of the founding institutions, has produced a civic and social environment in which certain religious identities are treated as default and others are treated as requiring explanation, defense, or tolerance — a distinctly different thing from acceptance.
+        The Masonic and DeMolay framework from which much of the government's structural design derives carries an assumption of monotheistic belief as a baseline norm. That assumption, embedded in the cultural DNA of the founding institutions, has produced a civic environment in which certain religious identities are treated as default and others are treated as requiring explanation, defense, or tolerance — a distinctly different thing from acceptance.
       </p>
       <p>
-        In 2026, practicing Islam in the United States carries the ambient social burden of being perceived as a security threat. Identifying as an atheist invites social consequences in many communities that range from mild disapproval to active ostracism. LGBTQ+ identities — while not exclusively religious in character — intersect with religious community membership in ways that result in rejection, condemnation, and in some cases, legislative discrimination dressed in the language of religious freedom.
+        In 2026, practicing Islam in the United States carries the ambient social burden of being perceived as a security threat. Identifying as an atheist invites social consequences in many communities ranging from mild disapproval to active ostracism. LGBTQ+ identities intersect with religious community membership in ways that result in rejection, condemnation, and in some cases, legislative discrimination dressed in the language of religious freedom.
       </p>
       <p>
         <strong>The legal right to practice one's faith and the lived experience of doing so freely are not the same thing.</strong> A freedom that exists on paper but requires constant social negotiation and carries meaningful social penalties is a freedom that has been substantially hollowed out. This is not a call to restrict religious expression — it is an observation that the cultural framework surrounding religion in America has not caught up to the legal ideals the Constitution enshrines.
@@ -643,15 +631,14 @@
     <hr />
 
     <!-- Section 9 -->
-    <section id="conclusion" class="article-section section-anchor fade-in">
+    <section id="conclusion" class="article-section section-anchor reveal">
       <h2 class="section-heading"><i class="fas fa-flag-usa"></i> Conclusion: Not Bad — But Never Great, and Fixable</h2>
-
       <div class="closing-box">
         <p>
           The United States has never lacked for remarkable individuals, extraordinary achievements, or genuine moments of moral progress. There are things built here that the world has not seen elsewhere. There are rights and freedoms — however imperfectly realized — that remain meaningful benchmarks for human governance. None of that is being disputed.
         </p>
         <p>
-          What is being said is this: <strong>the country was not founded on principles of universal dignity, equality, or justice.</strong> It was founded on principles of economic expansion, hierarchical order, and selective liberty — principles that have been continuously contested and incrementally expanded by those who demanded the ideals match the rhetoric. The advancement has been real. It has also been incomplete, slow, and consistently threatened by the structural incentives that were built into the original design.
+          What is being said is this: <strong>the country was not founded on principles of universal dignity, equality, or justice.</strong> It was founded on principles of economic expansion, hierarchical order, and selective liberty — principles that have been continuously contested and incrementally expanded by those who demanded the ideals match the rhetoric. The advancement has been real. It has also been incomplete, slow, and consistently threatened by the structural incentives built into the original design.
         </p>
         <p>
           The right to overthrow an unjust government — cited in the Declaration of Independence, which is not law — was deliberately omitted from the Constitution, which is. The Constitution was designed, in part, to prevent violent overthrow and enforce union. The government is legally empowered to suppress insurrection. The mechanisms of peaceful reform — voting, litigation, legislative lobbying, public organizing — exist, but they are slow, resource-intensive, and systematically disadvantaged relative to the power of concentrated wealth and institutional inertia.
@@ -665,29 +652,25 @@
       </div>
     </section>
 
-  </main>
+  </div><!-- /.page -->
 
-  <!-- ===== Footer ===== -->
+  <!-- Footer -->
   <footer>
     <p>© 2026 Natalie Spiva · Part of the <a href="https://acreetionos.org" target="_blank" rel="noopener">AcreetionOS</a> Project</p>
-    <p style="margin-top:0.5rem;"><a href="/">← Back to natalie.acreetionos.org</a></p>
+    <p><a href="/">← Back to natalie.acreetionos.org</a></p>
   </footer>
 
-  <!-- ===== Scroll Fade-In ===== -->
   <script>
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('fade-in');
+          entry.target.classList.add('visible');
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08 });
 
-    document.querySelectorAll('.article-section, .toc, .callout').forEach(el => {
-      el.classList.remove('fade-in');
-      observer.observe(el);
-    });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 
 </body>
