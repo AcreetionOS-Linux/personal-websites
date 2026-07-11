@@ -1,11 +1,12 @@
 (() => {
+  const platform = "Codeberg";
   const workerUrl = "https://repos.acreetionos.org";
   let rendering = false;
 
   function removeCodebergFromExistingLists() {
     document.querySelectorAll(".repo-item").forEach((item) => {
       const source = item.querySelector(".repo-source");
-      if (source?.textContent.trim().toLowerCase() === "codeberg") {
+      if (source?.textContent.trim().toLowerCase() === platform.toLowerCase()) {
         item.remove();
       }
     });
@@ -23,13 +24,14 @@
     const name = document.createElement("strong");
     name.textContent = repository.name;
     const source = document.createElement("span");
-    source.textContent = "Codeberg";
+    source.textContent = platform;
     header.append(name, source);
 
     const description = document.createElement("p");
     description.textContent = repository.description || "No description available.";
     const details = document.createElement("small");
-    details.textContent = [repository.language, repository.updated && new Date(repository.updated).toLocaleDateString("en-US")].filter(Boolean).join(" · ");
+    const updated = repository.updated ? new Date(repository.updated).toLocaleDateString("en-US") : "";
+    details.textContent = [repository.language, updated].filter(Boolean).join(" · ");
 
     item.append(header, description, details);
     list.append(item);
@@ -47,7 +49,7 @@
       if (!response.ok) throw new Error(`Worker returned ${response.status}`);
       const payload = await response.json();
       const repositories = (payload.repos || []).filter((repository) =>
-        repository.source === "Codeberg" &&
+        repository.source === platform &&
         typeof repository.url === "string" &&
         repository.url.startsWith("https://codeberg.org/sprunglesontheberg/")
       );
@@ -58,7 +60,7 @@
       const heading = document.createElement("h2");
       const icon = document.createElement("i");
       icon.className = "fas fa-code-branch";
-      heading.append(icon, " Codeberg");
+      heading.append(icon, ` ${platform}`);
       const summary = document.createElement("p");
       summary.className = "section-sub";
       summary.textContent = `${repositories.length} repositories from sprunglesontheberg`;
@@ -85,9 +87,13 @@
   }
 
   const start = () => {
+    let observerTimer;
     const observer = new MutationObserver(() => {
-      removeCodebergFromExistingLists();
-      renderCodeberg();
+      clearTimeout(observerTimer);
+      observerTimer = setTimeout(() => {
+        removeCodebergFromExistingLists();
+        renderCodeberg();
+      }, 50);
     });
     observer.observe(document.getElementById("app") || document.body, { childList: true, subtree: true });
     renderCodeberg();
