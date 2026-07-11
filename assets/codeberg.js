@@ -2,6 +2,7 @@
   const platform = "Codeberg";
   const platformKey = platform.toLowerCase();
   const account = "sprunglesontheberg";
+  const baseUrl = "https://codeberg.org";
   const workerUrl = "https://repos.acreetionos.org";
   const mutationDebounceMs = 120;
   let rendering = false;
@@ -55,7 +56,7 @@
         typeof repository.source === "string" &&
         repository.source.toLowerCase() === platformKey &&
         typeof repository.url === "string" &&
-        repository.url.startsWith(`https://codeberg.org/${account}/`)
+        repository.url.startsWith(`${baseUrl}/${account}/`)
       );
 
       const section = document.createElement("section");
@@ -67,14 +68,15 @@
       heading.append(icon, ` ${platform}`);
       const summary = document.createElement("p");
       summary.className = "section-sub";
-      summary.textContent = `${repositories.length} repositories from ${account}`;
+      const label = repositories.length === 1 ? "repository" : "repositories";
+      summary.textContent = `${repositories.length} ${label} from ${account}`;
       const card = document.createElement("div");
       card.className = "card";
       const list = document.createElement("div");
       list.className = "codeberg-repository-list";
 
       if (repositories.length === 0) {
-        list.textContent = "No Codeberg repositories found.";
+        list.textContent = `No ${platform} repositories found.`;
       } else {
         repositories.forEach((repository) => addRepository(list, repository));
       }
