@@ -1,5 +1,6 @@
 (() => {
   const platform = "Codeberg";
+  const account = "sprunglesontheberg";
   const workerUrl = "https://repos.acreetionos.org";
   let rendering = false;
 
@@ -30,7 +31,7 @@
     const description = document.createElement("p");
     description.textContent = repository.description || "No description available.";
     const details = document.createElement("small");
-    const updated = repository.updated ? new Date(repository.updated).toLocaleDateString("en-US") : "";
+    const updated = repository.updated ? new Date(repository.updated).toLocaleDateString() : "";
     details.textContent = [repository.language, updated].filter(Boolean).join(" · ");
 
     item.append(header, description, details);
@@ -49,9 +50,9 @@
       if (!response.ok) throw new Error(`Worker returned ${response.status}`);
       const payload = await response.json();
       const repositories = (payload.repos || []).filter((repository) =>
-        repository.source === platform &&
+        repository.source?.toLowerCase() === platform.toLowerCase() &&
         typeof repository.url === "string" &&
-        repository.url.startsWith("https://codeberg.org/sprunglesontheberg/")
+        repository.url.startsWith(`https://codeberg.org/${account}/`)
       );
 
       const section = document.createElement("section");
@@ -87,6 +88,9 @@
   }
 
   const start = () => {
+    const app = document.getElementById("app");
+    if (!app) return;
+
     let observerTimer;
     const observer = new MutationObserver(() => {
       clearTimeout(observerTimer);
@@ -95,7 +99,7 @@
         renderCodeberg();
       }, 50);
     });
-    observer.observe(document.getElementById("app") || document.body, { childList: true, subtree: true });
+    observer.observe(app, { childList: true, subtree: true });
     renderCodeberg();
   };
 
