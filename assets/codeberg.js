@@ -34,7 +34,7 @@
     const description = document.createElement("p");
     description.textContent = repository.description || "No description available.";
     const details = document.createElement("small");
-    const updated = repository.updated ? new Date(repository.updated).toLocaleDateString() : "";
+    const updated = repository.updated ? new Date(repository.updated).toLocaleDateString("en-US") : "";
     details.textContent = [repository.language, updated].filter(Boolean).join(" · ");
 
     item.append(header, description, details);
@@ -55,6 +55,8 @@
       const repositories = (payload.repos || []).filter((repository) =>
         typeof repository.source === "string" &&
         repository.source.toLowerCase() === platformKey &&
+        typeof repository.name === "string" &&
+        repository.name.length > 0 &&
         typeof repository.url === "string" &&
         repository.url.startsWith(`${baseUrl}/${account}/`)
       );
@@ -101,7 +103,7 @@
       const repositoryMutation = mutations.some(({ addedNodes }) =>
         [...addedNodes].some((node) =>
           node.nodeType === Node.ELEMENT_NODE &&
-          (node.id === "ecosystem" || node.matches(".repo-item") || node.querySelector(".repo-item"))
+          (node.id === "ecosystem" || node.classList.contains("repo-item"))
         )
       );
       if (!repositoryMutation) return;
