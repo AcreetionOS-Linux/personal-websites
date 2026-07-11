@@ -5,6 +5,21 @@
   const baseUrl = "https://codeberg.org";
   const workerUrl = "https://repos.acreetionos.org";
   const mutationDebounceMs = 120;
+  const defaultDescription = "No description available.";
+
+  function isValidCodebergRepository(repository) {
+    return typeof repository.source === "string" &&
+      repository.source.toLowerCase() === platformKey &&
+      typeof repository.name === "string" &&
+      repository.name.length > 0 &&
+      typeof repository.url === "string" &&
+      repository.url.startsWith(`${baseUrl}/${account}/`);
+  }
+
+  function hasRelevantRepositoryNode(node) {
+    return node.nodeType === Node.ELEMENT_NODE &&
+      (node.id === "ecosystem" || node.classList.contains("repo-item"));
+  }
   let rendering = false;
 
   function removeCodebergFromExistingLists() {
@@ -32,7 +47,7 @@
     header.append(name, source);
 
     const description = document.createElement("p");
-    description.textContent = repository.description || "No description available.";
+    description.textContent = repository.description || defaultDescription;
     const details = document.createElement("small");
     const updated = repository.updated ? new Date(repository.updated).toLocaleDateString("en-US") : "";
     details.textContent = [repository.language, updated].filter(Boolean).join(" · ");
@@ -52,14 +67,7 @@
       const response = await fetch(workerUrl);
       if (!response.ok) throw new Error(`Worker returned ${response.status}`);
       const payload = await response.json();
-      const repositories = (payload.repos || []).filter((repository) =>
-        typeof repository.source === "string" &&
-        repository.source.toLowerCase() === platformKey &&
-        typeof repository.name === "string" &&
-        repository.name.length > 0 &&
-        typeof repository.url === "string" &&
-        repository.url.startsWith(`${baseUrl}/${account}/`)
-      );
+      const repositories = (payload.repos || []).filter(isValidCodebergRepository);
 
       const section = document.createElement("section");
       section.id = "codeberg-projects";
@@ -101,10 +109,7 @@
     let observerTimer;
     const observer = new MutationObserver((mutations) => {
       const repositoryMutation = mutations.some(({ addedNodes }) =>
-        [...addedNodes].some((node) =>
-          node.nodeType === Node.ELEMENT_NODE &&
-          (node.id === "ecosystem" || node.classList.contains("repo-item"))
-        )
+        [...addedNodes].some(hasRelevantRepositoryNode)
       );
       if (!repositoryMutation) return;
 
