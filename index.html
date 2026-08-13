@@ -5,15 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natalie Spiva — Co-Creator, AcreetionOS</title>
     <meta name="description" content="Natalie Spiva — Co-Creator of AcreetionOS. Linux, Cloudflare, and systems engineering." />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <script type="module" crossorigin src="/assets/index-CIHy5E_z.js"></script>
-    <script src="/assets/codeberg.js" defer></script>
-    <script type="module" src="/assets/life-rail.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-ea9yVlq5.css">
+    <script type="module" crossorigin src="assets/index-CIHy5E_z.js"></script>
+    <script src="assets/codeberg.js" defer></script>
+    <link rel="stylesheet" crossorigin href="assets/index-ea9yVlq5.css">
   </head>
   <body>
     <div id="app"></div>
+    <!-- classic scripts so the life rail also works when opened from the file
+         system (browsers block module scripts and fetch() on file://) -->
+    <script src="assets/marked.min.js"></script>
+    <script src="assets/md-fallback.js"></script>
+    <script src="assets/life-rail.js"></script>
+    <script>
+      // file:// helper: the SPA can't run from disk, but the politics panel
+      // can — give the page a proper backdrop, a title, and a hint.
+      (function () {
+        if (location.protocol !== 'file:') return;
+        function check() {
+          var app = document.getElementById('app');
+          var naked = !app || app.childElementCount === 0;
+          if (naked) document.body.classList.add('lr-naked');
+          if (naked) {
+            var h = document.createElement('div');
+            h.style.cssText = 'position:fixed;top:26px;left:26px;z-index:9989;color:#e4e4e7;font:600 20px/1.3 system-ui,sans-serif;';
+            h.textContent = 'Natalie Spiva';
+            document.body.appendChild(h);
+            var s = document.createElement('div');
+            s.style.cssText = 'position:fixed;top:56px;left:26px;z-index:9989;color:#71717a;font:13px/1.5 system-ui,sans-serif;';
+            s.textContent = 'Co-Creator, AcreetionOS';
+            document.body.appendChild(s);
+          }
+          var d = document.createElement('div');
+          d.style.cssText =
+            'position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;background:#121218;color:#d4d4d8;' +
+            'border:1px solid rgba(124,58,237,.5);border-radius:12px;padding:12px 16px;' +
+            'font:13px/1.5 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.5);max-width:520px;margin:0 auto;';
+        d.innerHTML =
+            'The main site needs a web server (browsers block its scripts on file:// pages), but the <b style="color:#fff">Politics &amp; Views</b> panel works right here — click the flag on the right. ' +
+            'Live site: <a href="https://spivanatalie64.github.io/" style="color:#c084fc;font-weight:700;">spivanatalie64.github.io</a>';
+          document.body.appendChild(d);
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', check);
+        else check();
+      })();
+    </script>
   </body>
 </html>
