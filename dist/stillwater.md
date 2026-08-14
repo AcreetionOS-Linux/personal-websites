@@ -28,7 +28,7 @@ In Stillwater, that's enough. You don't have to come out for the town to know yo
 
 ## The diagnosis at sixteen
 
-The only label anyone had for me — the one the adults reached for, the one that got written in the chart, the one that followed me for decades — was **Bipolar Disorder**. And the record will tell you it was the diagnosis that defined me, so let me set the timeline straight:
+The only label anyone had for me — the one the adults reached for, the one that got written in the chart, the one that followed me for years — was **Bipolar Disorder**. And the record will tell you it was the diagnosis that defined me, so let me set the timeline straight:
 
 **I didn't get the bipolar diagnosis until I was sixteen.**
 

@@ -55,7 +55,7 @@ Here's the thing about a misdiagnosis like that: it doesn't just get your meds w
 
 That's why a misdiagnosis ruins a life. It doesn't just delay the right care — it actively teaches you to hate yourself, and it hands the people who hurt you an excuse: *"See? She was always going to end up like this."*
 
-I spent the next two decades unlearning that lie. And I'm still unlearning it.
+I spent the years after that unlearning the lie. And I'm still unlearning it.
 
 ---
 
@@ -498,7 +498,7 @@ I love him to death. He is my dad. My actual, real, biological father — the on
 
 I am going to cry, I swear, just writing this.
 
-The long road — nine foster homes, five betrayals, two decades of wrong meds, a misdiagnosis that ate my youth, an eviction, a suicide attempt, a cross-country drive through a blizzard of fear — it ends here. In a city I'd never seen, with a man I'd never met, who turned out to be the father I was always supposed to have.
+The long road — nine foster homes, five betrayals, years of wrong meds, a misdiagnosis that ate my youth, an eviction, a suicide attempt, a cross-country drive through a blizzard of fear — it ends here. In a city I'd never seen, with a man I'd never met, who turned out to be the father I was always supposed to have.
 
 Not enough? I survived all of that. I'm still here, still writing, still building, still *me* — and now I have a dad who actually shows up.
 

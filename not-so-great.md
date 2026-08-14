@@ -75,4 +75,4 @@ So here's the deal, in plain words:
 
 If you're reading this because you're in a similar place: **thoughts are not actions, and help is real.** Call or text **988** (US Suicide & Crisis Lifeline). Talk to someone. The line between the dark and who you are is held by *you*, and you're stronger than the 3am voice says you are.
 
-I know. I've held it for thirty years. ❤️
+I know. I've held it my whole life. ❤️
