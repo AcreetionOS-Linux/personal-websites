@@ -396,7 +396,25 @@ I drove north through Kansas, to a tiny town in the middle of it, and had food. 
 
 Utah. South Dakota. North Dakota — food, a truck stop, sleep. Montana.
 
-Then **Idaho.** Where I **spun out and almost died.** Instantly after I woke up from that — because I'd slept, I guess — I got back on the road, went through Idaho, and saw my **first Cybertruck.** I was so excited. It was the dumbest thing in the world to be excited about, in the middle of the most scared I'd ever been, and I was *delighted.*
+### The spin-out
+
+And then Montana. Where I **spun out and almost died.**
+
+Let me explain what that was, because "spun out" sounds like a fender bender and it was not a fender bender.
+
+I was somewhere on a Montana highway — I don't remember exactly where, and I'm not going to pretend I do, because that's the terrifying part: I *couldn't* tell you. I'd been driving for days on paper maps and caffeine and pure fear. I'd slept in my car at a truck stop in Denver — four hours, maybe — and pushed on through Utah and the Dakotas because stopping meant thinking, and thinking meant facing that I had no home, no plan, no money, and no idea what was waiting for me at the end of a drive I'd only committed to because a stranger on the internet said I could stay with him. I was exhausted in the way that stops being tired and becomes a separate state of being. My reflexes were gone. My judgment was gone. The only thing that was still running was the car and the terror.
+
+And then the car left the road.
+
+I don't remember the exact moment it started — that's how far gone I was. What I remember is the *feeling*: the car going sideways, the world rotating outside the windshield, gravel or dirt or the rumble strip under the wheels, and that specific clarity that comes when you realize you are about to die — the sudden, crystal-sharp *oh* that cuts through the fog like a blade. I remember thinking about my brother. I remember thinking about how the last thing I'd told anyone was that I was going to make it, and now I was going to die in Montana, alone, in a car that wasn't even registered to me, hundreds of miles from anyone who knew my name.
+
+And then it stopped. The car came back to the road. I was alive. I don't know how — a ditch, a shoulder, some combination of luck and physics that had no business letting a girl who hadn't slept in days walk away — but I was alive, sitting there in the middle of Montana with my hands shaking on the wheel.
+
+Instantly after I woke up from that — because I'd slept, I guess, and the spin-out had wrung every last drop of adrenaline out of me — I got back on the road. Of course I did. What was the alternative? There was no one to call. There was no one coming to get me. There was only the road, and Spokane, and the stranger who'd said he'd figure out the bills with me when I got there. So I put my hands back on the wheel, and I drove through the rest of Montana, into Idaho.
+
+And somewhere in Idaho — I don't know where, I just know it was after — I saw my **first Cybertruck.** I was so excited. It was the dumbest thing in the world to be excited about, in the middle of the most scared I'd ever been, and I was *delighted.*
+
+I think about that sometimes. The girl who almost died in Montana — who spun out on a highway with no sleep, no insurance, no registration, no plan, and no one in the world who knew where she was — getting *genuinely thrilled* about a Cybertruck an hour later. That's not stupidity. That's the survival mechanism. The brain that's been through the absolute worst thing it can imagine finds the next stupid, shiny, normal thing to latch onto, and it holds on, because holding onto *anything* is better than letting go. The Cybertruck was my life raft. It was the dumbest, most ridiculous life raft in the history of the universe, and it kept me afloat until Spokane.
 
 Then I got to Spokane.
 
