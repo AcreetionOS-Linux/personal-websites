@@ -363,6 +363,61 @@ That's what the system did to me. That's what Invega Sustenna did. That's what "
 
 ---
 
+## Oklahoma vs. Washington — two systems, one problem
+
+People like to tell the story of me getting out of Oklahoma as a happy ending: *she escaped the bad state, now she's in the good state, everything's better.* It's not that simple. I got out of one system and into another — and they are **different systems with the same problem.** The state lines changed. The failure mode didn't.
+
+### Oklahoma: the system that broke me
+
+Oklahoma didn't fail to help me. Oklahoma *actively* hurt me, with paperwork.
+
+- **The misdiagnosis at 16.** I told them it was wrong for years. They wore me down until I believed it. The label went in the chart, and the chart followed me everywhere.
+- **The forced medication.** Invega Sustenna, the liquid crystal depot, put in my muscle against my will — I couldn't refuse it, couldn't stop it, couldn't remove it. It chemically zapped my mind at sixteen, and the damage never un-did itself.
+- **The spine.** I told adults my back hurt as a kid. They said "you're just obese." One spine appointment. Never again. The AS fused my spine while the system argued with me about my weight. Diagnosed February 2025 — at the OAC, out of my own pocket or by grants, *not* by the system.
+- **The handcuffs.** Grand Mental Health in Stillwater — routed there to free up a bed, in handcuffs, nobody read me my rights. Stillwater PD **R2401730**, **CFS24017562**. The state's own records say I was inventory.
+- **The denial.** Lamotrigine — the drug that actually worked — refused by Medicare in 2020. The unemployment denial under Title 40 §2-404. The disability claim lost in the mail. **Sixty dollars a month of food stamps** as the state's entire answer to "what do I eat."
+- **The message, every time:** *you're the problem, and you're on your own.*
+
+Oklahoma was a system designed around **compliance and cost** — and if you didn't fit the algorithm, it discarded you, and the discarding had paperwork.
+
+### Washington: the system that documents the damage
+
+Then I got to Spokane. New state, new system, new chance. And here's what Washington did — and it's real, and I'm not going to pretend it isn't:
+
+- **The records got real.** CHAS Valley Medical. Providence Health & Services. My chart in Washington says what my chart in Oklahoma never admitted: **Bipolar 1 disorder. Schizophrenia. PTSD. Ankylosing spondylitis.** The diagnoses I told Oklahoma about for years — the ones they filed as "moody teenager" and "you're just obese" — Washington actually wrote them down.
+- **The meds got real.** Lamotrigine — the drug Oklahoma's Medicare refused in 2020 — is in my Washington chart. Lithium. Seroquel. Paliperidone. The tools actually exist here, on paper, prescribed by doctors who looked at the records and said "yes, this is real."
+- **The housing got real.** When I couldn't leave home, Washington's system gave me the **ADA-accommodated unit letter** — the documented, doctor-backed acknowledgment that I can't function as an able-bodied person. Next year: the **wheelchair-accommodated unit.** Paperwork that *admits* the disability instead of arguing with it.
+- **The address got real.** 2120 E North Crescent Ave, Spokane. A real address, a real home, a place the mail actually reaches — after a lifetime of "no fixed address" being one more reason to say no.
+
+So Washington is better. I'll say it plainly: Washington *is* better. It documented what Oklahoma denied. It treated diagnoses as real instead of moral failings. It gave me a home when I couldn't stand.
+
+**But it is the same problem.**
+
+Here's what Washington didn't do:
+
+- It didn't undo the zap. The chart says *paliperidone* like it's just another line item — it doesn't mention that the first paliperidone fired a chemical zap through my brain when I was sixteen and I've never been the same. The system that documented the damage is the same system family that did it.
+- It didn't give me back my mind. The memory, the fog, the processing speed — the "pretty much dementia at this point" — that's in the records too, but as *my* problem, *my* deficits, *my* incompetence. Nobody in Washington ever said "the system did this to her." They just wrote down what the system did.
+- It decided I can't live alone or do my own meds. The state that *caused* the damage now gets to certify the damage is permanent — and the certification becomes a reason I'll never get the autonomy back.
+- And the whole thing — the diagnosis list, the medication list, the disability determination — is still **a chart, not a person.** Washington treats the injuries as real. It still doesn't ask who inflicted them.
+
+### It is a system problem
+
+Here's the sentence I want you to take from all of this, the one that's true in both states, in every state, in every hospital and clinic and waiting room I've ever sat in:
+
+**It is a system problem.**
+
+Not an Oklahoma problem. Not a Washington problem. Not a "bad doctor" problem or a "bad state" problem. The system is designed to process bodies, not to heal people — and whether it processes you with a *Disallow* or an *Allow*, with neglect or with paperwork, with "you're just obese" or with "we've documented your ankylosing spondylitis," the underlying design is the same: **you are a case, the case must be managed, and the cost of managing it falls on you.**
+
+Oklahoma broke me with neglect and force. Washington documented the breakage with competence and care. Both of them left me holding the bill — the medical bill, the cognitive bill, the housing bill, the bill for the mind I'll never get back. One system was cruel by indifference. The other is kind by procedure. Neither one ever asked the question that would have changed everything:
+
+*"Who did this to her, and what are we going to do about it?"*
+
+That's the system problem. And until the system asks that question — in Oklahoma, in Washington, everywhere — it will keep producing exactly what it produced: girls with fusing spines and zapped minds and sixty-dollar food budgets, told they're the problem, told to figure it out, and then documented, kindly and competently, as permanently broken.
+
+I got the wheelchair unit. I got the ADA letter. I got the real diagnoses on real paper in a real state. That's the best the system can do — and the best the system can do is **still the system.** ❤️
+
+---
+
 ## Hideaway — the one week
 
 After I left the hotel job, I tried to find another one. Depressed as all hell. Terrified. I looked like hell — and I was using the nights to talk to my friends, one of whom, I'd find out much later, was my bio dad.
