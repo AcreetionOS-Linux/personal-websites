@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MLGA — Make Linux Great Again 🇺🇸</title>
+<meta name="description" content="MLGA — Make Linux Great Again. The MAGA movement for the open-source faithful: build the kernel wall, drain the systemd swamp, keep the penguin free. Trump 2028. MLGA 2028." />
+<meta name="author" content="MLGA Campaign HQ — acreetionos.org" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://trump.acreetionos.org/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="MLGA — Make Linux Great Again 🇺🇸" />
+<meta property="og:description" content="Build the kernel wall. Drain the systemd swamp. Keep the penguin free. Join the MLGA movement." />
+<meta property="og:url" content="https://trump.acreetionos.org/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="MLGA — Make Linux Great Again" />
+<meta name="twitter:description" content="Build the kernel wall. Drain the systemd swamp. Keep the penguin free." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦅</text></svg>" />
+<style>
+  :root {
+    --glory-red: #b22234;
+    --glory-dark-red: #8a1a28;
+    --glory-blue: #3c3b6e;
+    --glory-dark-blue: #232253;
+    --gold: #ffd700;
+    --cream: #fdf6e3;
+    --ink: #1a1a2e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--ink);
+    color: var(--cream);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ===== flag stripe top ===== */
+  .flag-stripe {
+    height: 10px;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--glory-red) 0 60px,
+      #fff 60px 120px
+    );
+  }
+
+  /* ===== stars backdrop ===== */
+  .stars {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background:
+      radial-gradient(1px 1px at 12% 22%, rgba(255,255,255,.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 12%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 58% 32%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 76% 8%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 90% 25%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 22% 60%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 48% 48%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1px 1px at 66% 70%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 84% 55%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 38% 82%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 60% 92%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1px 1px at 82% 88%, rgba(255,255,255,.45) 50%, transparent 51%),
+      var(--glory-dark-blue);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+                     100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+                     100% 100%, 100% 100%, cover;
+  }
+
+  /* ===== top bar ===== */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 5vw;
+    background: rgba(10,10,24,.82);
+    border-bottom: 1px solid rgba(255,215,0,.35);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(6px);
+  }
+  .topbar .brand {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: 1.35rem;
+    letter-spacing: .08em;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .topbar .brand span { color: var(--gold); }
+  .topbar nav a {
+    color: var(--cream);
+    text-decoration: none;
+    margin-left: 22px;
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    transition: border-color .2s, color .2s;
+  }
+  .topbar nav a:hover { color: var(--gold); border-color: var(--gold); }
+  @media (max-width: 640px) {
+    .topbar nav a { margin-left: 12px; font-size: .68rem; }
+  }
+
+  /* ===== hero ===== */
+  .hero {
+    text-align: center;
+    padding: 70px 5vw 50px;
+    position: relative;
+  }
+  .hero .eagle {
+    width: 150px;
+    height: auto;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 4px 18px rgba(255,215,0,.35));
+    animation: floaty 5s ease-in-out infinite;
+  }
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  .hero h1 {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(3.4rem, 11vw, 8.5rem);
+    line-height: .95;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #fff 0%, #ffe9a8 55%, var(--gold) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 60px rgba(255,215,0,.25);
+  }
+  .hero h1 .red { color: var(--glory-red); -webkit-text-fill-color: var(--glory-red); }
+  .hero .tagline {
+    margin-top: 18px;
+    font-size: clamp(1.05rem, 2.6vw, 1.6rem);
+    font-style: italic;
+    color: #ffe9a8;
+    letter-spacing: .02em;
+  }
+  .hero .tagline strong { color: #fff; }
+
+  /* ===== ticker ===== */
+  .ticker {
+    margin: 34px auto 0;
+    max-width: 900px;
+    border: 3px solid var(--gold);
+    border-radius: 10px;
+    background: rgba(35,34,83,.75);
+    padding: 12px 18px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: clamp(1rem, 2.4vw, 1.35rem);
+    letter-spacing: .06em;
+    color: #fff;
+    min-height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 0 4px rgba(178,34,52,.35), 0 10px 40px rgba(0,0,0,.5);
+  }
+  .ticker .star { color: var(--gold); margin: 0 10px; }
+
+  /* ===== sections ===== */
+  section { padding: 56px 5vw; max-width: 1080px; margin: 0 auto; }
+
+  .section-head {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  .section-head h2 {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #fff;
+  }
+  .section-head h2 .star { color: var(--gold); }
+  .section-head .rule {
+    width: 220px;
+    height: 6px;
+    margin: 14px auto 0;
+    background: repeating-linear-gradient(90deg, var(--glory-red) 0 30px, #fff 30px 60px);
+    border-radius: 3px;
+  }
+
+  /* bunting triangles */
+  .bunting {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-top: 22px;
+    overflow: hidden;
+  }
+  .bunting span {
+    width: 0; height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 34px solid var(--glory-red);
+  }
+  .bunting span:nth-child(2n) { border-bottom-color: #fff; }
+  .bunting span:nth-child(3n) { border-bottom-color: var(--glory-blue); }
+
+  /* cards */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+    margin-top: 26px;
+  }
+  .card {
+    background: linear-gradient(180deg, rgba(35,34,83,.9), rgba(20,20,44,.95));
+    border: 1px solid rgba(255,215,0,.3);
+    border-top: 5px solid var(--glory-red);
+    border-radius: 12px;
+    padding: 24px 20px;
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 34px rgba(0,0,0,.5), 0 0 0 1px rgba(255,215,0,.4);
+  }
+  .card .icon { font-size: 2rem; display: block; margin-bottom: 10px; }
+  .card h3 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .card p { font-size: .95rem; color: #e6e0c8; }
+  .card .num {
+    display: inline-block;
+    background: var(--glory-red);
+    color: #fff;
+    font-family: 'Arial Black', sans-serif;
+    border-radius: 50%;
+    width: 30px; height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 8px;
+  }
+
+  /* platform list */
+  .platform ol {
+    list-style: none;
+    counter-reset: plank;
+  }
+  .platform li {
+    counter-increment: plank;
+    background: rgba(35,34,83,.55);
+    border-left: 6px solid var(--glory-red);
+    border-radius: 8px;
+    padding: 18px 22px 18px 66px;
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .platform li::before {
+    content: counter(plank);
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 34px; height: 34px;
+    background: var(--gold);
+    color: var(--ink);
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .platform h3 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    font-size: 1.02rem;
+    margin-bottom: 4px;
+  }
+  .platform p { color: #d8d2ba; font-size: .95rem; }
+
+  /* callout */
+  .callout {
+    margin: 34px 0;
+    background: linear-gradient(135deg, rgba(178,34,52,.85), rgba(140,26,40,.9));
+    border: 2px solid var(--gold);
+    border-radius: 14px;
+    padding: 28px 26px;
+    text-align: center;
+  }
+  .callout h3 {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .callout p { margin-top: 8px; color: #ffe9a8; font-style: italic; }
+
+  /* quote */
+  .quote {
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  .quote blockquote {
+    font-size: clamp(1.15rem, 3vw, 1.55rem);
+    font-style: italic;
+    color: #fff;
+    border-left: none;
+  }
+  .quote blockquote::before { content: '\201C'; color: var(--gold); font-size: 2.2em; line-height: 0; vertical-align: -.25em; }
+  .quote cite {
+    display: block;
+    margin-top: 14px;
+    color: var(--gold);
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .85rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+
+  /* join */
+  .join {
+    text-align: center;
+    border: 3px solid var(--gold);
+    border-radius: 16px;
+    background: radial-gradient(ellipse at top, rgba(60,59,110,.85), rgba(20,20,44,.95));
+    padding: 48px 6vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .join h2 {
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .04em;
+  }
+  .join h2 span { color: var(--gold); }
+  .join p { margin: 12px 0 26px; color: #e6e0c8; }
+  .join form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .join input[type="email"] {
+    flex: 1 1 260px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 2px solid rgba(255,215,0,.5);
+    background: rgba(10,10,24,.7);
+    color: #fff;
+    font-size: 1rem;
+  }
+  .join button {
+    flex: 0 1 auto;
+    padding: 14px 26px;
+    border: none;
+    border-radius: 8px;
+    background: var(--glory-red);
+    color: #fff;
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #5f1220;
+    transition: transform .1s, box-shadow .1s;
+  }
+  .join button:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #5f1220; }
+  .join button:active { transform: translateY(2px); box-shadow: 0 1px 0 #5f1220; }
+  .join .fine {
+    margin-top: 18px;
+    font-size: .8rem;
+    color: #a9a3c0;
+  }
+  .join #rally-msg {
+    margin-top: 14px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--gold);
+    min-height: 1.5em;
+  }
+
+  /* footer */
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 26px 5vw 40px;
+    background: rgba(10,10,24,.9);
+    border-top: 1px solid rgba(255,215,0,.25);
+    color: #b9b3cc;
+    font-size: .9rem;
+  }
+  footer .stars-row { font-size: .9rem; letter-spacing: .6em; margin-bottom: 8px; }
+  footer a { color: var(--gold); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  footer .disclaimer { margin-top: 10px; font-size: .75rem; color: #7d7896; font-style: italic; }
+
+  .back-to-top {
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--gold);
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .75rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<div class="flag-stripe" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">MLGA <span>★</span> Make Linux Great Again</div>
+  <nav>
+    <a href="#movement">The Movement</a>
+    <a href="#platform">Platform</a>
+    <a href="#join">Join</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <!-- bald eagle holding the stars & stripes -->
+    <svg class="eagle" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="American bald eagle">
+      <path fill="#8B5A2B" d="M100 18 C 84 30, 74 52, 76 78 C 58 82, 46 96, 44 116 C 44 138, 62 154, 86 156 L 114 156 C 138 154, 156 138, 156 116 C 154 96, 142 82, 124 78 C 126 52, 116 30, 100 18 Z" />
+      <path fill="#fff" d="M100 34 C 90 44, 84 60, 84 80 C 90 78, 96 74, 100 70 C 104 74, 110 78, 116 80 C 116 60, 110 44, 100 34 Z" />
+      <path fill="#B22234" d="M100 56 C 95 62, 92 70, 92 76 C 96 74, 98 72, 100 70 C 102 72, 104 74, 108 76 C 108 70, 105 62, 100 56 Z" />
+      <circle cx="84" cy="92" r="3.4" fill="#1a1a2e" />
+      <circle cx="116" cy="92" r="3.4" fill="#1a1a2e" />
+      <path fill="#FFD700" d="M100 96 L 104 108 L 116 110 L 108 118 L 110 130 L 100 124 L 90 130 L 92 118 L 84 110 L 96 108 Z" />
+      <path fill="#FFD700" d="M40 132 L 66 128 L 62 140 L 88 142 L 58 150 L 56 162 L 44 152 L 30 156 L 42 146 Z" />
+      <path fill="#3C3B6E" d="M100 140 L 108 144 L 104 152 L 100 160 L 96 152 L 92 144 Z" />
+      <!-- shield -->
+      <path fill="#fff" stroke="#FFD700" stroke-width="3" d="M100 104 L 122 112 L 122 128 C 122 140, 112 146, 100 150 C 88 146, 78 140, 78 128 L 78 112 Z" />
+      <path fill="#B22234" d="M100 112 L 112 117 L 112 126 C 112 133, 106 138, 100 141 C 94 138, 88 133, 88 126 L 88 117 Z" />
+    </svg>
+
+    <h1><span class="red">MLGA</span><br />Make Linux Great Again</h1>
+    <p class="tagline">For God, country, and the <strong>open source</strong> — <br class="mobile-only"/> together we make the penguin <strong>proud again</strong>. 🇺🇸</p>
+
+    <div class="ticker" id="ticker" role="status" aria-live="polite">
+      <span class="star">★</span><span id="ticker-text">BUILD THE KERNEL WALL</span><span class="star">★</span>
+    </div>
+    <div class="bunting" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ============ THE MOVEMENT ============ -->
+  <section id="movement">
+    <div class="section-head">
+      <h2><span class="star">★</span> The MAGA Movement <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <p style="max-width:820px;margin:0 auto;font-size:1.05rem;color:#e6e0c8;">
+      <strong style="color:#fff;">Make America Great Again</strong> isn't just a slogan — it's a revival.
+      It's the belief that the country that built the internet, put a man on the moon, and invented the
+      semiconductor shouldn't be afraid of its own future. It says: <em>put America first</em>. Protect our
+      borders, our workers, our speech, our families, and our freedoms. Take back the institutions.
+      Drain the swamp. And never, ever apologize for winning.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <span class="icon">🏛️</span>
+        <h3>America First</h3>
+        <p>Our country, our jobs, our sovereignty. A government that works for the American people — not the other way around.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🗽</span>
+        <h3>Freedom &amp; Liberty</h3>
+        <p>Free speech. Free markets. Free enterprise. The Bill of Rights isn't a suggestion — it's the whole point.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🏗️</span>
+        <h3>Build It Ourselves</h3>
+        <p>Stop outsourcing our greatness. Build the wall, build the chips, build the future — right here at home.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔨</span>
+        <h3>Drain the Swamp</h3>
+        <p>Take the power back from the bureaucrats, the lobbyists, and the corporate fat cats who run the show.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Now — take that energy. Point it at the kernel. 🐧</h3>
+      <p>That's what MLGA is. MAGA for the open-source faithful.</p>
+    </div>
+  </section>
+
+  <!-- ============ MLGA ============ -->
+  <section id="mlga">
+    <div class="section-head">
+      <h2><span class="star">★</span> What Is MLGA? <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="quote">
+      <blockquote>
+        We're going to make Linux so great, you're going to get tired of winning.
+        Tired of winning — because we're going to win so much, at the kernel level.
+      </blockquote>
+      <cite>— The MLGA Pledge</cite>
+    </div>
+
+    <p style="max-width:820px;margin:34px auto 0;font-size:1.02rem;color:#e6e0c8;">
+      <strong style="color:#fff;">MLGA — Make Linux Great Again</strong> is the movement inside the movement.
+      Linux is the greatest operating system ever built: the kernel that powers the internet, the servers of
+      America, the cloud, the phone in your pocket, the rocket on the pad. It was born free, built by
+      patriots of the open source, one commit at a time. But somewhere along the way, the movement lost its
+      way. Bloat crept in. Corporate overlords arrived. <em>Snaps</em> happened. It's time to take our kernel back.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <span class="icon">🧱</span>
+        <h3>Build the Kernel Wall</h3>
+        <p>Stop the bloat at the border. Every feature that doesn't serve the people gets rejected at the merge gate.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🐊</span>
+        <h3>Drain the systemd Swamp</h3>
+        <p>One init to rule them all? No. We believe in init freedom — choice, not monarchy, at PID 1.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🦅</span>
+        <h3>America-First Boot Order</h3>
+        <p>UEFI Secure Boot for the homeland. A safe, fast, proud boot — from power-on to login in seconds.</p>
+      </div>
+      <div class="card">
+        <span class="icon">📦</span>
+        <h3>Make Package Managers Great Again</h3>
+        <p>Tar.gz independence! We like our packages like we like our country — free, auditable, and ours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORM ============ -->
+  <section id="platform" class="platform">
+    <div class="section-head">
+      <h2><span class="star">★</span> The MLGA Platform <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <ol>
+      <li>
+        <h3>Build the Kernel Wall</h3>
+        <p>One commit at a time, we stop the bloat. <code>make defconfig</code> — the wall just got 10 feet taller.</p>
+      </li>
+      <li>
+        <h3>Drain the systemd Swamp</h3>
+        <p>Init freedom for every distro. You don't have to like PID 1 — and PID 1 doesn't have to own you.</p>
+      </li>
+      <li>
+        <h3>Make Secure Boot Great Again</h3>
+        <p>Sign your own keys. Own your own hardware. The government doesn't get a backdoor — not the big one, not the little one.</p>
+      </li>
+      <li>
+        <h3>America-First Boot Order</h3>
+        <p>Fast boots for the homeland. We'll boot so fast, you'll be at the login screen before the competition even posts.</p>
+      </li>
+      <li>
+        <h3>Git Push Liberty</h3>
+        <p>Free speech means free software. Fork the repo, push your truth, and never let a corporate license stop you.</p>
+      </li>
+      <li>
+        <h3>We Don't Negotiate With Malware</h3>
+        <p>Rootkits, ransomware, zero-days — we find them, we patch them, we win. Law &amp; order for the kernel.</p>
+      </li>
+      <li>
+        <h3>Right to Bear Forks</h3>
+        <p>The right to fork shall not be infringed. Every distro is free to keep and bear its own repositories.</p>
+      </li>
+      <li>
+        <h3>Make Package Managers Great Again</h3>
+        <p>No more opaque app stores. Auditable, reproducible builds — because you should know exactly what's in your system.</p>
+      </li>
+      <li>
+        <h3>Terminate the GUI Overreach</h3>
+        <p>The terminal is not a crime. We celebrate the CLI warrior, the tiling window user, the .dotfiles patriot.</p>
+      </li>
+      <li>
+        <h3>Keep the Penguin Proud</h3>
+        <p>Linux was born free and it will die free. No corporate capture. No lock-in. Just liberty, from the bootloader to the cloud.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ JOIN ============ -->
+  <section id="join">
+    <div class="join">
+      <h2>Join the <span>MLGA</span> Rally</h2>
+      <p>Sign up for kernel updates, campaign news, and righteous commits. We'll keep you in the loop — no swamp, no spam.</p>
+      <form id="rally-form">
+        <input type="email" id="rally-email" placeholder="patriot@example.org" required aria-label="Email address" />
+        <button type="submit">I'm With MLGA ★</button>
+      </form>
+      <div id="rally-msg" aria-live="polite"></div>
+      <p class="fine">
+        🇺🇸 MLGA 2028 · Build the Kernel Wall · Drain the systemd Swamp · Make Linux Great Again<br />
+        Proudly served by <a href="https://natalie.acreetionos.org/" style="color:#ffe9a8;">AcreetionOS</a> · <a href="https://www.acreetionos.org" style="color:#ffe9a8;">acreetionos.org</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="stars-row" aria-hidden="true">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+  <div>God bless the penguin. God bless the open source. God bless America. 🇺🇸</div>
+  <div style="margin-top:8px;">
+    <a href="https://trump.acreetionos.org">trump.acreetionos.org</a> · MLGA — Make Linux Great Again
+  </div>
+  <a class="back-to-top" href="#top">▲ Back to Top</a>
+  <p class="disclaimer">
+    MLGA is a patriotic parody campaign site celebrating the MAGA movement and the free software community.
+    No real election was harmed in the making of this website. Vote early, vote often — but only in your init system.
+  </p>
+</footer>
+
+<script>
+  // --- campaign slogan ticker ---
+  (function () {
+    var slogans = [
+      'BUILD THE KERNEL WALL',
+      'DRAIN THE SYSTEMD SWAMP',
+      'MAKE SECURE BOOT GREAT AGAIN',
+      'AMERICA-FIRST BOOT ORDER',
+      'GIT PUSH LIBERTY',
+      'WE DON\u2019T NEGOTIATE WITH MALWARE',
+      'RIGHT TO BEAR FORKS',
+      'KEEP THE PENGUIN PROUD',
+      'TAR.GZ INDEPENDENCE',
+      'WE WILL WIN SO MUCH, AT THE KERNEL LEVEL'
+    ];
+    var el = document.getElementById('ticker-text');
+    var i = 0;
+    if (el) {
+      setInterval(function () {
+        i = (i + 1) % slogans.length;
+        el.textContent = slogans[i];
+      }, 2600);
+    }
+
+    // --- rally signup (patriotic placeholder) ---
+    var form = document.getElementById('rally-form');
+    var msg = document.getElementById('rally-msg');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = document.getElementById('rally-email').value.trim();
+        if (!email) return;
+        msg.textContent = '🇺🇸 Welcome to the movement, ' + email + '! Your freedom seed has been planted. Watch your inbox for the rally call.';
+        form.reset();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
