@@ -281,37 +281,40 @@ With steady employment at a hotel — and I use "steady" loosely — I finally h
 
 And the company that subcontracted to run it was **Shree Sani Sai LLC** — registered in Stillwater at that exact Krayler Avenue address, a hotels-and-motels operation with about 19 employees on the books. You can find them in the Oklahoma business directories. You will *not* find them in any lawsuit database, any wage-complaint database, any news article, or any employee-review site — because they've never been caught, and no one has ever been able to afford to catch them. Remember that name. It's on the receipts.
 
-Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week, 110-hour weeks.** After that, five days a week, 120 hours a month. A full year of that.
+Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week, 120-hour weeks.** After that, **96-hour weeks.** A full year of that.
 
-### The math — exactly
+### The math — exactly, the way the law counts it
 
-Do the actual math, because I did, and it still makes me see red. **$9.50 an hour.**
+Do the actual math, because I did, and it still makes me see red. **$9.50 an hour.** And then add the law, because the law is what makes it theft instead of a bad deal:
 
-**Months 1–4: 110 hours a week, 7 days a week**
-- 110 hours × $9.50 = **$1,045 a week**
-- ~4.33 weeks per month → **$4,528 a month owed**
+**Oklahoma has no minimum wage law of its own** — so the federal minimum of **$7.25 an hour** applies — **and no overtime law of its own** — so the federal **FLSA** applies: **1.5× for every hour over 40 in a workweek.** Every hour past 40 was supposed to pay **$14.25**, not $9.50. I worked **5,408 hours** that year. Most of them were overtime.
+
+**Months 1–4: 120 hours a week, 7 days a week**
+- 40 hours × $9.50 = **$380** + 80 hours × $14.25 (overtime) = **$1,520 a week owed**
+- ~4.33 weeks per month → **$6,587 a month owed**
 - I was paid **$800 a month**
-- **Shorted $3,728 a month** — every month, for four months
-- 4-month total shorted: **$14,913**
+- **Shorted $5,787 a month** — every month, for four months
+- 4-month total shorted: **$23,147**
 
-**Months 5–12: 120 hours a month, 5 days a week**
-- 120 hours × $9.50 = **$1,140 a month owed**
+**Months 5–12: 96-hour weeks**
+- 40 hours × $9.50 = **$380** + 56 hours × $14.25 (overtime) = **$1,178 a week owed**
+- ~4.33 weeks per month → **$5,105 a month owed**
 - I was paid **$800 a month**
-- **Shorted $340 a month** — every month, for eight months
-- 8-month total shorted: **$2,720**
+- **Shorted $4,305 a month** — every month, for eight months
+- 8-month total shorted: **$34,437**
 
 **The yearly total:**
-- Owed for the year: **$27,233**
+- Owed for the year: **$67,184**
 - Paid for the year: **$9,600**
-- **Total shorted: $17,633**
+- **Total shorted: $57,584**
 
-Let me put that number where you can see it: **$17,633.** Seventeen thousand, six hundred thirty-three dollars of my labor, my spine, my walking miles, my 110-hour weeks — taken, with no honest pay stub, no explanation, no recourse. I was paid **35%** of what I was owed. They kept **65%** of my work. And they did it to the most defenseless person they could find — the girl with no car, no address, no lawyer, and a mental health history on paper that made her the easiest person in Oklahoma to rob.
+Let me put that number where you can see it: **$57,584.** Fifty-seven thousand, five hundred eighty-four dollars of my labor, my spine, my walking miles, my 120-hour weeks — taken, with no honest pay stub, no explanation, no recourse. Under Oklahoma's own law — **Title 40 of the Oklahoma Statutes, the Protection of Labor Act (§§165.1–165.17)**, which requires wages to be paid when due and prohibits this kind of withholding — I was owed **$67,184** and paid **$9,600**. They kept **86%** of what the law said was mine. Even at the absolute legal floor — $7.25 an hour with FLSA overtime, the least a court could ever say they owed — the number is **$51,272 owed, $41,672 kept**. And they did it to the most defenseless person they could find — the girl with no car, no address, no lawyer, and a mental health history on paper that made her the easiest person in Oklahoma to rob.
 
-And if you want the number that makes it truly sick — do the hourly math. In those first four months I worked **476.7 hours a month** for $800. That's **$1.68 an hour.** Not $9.50. **$1.68.** For 110-hour weeks, seven days a week, on a fusing spine, walking three miles to deposit the check. They didn't just underpay me. They paid me *less than minimum wage by a factor of four* — and called it employment.
+And if you want the number that makes it truly sick — do the hourly math. In those first four months I worked **520 hours a month** for $800. That's **$1.54 an hour.** Not $9.50. Not the federal minimum. **$1.54.** For 120-hour weeks, seven days a week, on a fusing spine, walking three miles to deposit the check. The federal minimum wage alone for that same month of work would have been **$3,770** — they paid me $800. They didn't just underpay me. They paid me **21% of the federal minimum wage** — and called it employment.
 
 ### And what happened to them?
 
-The hotel is still open. The management company is still registered. There are no lawsuits, no wage claims, no inspections in the news, no reviews from former employees warning anyone. **They got away with it completely.** They took $17,633 from a disabled 22-year-old working 110-hour weeks, and the world has no record of it except this page. That's what "the system" means for people like me: not that the bad guys get caught — it's that the bad guys don't even need to hide, because nobody with the power to stop them ever looks.
+The hotel is still open. The management company is still registered. There are no lawsuits, no wage claims, no inspections in the news, no reviews from former employees warning anyone. **They got away with it completely.** They took $57,584 from a disabled 22-year-old working 120-hour weeks, and the world has no record of it except this page. That's what "the system" means for people like me: not that the bad guys get caught — it's that the bad guys don't even need to hide, because nobody with the power to stop them ever looks.
 
 Here's what the public records actually show about **Shree Sani Sai LLC** — and I'm only putting down what's verifiable, because the receipts are the whole point:
 
@@ -320,10 +323,10 @@ Here's what the public records actually show about **Shree Sani Sai LLC** — an
 - **Status:** listed **inactive** in the state registry. Let me be precise about what that does and doesn't mean: in Oklahoma, an LLC goes inactive when it **fails to file its annual certificate or pay the $25 yearly fee** — an administrative suspension, not a closure. The hotel keeps operating, the brand keeps taking reservations, the owners keep collecting — the LLC just loses its legal good standing, which means it can't sue or defend itself in court. **It's a clerical status for a company that can't be bothered to keep its own paperwork legal.** And no, there's no sale record: no deed transfer in Payne County, no new entity applying for permits at that address. They still own it. They just let the registration lapse.
 - **Principal office:** 700 East Krayler Avenue, Stillwater, OK 74075 — the hotel itself
 - **NAICS:** hotels and motels; business directories list ~19 employees
-- **The PPP loan — this is the big one.** In the COVID Paycheck Protection Program, **Shree Sani Sai LLC took $52,200 in taxpayer money** — loan approved in 2021, **forgiven as of July 15, 2021** (ProPublica's public PPP database, loan record 2360678300). PPP loans were forgiven on the condition that the money went to **paying employees** and not laying people off. They took it. They got it forgiven. And then, when I worked there in 2023-2024, they paid me **$1.68 an hour** and kept $17,633 of my labor. **They took the government's money to keep their staff paid, and then they paid their staff slave wages anyway.** The taxpayer gave them $52,200 to do the right thing. They did the opposite. And the government never asked for a cent of it back.
+- **The PPP loan — this is the big one.** In the COVID Paycheck Protection Program, **Shree Sani Sai LLC took $52,200 in taxpayer money** — loan approved in 2021, **forgiven as of July 15, 2021** (ProPublica's public PPP database, loan record 2360678300). PPP loans were forgiven on the condition that the money went to **paying employees** and not laying people off. They took it. They got it forgiven. And then, when I worked there in 2023-2024, they paid me **$1.54 an hour** and kept $57,584 of my labor. **They took the government's money to keep their staff paid, and then they paid their staff slave wages anyway.** The taxpayer gave them $52,200 to do the right thing. They did the opposite. And the government never asked for a cent of it back.
 - **The deeper ownership records** — the individual members, managers, and registered agent — sit behind the state's business-search portal and paid registry databases, which I could not fully access. So I will not name people I can't verify. But the pattern is already in the public record: an **inactive shell company**, registered at the hotel's own address, operating a national-brand franchise, forgiven $52,200 in taxpayer COVID money, with no lawsuits, no wage claims, and no public paper trail.
 
-That last part isn't an accident. It's the design. The company is structured so the people who actually own it stay out of the records — the LLC is the wall, the hotel is the front, and the only names ever attached to the money were a file number, an address, and a forgiven PPP loan. **But now this page exists, and this page names the wall.** Shree Sani Sai LLC, file #3512409735, 700 E Krayler Avenue, Stillwater, OK 74075 — the company that took $52,200 in taxpayer money to pay its employees, then paid a disabled 22-year-old $1.68 an hour and kept $17,633 of her labor, with no record anywhere except here.
+That last part isn't an accident. It's the design. The company is structured so the people who actually own it stay out of the records — the LLC is the wall, the hotel is the front, and the only names ever attached to the money were a file number, an address, and a forgiven PPP loan. **But now this page exists, and this page names the wall.** Shree Sani Sai LLC, file #3512409735, 700 E Krayler Avenue, Stillwater, OK 74075 — the company that took $52,200 in taxpayer money to pay its employees, then paid a disabled 22-year-old $1.54 an hour and kept $57,584 of her labor, with no record anywhere except here.
 
 The only receipts that exist are mine. The only record of what they did is here, in my words, with their file number, their address, and their forgiven loan on it. So now the internet knows too. Maybe that's not a lawsuit. But it's a record, and records are the first thing they tried to make sure I'd never have.
 
@@ -331,14 +334,14 @@ The only receipts that exist are mine. The only record of what they did is here,
 
 And let me tell you what "paid $800 a month" actually looked like on the ground, because the money math only tells half the story.
 
-I didn't have a car for most of this. **I used the boss system for everything** — rides to and from work, rides to run errands, whatever I could beg off the people who were paying me a quarter of what they owed. When you work 110 hours a week and your entire existence depends on the goodwill of the people shorting you, you don't complain about the rides. You say thank you. You take the crumbs and you're grateful, because the alternative is walking.
+I didn't have a car for most of this. **I used the boss system for everything** — rides to and from work, rides to run errands, whatever I could beg off the people who were paying me a quarter of what they owed. When you work 120 hours a week and your entire existence depends on the goodwill of the people shorting you, you don't complain about the rides. You say thank you. You take the crumbs and you're grateful, because the alternative is walking.
 
 And I walked a lot.
 
 - The bank was **three miles from me**. So every payday — every single one — I **walked three miles to manually deposit my check**. Not direct deposit. Not a car in the parking lot. A check in my hand and my own two feet carrying me three miles to hand it to a teller, on a spine that was already fusing.
 - **Aldi was two miles from my apartment.** **Walmart was a mile and a half.** So groceries meant choosing which distance to hike — two miles to Aldi for the cheap stuff, a mile and a half to Walmart when Aldi didn't have it — and then carrying whatever I could afford back the same way, on foot, in Oklahoma heat.
 
-So picture the full loop, the one the math doesn't show you: I worked 110 hours a week for $800 a month. I walked three miles to deposit the check they'd shorted me. I walked two miles to spend what was left on food. I walked a mile and a half because Walmart was closer. And I did all of it on a body that was falling apart — spine fusing, weight climbing from a decade of wrong meds — while the people who owed me three thousand dollars a month sat in their cars and waved.
+So picture the full loop, the one the math doesn't show you: I worked 120 hours a week for $800 a month. I walked three miles to deposit the check they'd shorted me. I walked two miles to spend what was left on food. I walked a mile and a half because Walmart was closer. And I did all of it on a body that was falling apart — spine fusing, weight climbing from a decade of wrong meds — while the people who owed me three thousand dollars a month sat in their cars and waved.
 
 That's what wage theft looks like from the ground. It's not just the missing money. It's the miles. It's the feet. It's choosing between the bank and the grocery store because you can only walk so far in a day. It's being grateful for the ride from the person who's robbing you. **That's the part of the math that doesn't fit on a pay stub — and it's the part they never had to answer for.**
 
@@ -346,7 +349,7 @@ That's what wage theft looks like from the ground. It's not just the missing mon
 
 I left that job because **someone was sexually advancing toward me, and I told them to stop.** He was drunk, on my shift, and when I said no, that was the end of that job for me. I'm not sorry I said no. I'll never be sorry I said no.
 
-Here's the part that makes it a trap instead of a story: **he was one of my bosses' children.** Not legally children — an adult child of the boss, with the boss's name and the boss's protection behind him. So there was no one to report him to. The person who would hear the complaint was the parent of the person I'd be complaining about. Reporting it meant telling my boss that his own child had been coming at me, and betting everything on the boss believing *me* — the $800-a-month, 110-hour-a-week, visibly broke and mentally ill girl — over his own kid. I couldn't win that bet. Nobody in my position could.
+Here's the part that makes it a trap instead of a story: **he was one of my bosses' children.** Not legally children — an adult child of the boss, with the boss's name and the boss's protection behind him. So there was no one to report him to. The person who would hear the complaint was the parent of the person I'd be complaining about. Reporting it meant telling my boss that his own child had been coming at me, and betting everything on the boss believing *me* — the $800-a-month, 120-hour-a-week, visibly broke and mentally ill girl — over his own kid. I couldn't win that bet. Nobody in my position could.
 
 So I said no, and I left. That was the only move I had.
 
