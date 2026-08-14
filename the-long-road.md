@@ -416,6 +416,42 @@ Bruh moment.
 
 ---
 
+## J&J Delivery — the first job, and the crunch
+
+When Darren offered me the place to stay, he didn't hand me a bill and a lease. He said **we would figure out the bills when I got up there.** Just like that. A stranger on the internet — who turned out to be my father — telling a terrified girl with nothing that the money would work itself out later. I don't think he knows how much that sentence carried. "We'll figure it out" — I'd never heard those words from an adult in my entire life. Every adult I'd ever known had a ledger and a clipboard and a reason why I owed them.
+
+So when I got up there, I got to work. I found a job at **J&J Delivery** — appliance delivery. And I **loved it.**
+
+I mean it. Loved. It. The work was physical, it was outdoors, it was *real* — nothing about it required me to perform the girl everyone thought I wasn't, or the boy I'd spent my whole life pretending to be. You lift, you carry, you move. The job didn't care about my voice or my chart or my history. It just wanted hands and a back, and I had both, and for the first time in years the work itself didn't hate me back. I was good at it. I was happy, in the way you're happy when the world finally lets you just *do something*.
+
+### The crunch
+
+And then I picked up something I wasn't supposed to pick up.
+
+A delivery that should have been two people, or a dolly, or both — and I was one person with a fused spine I didn't even know the name of yet. I lifted it, and my spine **crunched.**
+
+Not a pop. Not a twinge. A *crunch*. I felt it from the inside — bone and cartilage doing something they were never supposed to do, somewhere in the middle of my back, and I knew. I **knew**, in that exact second, that it was all over. Completely over.
+
+Not the job. The *body*. The thing I'd been told was fine, was "just overweight," was "lose weight and the pain will stop" — it wasn't fine. It had been fusing for years, and I'd just made it crunch, and there was no un-crunching it. That was the moment I understood what "you're just obese" had cost me: the same spine I'd begged adults about as a kid, the one nobody would look at, the one that would eventually put me in a wheelchair-accessible unit — it broke its first visible promise to me in a J&J Delivery warehouse, and I heard it happen.
+
+I finished the shift anyway. Of course I did. You don't have the luxury of stopping when you have nothing.
+
+### The pants
+
+And here's the part that's embarrassing, and I'm putting it in anyway, because it's the truth and the truth is what this whole site is for.
+
+I was working **commando** that day — it happens, laundry doesn't always cooperate with a 7-hour shift — and an hour into the day, **my pants ripped.**
+
+Where they ripped... you could see my penis. Out in the open. On the job. An hour in, with **six hours still to go**, delivering appliances.
+
+Six hours of that. Six hours of walking into people's homes and carrying their refrigerators with my goddamn crotch visible through a split in my pants, because stopping meant admitting it, and admitting it meant facing the laughter and the judgment and the possibility of losing the one job that had let me just *work*. So I did what I always do: I clenched, I carried, I smiled through it, and I got through the day with my dignity in tatters and my spine crunching and my heart somewhere in my shoes.
+
+Six hours. Appliances. That was bad. That was *so* bad. And I did it anyway, because what was the alternative — the street? The one thing every adult in my life had made clear was always one wrong move away?
+
+Looking back, that day is the whole story in miniature: the body falling apart with a crunch nobody would believe, the humiliation I had to swallow to keep a roof over my head, and the sheer stubborn refusal to stop that got me through all of it. The girl who carried refrigerators for six hours with her pants split open and her spine crunching is the same girl who built AcreetionOS. The only difference is the weight of what she was carrying, and whether anyone was watching.
+
+---
+
 ## Home
 
 So here's the part that still makes me cry:
