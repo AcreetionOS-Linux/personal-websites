@@ -334,9 +334,18 @@ The only receipts that exist are mine. The only record of what they did is here,
 
 And let me tell you what "paid $800 a month" actually looked like on the ground, because the money math only tells half the story.
 
-I didn't have a car for most of this. **I used the boss system for everything** — rides to and from work, rides to run errands, whatever I could beg off the people who were paying me a quarter of what they owed. When you work 120 hours a week and your entire existence depends on the goodwill of the people shorting you, you don't complain about the rides. You say thank you. You take the crumbs and you're grateful, because the alternative is walking.
+I didn't have a car for most of this. The bus system was reserved for the other side of town. For everything else, I walked.
 
 And I walked a lot.
+
+The bank was four miles from me, one way. So every payday — every single one — I walked four miles there and four miles back to manually deposit my check. Not direct deposit. Not a car in the parking lot. A check in my hand and my own two feet carrying me to hand it to a teller, on a spine that was already fusing.
+
+Work was two miles away, one way. Grocery stores were two miles away, one way. That meant hiking in the Oklahoma heat and carrying whatever I could afford back the same way, on foot.
+
+And the most brutal part? I was completely alone doing this, even though my parents lived just a quarter of a mile away.
+So picture the full loop, the one the math doesn't show you: I worked 120 hours a week for $800 a month. I walked four miles each way to deposit the check they'd shorted me. I walked two miles each way to work, and two miles each way to buy food. And I did all of it on a body that was falling apart, entirely isolated, while the people who owed me three thousand dollars a month sat in their cars and waved.
+
+That's what wage theft looks like from the ground. It's not just the missing money. It's the miles. It's the feet. It's the absolute isolation. That's the part of the math that doesn't fit on a pay stub — and it's the part they never had to answer for.
 
 - The bank was **three miles from me**. So every payday — every single one — I **walked three miles to manually deposit my check**. Not direct deposit. Not a car in the parking lot. A check in my hand and my own two feet carrying me three miles to hand it to a teller, on a spine that was already fusing.
 - **Aldi was two miles from my apartment.** **Walmart was a mile and a half.** So groceries meant choosing which distance to hike — two miles to Aldi for the cheap stuff, a mile and a half to Walmart when Aldi didn't have it — and then carrying whatever I could afford back the same way, on foot, in Oklahoma heat.
