@@ -103,7 +103,33 @@ They prescribed me years of antipsychotics for a disease I was telling them I di
 
 **THE FUCKING IRONY.** The drug that saved me is the one they refused to pay for. The treatment that worked is the one I had to fight to get, or get without them, or get too late. And by the time I stabilized on it — by the time the mood swings finally settled — the damage from the wrong meds was already done. The zap had already fired. The mind had already been hit.
 
-I'm mostly stable now. "Mostly." And I have pretty much dementia at this point — the memory, the fog, the cognition — from years of wrong treatment, from the chemical zap, from the antipsychotics that were prescribed for a diagnosis I told them was wrong.
+### The antipsychotics — and why I stopped them for good
+
+And here's the part you should know, because it explains where I actually am right now:
+
+**I do not take Invega Sustenna anymore. I take no antipsychotics at all.**
+
+Not because the doctors took me off them. Because **they made me sleep all of the time.** That was the whole experience of being on them — not fixed, not better, not "stable" in any way that felt like living. Just... asleep. A chemically-induced fog where the illness was quiet only because *I* was quiet — unconscious, unresponsive, present in body and gone in every other way. That's not treatment. That's a chemical coma with a co-pay.
+
+So I stopped them. All of them. I walked away from the antipsychotics and never looked back.
+
+**And yes — I have the hallucinations. I have the paranoia.** They're still there. They didn't go away when I stopped the meds; they were there *underneath* the meds the whole time, just buried under the sedation. The illness is real and it doesn't care about my opinions of it.
+
+But I like being alive.
+
+Let me explain what I mean by that, because it's the most important thing I've ever chosen: **the antipsychotics didn't cure the hallucinations — they made me sleep so I couldn't notice them.** The trade they were offering was: *give me your consciousness and I'll give you a life that looks normal from the outside.* A life where I'm asleep at 4pm, where I can't remember the morning, where the person I used to be is a rumor I heard somewhere. And I looked at that deal, and I said no.
+
+I would rather be awake with my hallucinations than asleep without them.
+
+I would rather be paranoid and *here* than sedated and *gone*.
+
+I would rather feel everything — the fear, the fog, the voices, the whole terrifying noisy mess of being me — than feel nothing at all. Because feeling nothing isn't stability. It's absence. And I've spent enough of my life being absent — erased by the system, sedated by its drugs, disappeared into a label — that I know exactly what it costs to exist, and I'll pay it. Every day. Gladly.
+
+The hallucinations are real and I live with them. The paranoia is real and I manage it. And I'm alive — really, actually, *awake* alive — which is more than the system ever gave me. They couldn't fix my brain, so they tried to turn it off. I turned it back on.
+
+**That's the whole story of my relationship with the system, in one line: they tried to make me disappear, and I chose to stay.**
+
+**THE FUCKING IRONY, PART TWO:** I'm "mostly stable" now — on lamotrigine, the drug they wouldn't pay for — and I have pretty much dementia at this point, the memory, the fog, the cognition, from years of wrong treatment, from the chemical zap, from the antipsychotics prescribed for a diagnosis I told them was wrong. But the hallucinations and paranoia I was drugged into oblivion to suppress? **I live with them now, awake, by choice.** The system spent years and thousands of dollars trying to make me unconscious. It lost. I'm here, I'm conscious, and I'm not going anywhere.
 
 **I am not allowed to live alone or do my own meds for these reasons.**
 
@@ -145,7 +171,7 @@ Let me lay it out, because "what happens to a girl who comes out — or gets rea
 - **The hotel:** Holiday Inn Express, subcontractor **Shree Sani Sai** — $9.50/hr, 110-hr weeks, $800/month paid (~$3,700/month short, $20,000+ over the year); no car, so three-mile walks to deposit checks, two miles to Aldi, 1.5 miles to Walmart
 - **The unemployment denial:** Oklahoma Title 40 §2-404 — "voluntary quit without good cause" after I left because a boss's child sexually advanced on me; no safe person to report to, so no provable good cause, so the state sided with the employer
 - **The spine:** ankylosing spondylitis, diagnosed February 2025 at the OAC — after a childhood of "you're just obese" and one abandoned appointment
-- **The current state:** mostly stable on lamotrigine, pretty much dementia at this point, not allowed to live alone or do my own meds
+- **The current state:** mostly stable on lamotrigine, pretty much dementia at this point, **no antipsychotics — I stopped them because they made me sleep all the time; I live with the hallucinations and paranoia awake, by choice**, not allowed to live alone or do my own meds
 
 ---
 
@@ -156,5 +182,9 @@ So when people ask what happens to a trans girl who comes out in Stillwater, Okl
 And if she's lucky — if she's stubborn, if someone loans her five hundred dollars, if a stranger on the internet turns out to be her real father — she gets out. She builds an operating system. She writes the truth down where the record can't bury it.
 
 I'm mostly stable now. I'm still here. And the diagnosis I fought for years? **I was right to fight it.** The only reason I carry it at all is that they broke me before I could stop them.
+
+People call me strong. I am not strong. I never was. **I just stopped trying to pretend I was. I accepted it for what it was, and moved on. Working around it. Sound familiar?**
+
+It should. It's exactly what every one of them did to me — the system, the doctors, my parents, the employers. They took me for what they decided I was and worked around me. I just learned to do the same thing to the world first. That's not strength. That's what's left after you've been worked around enough times to learn the shape of it.
 
 That's the real story. Every angle. ❤️
