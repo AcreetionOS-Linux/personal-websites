@@ -35,6 +35,9 @@ const MD_URL3 = 'my-story.md';
 const MD_URL4 = 'not-so-great.md';
 const MD_URL5 = 'the-long-road.md';
 const MD_URL6 = 'stillwater.md';
+const MD_URL7 = 'faith.md';
+const MD_URL8 = 'identity.md';
+const MD_URL9 = 'sexuality.md';
 const GATE_KEY = 'lr-dark-gate';
 const AUTO_OPEN_KEY = 'lr-auto-open-done';
 
@@ -92,20 +95,20 @@ const ICONS = [
   {
     id: 'faith',
     icon: 'fa-book-bible',
-    label: 'Faith — coming soon',
-    inert: true,
+    label: 'Faith — the heretic\u2019s God',
+    active: true,
   },
   {
     id: 'identity',
     icon: 'fa-heart',
-    label: 'Identity — coming soon',
-    inert: true,
+    label: 'Identity — the girl who was always there',
+    active: true,
   },
   {
     id: 'sexuality',
     icon: 'fa-venus-mars',
-    label: 'Sexuality — coming soon',
-    inert: true,
+    label: 'Sexuality — a woman who likes men',
+    active: true,
   },
 ];
 
@@ -484,6 +487,9 @@ const ROOM_META = {
   story: { icon: 'fa-book-open', title: 'My Story', files: [MD_URL3, MD_URL5] },
   dark: { icon: 'fa-skull', title: 'The Not So Great', files: [MD_URL4] },
   stillwater: { icon: 'fa-map-location-dot', title: 'Coming Out in Stillwater', files: [MD_URL6] },
+  faith: { icon: 'fa-book-bible', title: 'Faith', files: [MD_URL7] },
+  identity: { icon: 'fa-heart', title: 'Identity', files: [MD_URL8] },
+  sexuality: { icon: 'fa-venus-mars', title: 'Sexuality', files: [MD_URL9] },
 };
 
 let PANEL_API = null; // set by wire(); lets the gate close the panel
@@ -574,6 +580,9 @@ async function loadRoomContent(room) {
       story: fb.story && fb.road ? [fb.story, fb.road] : (fb.story ? [fb.story] : null),
       dark: fb.dark ? [fb.dark] : null,
       stillwater: fb.stillwater ? [fb.stillwater] : null,
+      faith: fb.faith ? [fb.faith] : null,
+      identity: fb.identity ? [fb.identity] : null,
+      sexuality: fb.sexuality ? [fb.sexuality] : null,
     }[room];
     if (fbk) {
       texts = fbk;
