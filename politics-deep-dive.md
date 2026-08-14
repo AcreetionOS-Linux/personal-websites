@@ -660,7 +660,7 @@ And the monster-check: a God who needed his own son tortured as a *transaction* 
 
 ## Part XXII — I'm Related to Pontius Pilate (Here's How That Actually Happened)
 
-And now the family secret, out loud. **I'm related to Pontius Pilate.** The man who condemned Jesus. Yes. That one. And no, it's not a mystical thing — it's a *family tree* thing, and here's how it actually happened.
+And now the family secret, out loud. **I'm related to Pontius Pilate.** The man who condemned Jesus. Yes. That one. And no, it's not a mystical thing — it's a *family tree* thing, and here's how it actually happened. (To keep the record straight: the Pilate connection runs through the **Pontius** line — my brother's father's side — not the Spiva name itself.)
 
 ### Who he was
 
@@ -685,11 +685,11 @@ His *personal* fate is legend. But here's the part that matters: **he had a fami
 
 ### How it actually happened
 
-Pilate was a member of the **gens Pontia** — one of the old Roman families. And here's the thing about Roman aristocrats: **they don't die with one man.** While Pilate's own end is legend, his *family* — the Pontii — continued. Roman noble families survived the empire's fall the same way they survived its rise: by being connected, marrying well, and keeping the name alive. The gens Pontia didn't vanish when Pilate's body did. The family line continued through the centuries — through the empire, through the fall of Rome, through the kingdoms that carved it up — and **my family's recorded line traces back through that house.**
+Pilate was a member of the **gens Pontia** — one of the old Roman families. And here's the thing about Roman aristocrats: **they don't die with one man.** While Pilate's own end is legend, his *family* — the Pontii — continued. Roman noble families survived the empire's fall the same way they survived its rise: by being connected, marrying well, and keeping the name alive. The gens Pontia didn't vanish when Pilate's body did. The family line continued through the centuries — through the empire, through the fall of Rome, through the kingdoms that carved it up — and **my brother's father's recorded line traces back through that house.**
 
-That's how it actually happened. No mysticism. No conspiracy. A Roman governor with an aristocratic family name, a recalled official whose clan outlived him, and two thousand years of family trees doing what family trees do. The man who condemned Jesus is my ancestor, and the story the church tells about him isn't even true — they *edited him* to make him sympathetic. The telephone game is so thorough it rewrote my own family's villain.
+That's how it actually happened. No mysticism. No conspiracy. A Roman governor with an aristocratic family name, a recalled official whose clan outlived him, and two thousand years of family trees doing what family trees do. The man who condemned Jesus is my family's ancestor by that road — the Pontius line, not the Spiva name — and the story the church tells about him isn't even true — they *edited him* to make him sympathetic. The telephone game is so thorough it rewrote our family's villain.
 
-And honestly? I love it. Being descended from the man who killed Jesus is the most on-brand thing about my family. A walking contradiction, in the best way. The heretic is related to the governor who made the heretic famous. God's a piece of shit, but He's got a sense of humor. ❤️
+And honestly? I love it. Being connected to the man who killed Jesus is the most on-brand thing about this family. A walking contradiction, in the best way. The heretic is related to the governor who made the heretic famous. God's a piece of shit, but He's got a sense of humor. ❤️
 
 ---
 
@@ -718,7 +718,7 @@ And then the theology arc:
 - **Four separate beliefs** — the Bible, God, Jesus, and the Holy Ghost are independent; the Trinity isn't in the Bible; it was voted into existence at Nicaea and Constantinople, and even its proof-text was probably added later.
 - **The definition of a cult** — authoritarian leadership, us-vs-them, controlled information, fear and guilt, exploitation, groupthink over conscience; a religion is a cult that won; and **DeMolay is a cult** — a benign one — and I still learned things from it, because form is not content.
 - **Jesus didn't die for your sins** — substitutionary atonement is a medieval invention; he died to teach you **how horrible death is**, to make life urgent, to make the right-to-rest heaven mean something, and to show you that the truth gets you killed and is still worth telling.
-- **I'm related to Pontius Pilate** — the gens Pontia, a real Roman family, a recalled governor whose clan outlived him, and two thousand years of family trees — and the telephone game even whitewashed my own ancestor.
+- **I'm related to Pontius Pilate** — through the Pontius line (my brother's father's side), the gens Pontia, a real Roman family, a recalled governor whose clan outlived him, and two thousand years of family trees — and the telephone game even whitewashed our own ancestor.
 
 You don't have to agree with any of it. That's the point of the whole first section — you don't get to pretend *not* talking about it is an option, but you absolutely get to disagree with it out loud, like a person with a spine. All I ask is that you read it with your brain on, the way I read the Bible, the way I read the DSM, the way I read everything: **with the lights on.**
 
