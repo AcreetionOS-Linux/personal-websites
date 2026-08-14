@@ -156,7 +156,8 @@ Living with that friend was the first kindness I'd had in a long time. And even 
 And I was fighting. Here's what survival looked like:
 
 - **Walking miles and miles every day** — because we rarely had power at home, no internet ever, no cellphone service.
-- **On food stamps**, trying to find work — and people **don't want people like me**.
+- **On food stamps** — the whole monthly food budget, the sum total of what the state decided a starving person needs to eat: **about sixty dollars.** Sixty. Dollars. For a month of food. That's the "support" they offered the girl they'd drugged, the girl they'd told to figure it out, the girl who was walking miles a day on a fusing spine. Sixty dollars and a shrug. Bruh.
+- Trying to find work — and people **don't want people like me**.
 
 ### Why people don't want people like me
 
