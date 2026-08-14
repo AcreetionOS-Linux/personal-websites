@@ -134,3 +134,17 @@ And if they still call me strong — if they still say "wow, Natalie, you're so 
 **I am not strong. I never was. I just stopped trying to pretend I was. I accepted it for what it was, and moved on. Working around it. Sound familiar?**
 
 It should. It's the same thing every person in this story did to me — the system, the doctors, my parents, the employers. They took what was there and worked around it. They accepted me for what they decided I was, and moved on. I just learned to do it to the world first. That's not strength. That's the only move left after everything else is taken. ❤️
+
+---
+
+## About the hearts
+
+You've probably noticed the ❤️ at the end of all of this. Every page. Every section. It might look like a tic, or a habit, or just me being soft. It's none of those. It's the most deliberate thing I write.
+
+**The hearts are something I want to try and have.**
+
+I know that if I showed the realness behind them — the actual, unfiltered weight of the pain and the anger I carry — it would absolutely destroy somebody. Not figuratively. I mean it: the raw version of what's in my chest would break a person who hasn't lived it. So I soften the blow slightly with that heart. I put a cushion on the wrecking ball before I hand it to you, because I've been hit by the unfiltered version my whole life, and I wouldn't wish that on anyone — not even the people who deserve it.
+
+That's also what "I love you" means when I say it. I do those things — the hearts, the love, the softness at the edges — because **people can't handle what I can.** I have learned this. I've tested it. I've watched people flinch at a fraction of my truth. The hearts are me translating: taking something that would level a person and giving them a version they can survive reading.
+
+So when you see the ❤️ — know what it's actually carrying. It's not a lie. It's the opposite of a lie. It's the truth, wrapped in the only packaging that won't destroy the person opening it. The love is real. And so is everything it's softening. I give you the heart so you can hold the rest. ❤️
