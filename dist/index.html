@@ -31,6 +31,7 @@
     <script type="module" crossorigin src="assets/index-CIHy5E_z.js"></script>
     <script src="assets/codeberg.js" defer></script>
     <link rel="stylesheet" crossorigin href="assets/index-ea9yVlq5.css">
+    <link rel="stylesheet" href="assets/vibes.css">
   </head>
   <body>
     <div id="app"></div>
@@ -55,6 +56,40 @@
     <script src="assets/marked.min.js"></script>
     <script src="assets/md-fallback.js"></script>
     <script src="assets/life-rail.js"></script>
+    <script>
+      // vibes hero — inject the story-first banner above the portfolio.
+      // Runs after mount; harmless if the SPA hasn't rendered yet (it will
+      // sit at the top of the content column, which is what we want).
+      (function () {
+        if (location.protocol === 'file:') return; // the rail handles file://
+        function inject() {
+          var app = document.getElementById('app');
+          if (!app || app.childElementCount === 0) { setTimeout(inject, 300); return; }
+          var hero = document.createElement('div');
+          hero.className = 'vibes-hero';
+          hero.innerHTML =
+            '<div class="vibes-hero-inner">' +
+            '<h1>Natalie Cole-Clift Spiva</h1>' +
+            '<p>Co-creator of <strong>AcreetionOS</strong>, systems architect, and the girl who survived Stillwater, Oklahoma — the misdiagnosis, the zap, the handcuffs, the eviction, the drive west. ' +
+            'This site is the whole truth: the resume and the receipts. ' +
+            'Read <a href="/my-story.md">my story</a>, the <a href="/the-long-road.md">long road</a>, ' +
+            '<a href="/stillwater.md">what Stillwater did</a>, and <a href="/the-cure.md">how I\'m curing myself</a>. ' +
+            'The <a href="/politics-deep-dive.md">politics deep-dive</a> is 84KB of the most honest political writing on the internet.</p>' +
+            '<div class="vibes-hero-tags">' +
+            '<span class="vibes-hero-tag">AcreetionOS</span>' +
+            '<span class="vibes-hero-tag">Linux</span>' +
+            '<span class="vibes-hero-tag">Cloudflare</span>' +
+            '<span class="vibes-hero-tag">YAcFS</span>' +
+            '<span class="vibes-hero-tag">trans</span>' +
+            '<span class="vibes-hero-tag heart">still here ❤️</span>' +
+            '</div></div>';
+          var content = app.querySelector('header, section') ? app : app.firstElementChild;
+          app.insertBefore(hero, app.firstChild);
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', inject);
+        else inject();
+      })();
+    </script>
     <script>
       // file:// helper: the SPA can't run from disk, but the politics panel
       // can — give the page a proper backdrop, a title, and a hint.

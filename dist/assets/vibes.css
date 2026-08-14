@@ -1,0 +1,207 @@
+/* ============================================================================
+ * vibes.css — the vibrant layer for natalie.acreetionos.org
+ * Loaded after the SPA bundle so it can safely enrich (not break) the build.
+ * Brings the landing page up to the energy of the story pages: aurora
+ * gradients, glow, motion, and a hero that says the whole truth.
+ * ========================================================================== */
+
+:root {
+  --vibes-bg-1: #0a0a0f;
+  --vibes-bg-2: #1a0b2e;
+  --vibes-bg-3: #0b1226;
+  --vibes-accent: #7c3aed;
+  --vibes-accent-2: #c084fc;
+  --vibes-accent-3: #f472b6;
+  --vibes-accent-4: #38bdf8;
+  --vibes-glow: rgba(124, 58, 237, 0.35);
+}
+
+/* ---- aurora backdrop behind everything ---- */
+body {
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(124, 58, 237, 0.22), transparent 60%),
+    radial-gradient(1000px 500px at 85% 0%, rgba(244, 114, 182, 0.14), transparent 55%),
+    radial-gradient(900px 700px at 50% 110%, rgba(56, 189, 248, 0.12), transparent 60%),
+    linear-gradient(160deg, var(--vibes-bg-2), var(--vibes-bg-1) 40%, var(--vibes-bg-3));
+  background-attachment: fixed;
+  color: #e1e1e6;
+  min-height: 100vh;
+}
+
+/* subtle animated aurora shimmer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  z-index: -1;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgba(124, 58, 237, 0.10),
+    rgba(56, 189, 248, 0.08),
+    rgba(244, 114, 182, 0.08),
+    rgba(124, 58, 237, 0.10)
+  );
+  animation: vibes-rotate 90s linear infinite;
+  pointer-events: none;
+}
+@keyframes vibes-rotate {
+  to { transform: rotate(360deg); }
+}
+
+/* ---- header: keep structure, add glow + gradient text ---- */
+header .brand h1 {
+  background: linear-gradient(90deg, #fff, var(--vibes-accent-2), var(--vibes-accent-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-shadow: 0 0 40px rgba(192, 132, 252, 0.25);
+}
+header .brand .title {
+  color: #a1a1aa;
+}
+header .avatar img {
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.5), 0 0 30px rgba(124, 58, 237, 0.35);
+}
+
+/* ---- nav links: gradient underline on hover ---- */
+header nav a {
+  position: relative;
+}
+header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 100%;
+  bottom: -3px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--vibes-accent), var(--vibes-accent-2));
+  transition: right 0.25s ease;
+}
+header nav a:hover::after {
+  right: 0;
+}
+
+/* ---- section headers: glowing icon chip + gradient heading ---- */
+section h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(90deg, #fff, var(--vibes-accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+section h2 i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(244, 114, 182, 0.15));
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  box-shadow: 0 0 18px rgba(124, 58, 237, 0.25);
+  -webkit-text-fill-color: #c084fc;
+}
+
+/* ---- cards: glass + glow border ---- */
+.card, .item, .repo-item {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-radius: 14px !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card:hover, .item:hover, .repo-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(192, 132, 252, 0.5) !important;
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.25);
+}
+
+/* ---- stat numbers: glow ---- */
+.stat-value {
+  background: linear-gradient(90deg, var(--vibes-accent-2), var(--vibes-accent-4));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-shadow: 0 0 30px rgba(56, 189, 248, 0.2);
+}
+
+/* ---- the hero strip: story first, portfolio second ---- */
+.vibes-hero {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 56px 24px 8px;
+}
+.vibes-hero-inner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 40px 36px;
+  background:
+    radial-gradient(600px 300px at 80% -20%, rgba(244, 114, 182, 0.18), transparent 60%),
+    radial-gradient(500px 300px at 10% 110%, rgba(56, 189, 248, 0.14), transparent 60%),
+    linear-gradient(135deg, rgba(124, 58, 237, 0.18), rgba(10, 10, 15, 0.6) 55%);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+  box-shadow: 0 0 60px rgba(124, 58, 237, 0.18);
+}
+.vibes-hero h1 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #fff, var(--vibes-accent-2), var(--vibes-accent-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.vibes-hero p {
+  margin: 0 0 18px;
+  max-width: 640px;
+  color: #d4d4d8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.vibes-hero p strong { color: #f4f4f5; }
+.vibes-hero p a {
+  color: var(--vibes-accent-2);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(192, 132, 252, 0.4);
+}
+.vibes-hero p a:hover { border-bottom-color: var(--vibes-accent-2); }
+.vibes-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.vibes-hero-tag {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 99px;
+  background: rgba(124, 58, 237, 0.16);
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  color: #c084fc;
+}
+.vibes-hero-tag.heart { color: #f472b6; border-color: rgba(244, 114, 182, 0.4); background: rgba(244, 114, 182, 0.12); }
+
+/* ---- heartbeat on the rail's flag ---- */
+.lr-rail-btn.active { animation: lrPulse 2.4s ease-in-out infinite; }
+
+/* ---- file:// naked mode: full vibes ---- */
+body.lr-naked {
+  background:
+    radial-gradient(1000px 500px at 20% -10%, rgba(124, 58, 237, 0.25), transparent 60%),
+    radial-gradient(800px 400px at 85% 0%, rgba(244, 114, 182, 0.15), transparent 55%),
+    linear-gradient(160deg, var(--vibes-bg-2), var(--vibes-bg-1) 45%, var(--vibes-bg-3));
+  color: #e1e1e6;
+}
+
+/* ---- reduced motion: calm it down ---- */
+@media (prefers-reduced-motion: reduce) {
+  body::before { animation: none; }
+  .card:hover, .item:hover, .repo-item:hover { transform: none; }
+}
