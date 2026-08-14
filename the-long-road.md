@@ -198,6 +198,24 @@ I'm not going to linger here. That year almost ended me. The only reason it didn
 
 ---
 
+## The brother — the bus, the quarters, and the Walmart mile
+
+On top of everything else — and I mean *on top*, stacked right there with the rest of it — there was a stretch where **I had to watch my brother.**
+
+I was already the person who'd walked him to school every morning as a teenager. The parent without the title. So when I ended up **living with my brother**, it wasn't a new role — it was the same one, just with a bus schedule attached.
+
+Here's how it worked. He **couldn't get paratransit** — the door-to-door accessible transit that disabled people are supposed to be able to use — so we took **the bus.** The regular city bus. And I mean *we*: I had to ride it with him, because that was the deal. Every trip meant making sure we had **his quarters** — bus fare was coins, and if we didn't have them, we didn't move. I'd scrounge quarters like they were gold, because in that economy, they were.
+
+And then, every day, we'd get off the bus and **walk him to and from the other Walmart to his job.** About a mile each way — a mile after the bus, on top of the miles before it. He worked at the Walmart, we rode the bus to get near it, and then the two of us walked the rest of the way — out in the Oklahoma heat or the cold, every day, so he could clock in.
+
+The workers there **always acted like they didn't approve.**
+
+I don't know what they thought they were seeing. Two siblings, one visibly struggling, the other doing the escorting — or maybe they just saw a girl who looked like me, fat and poor and tired, and decided she didn't belong near their store. Whatever it was, you could feel it every single time: the looks, the distance, the way nobody asked if we needed anything — the quiet judgment of people who had never once had to scrounge quarters to get their brother to work.
+
+That was the part nobody ever counted. The walking, the coins, the bus, the mile, the disapproving faces — it was all invisible labor, done by a body that was already falling apart, for a brother I loved more than I could say. And I did it every day, because someone had to — and it was never going to be the adults.
+
+---
+
 ## Ross, the reserve, and Belk
 
 Somehow, I got a job at **Ross.** I worked there for a few months. I saved up — slowly, painfully, one paycheck at a time — enough to move out.
