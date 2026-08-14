@@ -123,6 +123,18 @@ The antipsychotics didn't just flatten me — **they put me to sleep. All the ti
 
 So when people say "wow, you're so strong, nothing bothers you" — here's the truth: **it's not that nothing bothers me. It's that everything already bothered me, all at once, for years, and the system that was supposed to help me turned the volume down on all of it — including the parts I needed.**
 
+**They required this. They demanded it — the flatness, the compliance, the "stability" at any cost. And then they left me for dead.**
+
+That's the part nobody says out loud, so let me say it: the system didn't just ask me to numb myself. It *required* it — the meds, the "compliant patient" performance, the accepting of a label I told them was wrong, the being calm and agreeable while they processed me like inventory. Every single institution in this story demanded the volume-down version of me: the version that doesn't argue, doesn't flinch, doesn't make trouble, doesn't make *them* uncomfortable.
+
+And the moment I gave it to them — the moment I was properly numb, properly compliant, properly *stable* — they left me for dead.
+
+No support. No follow-up. No "here's what comes next." No one checked if the girl who stopped feeling things was okay. The handcuffs delivered me to Grand Mental Health to free up a bed, and nobody came back to see if the bed helped. The wrong meds fogged my brain for years, and when I stopped taking them, nobody was there to help me through it. The unemployment was denied, the disability claim was lost in the mail, the housing program shut down the month after it helped me. Every time I did exactly what they required, they cashed the compliance and moved on to the next patient, the next bed, the next form.
+
+So here's the fuller truth about "nothing bothers me": **I turned the volume down because they demanded it — and then they walked away and left me alone with the silence.** The calm they admire is the aftermath of being required to be calm and then abandoned for succeeding at it. They wanted the quiet girl. They got her. And then nobody wanted her at all.
+
+That's not strength either. That's what it looks like when you survive being used as a solution to someone else's problem. ❤️
+
 And yet.
 
 And yet I built AcreetionOS. I co-designed a filesystem. I run infrastructure that spans the planet. I wrote 84KB of the most honest political writing on the internet. Because the same brain that got flattened is still the brain that could see systems — real systems — and take them apart and rebuild them. The calm isn't just damage. Some of it is the *input machine*: I understand more than I produce on a timer, I see the pattern before the pattern finishes, I've spent my whole life predicting what comes next in a world that kept trying to end me. That's not "nothing bothers me." That's **everything already happened to me, so I've seen the tape.**
