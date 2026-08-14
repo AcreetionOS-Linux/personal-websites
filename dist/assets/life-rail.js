@@ -31,6 +31,11 @@ const MARKED = window.marked;
 const STYLE_ID = 'lr-style';
 const MD_URL = 'political-stance.md';
 const MD_URL2 = 'politics-deep-dive.md';
+const MD_URL3 = 'my-story.md';
+const MD_URL4 = 'not-so-great.md';
+const MD_URL5 = 'the-long-road.md';
+const MD_URL6 = 'stillwater.md';
+const GATE_KEY = 'lr-dark-gate';
 const AUTO_OPEN_KEY = 'lr-auto-open-done';
 
 // ---------------------------------------------------------------------------
@@ -63,6 +68,25 @@ const ICONS = [
     id: 'politics',
     icon: 'fa-flag-usa', // the monochrome american flag
     label: 'Politics & Views',
+    active: true,
+  },
+  {
+    id: 'story',
+    icon: 'fa-book-open',
+    label: 'My Story',
+    active: true,
+  },
+  {
+    id: 'dark',
+    icon: 'fa-skull',
+    label: 'The Not So Great',
+    active: true,
+    gate: true,
+  },
+  {
+    id: 'stillwater',
+    icon: 'fa-map-location-dot',
+    label: 'Coming Out in Stillwater — the real story',
     active: true,
   },
   {
@@ -113,6 +137,19 @@ const INTRO_HTML = `
     &ldquo;both sides&rdquo; cowardice. You don't have to agree with a word of
     it &mdash; but you're done pretending &ldquo;not talking about it&rdquo; is
     an option. That illusion ends here. ❤️</p>
+  </div>
+`;
+
+// ---------------------------------------------------------------------------
+// the "my story" intro — leads the story panel
+// ---------------------------------------------------------------------------
+const STORY_INTRO_HTML = `
+  <div class="lr-intro">
+    <h2>My Story</h2>
+    <p>Family, foster care, the closet, the illnesses, the rebuild &mdash; everything
+    that made me, in the order it made me. The good version of the rack is here;
+    the parts that need a warning sign live in <strong>The Not So Great</strong>
+    (skull icon on the rail).</p>
   </div>
 `;
 
@@ -312,6 +349,38 @@ body.lr-naked{background:var(--lr-bg, #0a0a0f);min-height:100vh;margin:0;}
   color:#fca5a5;padding:12px 14px;border-radius:10px;font-size:13.5px;line-height:1.6;
 }
 
+/* ---- discretion gate (The Not So Great) ---- */
+.lr-gate{
+  border:1px solid rgba(239,68,68,.35);background:rgba(239,68,68,.05);
+  border-radius:14px;padding:22px 20px;margin:4px 0 18px;
+}
+.lr-gate-badge{
+  display:inline-block;background:rgba(239,68,68,.16);color:#fca5a5;
+  border:1px solid rgba(239,68,68,.45);padding:4px 12px;border-radius:999px;
+  font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:12px;
+}
+.lr-gate h2{color:#fff;font-size:20px;margin:0 0 10px;}
+.lr-gate h3{color:#fca5a5;font-size:14px;margin:16px 0 6px;}
+.lr-gate p{color:#d4d4d8;font-size:13.5px;line-height:1.65;margin:0 0 10px;}
+.lr-gate-agree{
+  display:flex;gap:10px;align-items:flex-start;color:#e4e4e7;
+  font-size:13px;line-height:1.55;margin:14px 0;
+  border:1px solid rgba(255,255,255,.09);background:rgba(10,10,15,.35);
+  padding:12px 14px;border-radius:10px;cursor:pointer;
+}
+.lr-gate-agree input{margin-top:3px;accent-color:#7c3aed;width:16px;height:16px;flex:none;}
+.lr-gate-btns{display:flex;gap:10px;flex-wrap:wrap;}
+.lr-gate-enter{
+  background:linear-gradient(135deg,#7c3aed,#a21caf);color:#fff;border:none;
+  padding:11px 18px;border-radius:10px;font:600 13.5px system-ui,sans-serif;cursor:pointer;
+}
+.lr-gate-enter:disabled{opacity:.35;cursor:not-allowed;}
+.lr-gate-close{
+  background:transparent;color:#a1a1aa;border:1px solid rgba(255,255,255,.14);
+  padding:11px 18px;border-radius:10px;font:600 13.5px system-ui,sans-serif;cursor:pointer;
+}
+.lr-gate-close:hover{color:#fff;border-color:rgba(255,255,255,.3);}
+
 /* ---- mobile: rail becomes a bottom dock, panel goes full-screen ---- */
 @media (max-width:560px){
   .lr-rail{
@@ -369,6 +438,7 @@ function buildRail() {
     return (
       '<button class="lr-rail-btn' + (ic.active ? ' active' : '') + inert + '"' +
       ' id="lr-btn-' + ic.id + '"' +
+      ' data-room="' + ic.id + '"' +
       ' type="button"' +
       ' aria-label="' + ic.label + '"' +
       tabindex +
@@ -409,42 +479,114 @@ function buildPanel() {
 }
 
 // ---------------------------------------------------------------------------
-// content loading (the markdown reader)
+// content loading (the markdown reader), room-aware
 // ---------------------------------------------------------------------------
-function renderViews(md, md2) {
+const ROOM_META = {
+  politics: { icon: 'fa-flag-usa', title: 'Politics & Views', files: [MD_URL, MD_URL2] },
+  story: { icon: 'fa-book-open', title: 'My Story', files: [MD_URL3, MD_URL5] },
+  dark: { icon: 'fa-skull', title: 'The Not So Great', files: [MD_URL4] },
+  stillwater: { icon: 'fa-map-location-dot', title: 'Coming Out in Stillwater', files: [MD_URL6] },
+};
+
+let PANEL_API = null; // set by wire(); lets the gate close the panel
+
+function renderGate() {
+  const meta = ROOM_META.dark;
+  const headIcon = document.querySelector('.lr-panel-title i');
+  const title = document.getElementById('lr-title');
+  if (headIcon) headIcon.className = 'fa-solid ' + meta.icon;
+  if (title) title.textContent = meta.title;
   const el = document.getElementById('lr-content');
+  el.innerHTML =
+    '<div class="lr-gate">' +
+    '  <span class="lr-gate-badge">⚠ Discretion advised</span>' +
+    '  <h2>The Not So Great</h2>' +
+    '  <p>This section contains the parts of my life that don&rsquo;t make the highlights reel: mental illness, psychosis, intrusive violent thoughts, instability, grief, and loss. It is raw, first-person, and unflattering.</p>' +
+    '  <p>If you&rsquo;re under 18, in a fragile place, or just not here for someone else&rsquo;s darkness &mdash; close this. There is nothing here you need to save anyone from, and none of it is advice.</p>' +
+    '  <h3>Disclaimer</h3>' +
+    '  <p>This is a first-person account of lived experience. It is not medical advice, it is not a diagnosis of anyone but me, and it is not representative of anyone else with these conditions. If you are struggling, please talk to a professional or call/text <strong>988</strong> (US Suicide &amp; Crisis Lifeline) or your local emergency number. I am not a doctor &mdash; I am a patient who writes things down.</p>' +
+    '  <label class="lr-gate-agree"><input type="checkbox" id="lr-gate-check" />' +
+    '    <span>I understand this content is raw, personal, and may be disturbing. I agree that the author is <strong>not liable</strong> for how I interpret or react to it, and I accept full responsibility for choosing to read on.</span></label>' +
+    '  <div class="lr-gate-btns">' +
+    '    <button class="lr-gate-enter" id="lr-gate-enter" type="button" disabled>I agree — show me</button>' +
+    '    <button class="lr-gate-close" id="lr-gate-close" type="button">No thanks, close it</button>' +
+    '  </div>' +
+    '</div>';
+  const check = el.querySelector('#lr-gate-check');
+  const enter = el.querySelector('#lr-gate-enter');
+  check.addEventListener('change', () => {
+    enter.disabled = !check.checked;
+  });
+  enter.addEventListener('click', () => {
+    try {
+      sessionStorage.setItem(GATE_KEY, '1');
+    } catch (e) {
+      /* private mode — still proceed this session */
+    }
+    loadRoomContent('dark');
+  });
+  el.querySelector('#lr-gate-close').addEventListener('click', () => {
+    if (PANEL_API) PANEL_API.setOpen(false);
+  });
+}
+
+function renderViews(room, texts) {
+  const el = document.getElementById('lr-content');
+  const meta = ROOM_META[room] || ROOM_META.politics;
+  const headIcon = document.querySelector('.lr-panel-title i');
+  const title = document.getElementById('lr-title');
+  if (headIcon) headIcon.className = 'fa-solid ' + meta.icon;
+  if (title) title.textContent = meta.title;
+  const intro = room === 'politics' ? INTRO_HTML : room === 'story' ? STORY_INTRO_HTML : '';
+  const divider =
+    '<div class="lr-divider"><span>rendered from <code>' + meta.files.join('</code> + <code>') + '</code></span></div>';
   // joined with a markdown horizontal rule — marked turns it into an <hr>
-  el.innerHTML = MARKED.parse(md + '\n\n---\n\n' + md2);
+  el.innerHTML = intro + divider + MARKED.parse(texts.join('\n\n---\n\n'));
   buildSections();
   buildToc();
 }
 
-async function loadViews() {
+async function loadRoomContent(room) {
   const el = document.getElementById('lr-content');
-  let md;
-  let md2;
-  try {
-    const [res, res2] = await Promise.all([
-      fetch(MD_URL, { cache: 'no-store' }),
-      fetch(MD_URL2, { cache: 'no-store' }),
-    ]);
-    if (!res.ok) throw new Error(MD_URL + ' → HTTP ' + res.status);
-    if (!res2.ok) throw new Error(MD_URL2 + ' → HTTP ' + res2.status);
-    [md, md2] = await Promise.all([res.text(), res2.text()]);
-  } catch (err) {
-    // fetch is blocked on file:// — use the embedded copies instead
-    if (window.LR_MD_FALLBACK && window.LR_MD_FALLBACK.stance && window.LR_MD_FALLBACK.deep) {
-      md = window.LR_MD_FALLBACK.stance;
-      md2 = window.LR_MD_FALLBACK.deep;
-    } else {
-      el.innerHTML =
-        '<div class="lr-error">couldn&rsquo;t read the views (' +
-        err.message +
-        '). The files should live in the repo root as <code>political-stance.md</code> and <code>politics-deep-dive.md</code>.</div>';
+  const meta = ROOM_META[room] || ROOM_META.politics;
+  if (room === 'dark') {
+    let agreed = false;
+    try {
+      agreed = sessionStorage.getItem(GATE_KEY) === '1';
+    } catch (e) {
+      agreed = false;
+    }
+    if (!agreed) {
+      renderGate();
       return;
     }
   }
-  renderViews(md, md2);
+  el.innerHTML = '<div class="lr-loading">reading… ❤️</div>';
+  let texts;
+  try {
+    const res = await Promise.all(meta.files.map((u) => fetch(u, { cache: 'no-store' })));
+    const bad = res.find((r) => !r.ok);
+    if (bad) throw new Error('HTTP ' + bad.status);
+    texts = await Promise.all(res.map((r) => r.text()));
+  } catch (err) {
+    // fetch is blocked on file:// — use the embedded copies instead
+    const fb = (window.LR_MD_FALLBACK || {});
+    const fbk = {
+      politics: fb.stance && fb.deep ? [fb.stance, fb.deep] : null,
+      story: fb.story && fb.road ? [fb.story, fb.road] : (fb.story ? [fb.story] : null),
+      dark: fb.dark ? [fb.dark] : null,
+      stillwater: fb.stillwater ? [fb.stillwater] : null,
+    }[room];
+    if (fbk) {
+      texts = fbk;
+    } else {
+      el.innerHTML =
+        '<div class="lr-error">couldn&rsquo;t read (' + err.message +
+        '). The files should live in the repo root as <code>' + meta.files.join('</code>, <code>') + '</code>.</div>';
+      return;
+    }
+  }
+  renderViews(room, texts);
 }
 
 // ---------------------------------------------------------------------------
@@ -635,45 +777,80 @@ function wireTooltips(rail) {
 }
 
 // ---------------------------------------------------------------------------
-// wiring: open/close, hash routing, keys
+// wiring: open/close, room switching, hash routing, keys
 // ---------------------------------------------------------------------------
 function wire() {
   const panel = document.getElementById('lr-panel');
   const backdrop = document.getElementById('lr-backdrop');
   const closeBtn = document.getElementById('lr-close');
-  const flag = document.getElementById('lr-btn-politics');
   const prevOverflow = document.body.style.overflow;
+  let currentRoom = 'politics';
+
+  function roomHash(room) {
+    return '#lr-' + room;
+  }
+
+  function roomFromHash() {
+    const m = location.hash.match(/^#lr-([a-z]+)$/);
+    if (m && ROOM_META[m[1]]) return m[1];
+    return null;
+  }
 
   function setOpen(open, opts) {
     const silent = opts && opts.silent;
     panel.classList.toggle('lr-open', open);
     backdrop.classList.toggle('lr-open', open);
-    flag.classList.toggle('active', open);
-    flag.setAttribute('aria-expanded', String(open));
+    const btn = document.getElementById('lr-btn-' + currentRoom);
+    if (btn) {
+      btn.classList.toggle('active', open);
+      btn.setAttribute('aria-expanded', String(open));
+    }
     document.body.style.overflow = open ? 'hidden' : prevOverflow;
     if (open && !silent) {
-      if (location.hash !== '#politics') history.pushState(null, '', '#politics');
+      const h = roomHash(currentRoom);
+      if (location.hash !== h) history.pushState(null, '', h);
       closeBtn.focus();
     } else if (!open) {
-      if (location.hash === '#politics') {
+      const h = roomHash(currentRoom);
+      if (location.hash === h) {
         history.replaceState(null, '', location.pathname + location.search);
       }
       if (!sessionStorage.getItem(AUTO_OPEN_KEY)) sessionStorage.setItem(AUTO_OPEN_KEY, '1');
     }
   }
 
-  function syncFromHash() {
-    const want = location.hash === '#politics';
-    if (want && !panel.classList.contains('lr-open')) setOpen(true, { silent: true });
-    if (!want && panel.classList.contains('lr-open')) setOpen(false);
+  function openRoom(room) {
+    currentRoom = room;
+    setOpen(true);
+    const content = document.getElementById('lr-content');
+    if (!content.querySelector('.lr-md') || content.querySelector('.lr-loading')) {
+      loadRoomContent(room);
+    } else if (room === 'dark') {
+      // re-check the gate each time the dark room is opened fresh
+      loadRoomContent(room);
+    }
   }
 
-  flag.addEventListener('click', () => {
-    const willOpen = !panel.classList.contains('lr-open');
-    setOpen(willOpen);
-    if (willOpen && document.getElementById('lr-content').querySelector('.lr-loading')) {
-      loadViews();
+  function syncFromHash() {
+    const want = roomFromHash();
+    if (want) {
+      if (!panel.classList.contains('lr-open')) {
+        currentRoom = want;
+        setOpen(true, { silent: true });
+        loadRoomContent(want);
+      } else if (want !== currentRoom) {
+        currentRoom = want;
+        setOpen(true, { silent: true });
+        loadRoomContent(want);
+      }
+    } else if (panel.classList.contains('lr-open')) {
+      setOpen(false);
     }
+  }
+
+  document.querySelectorAll('.lr-rail-btn').forEach((btn) => {
+    if (btn.hasAttribute('inert') || btn.getAttribute('aria-disabled') === 'true') return;
+    btn.addEventListener('click', () => openRoom(btn.getAttribute('data-room') || 'politics'));
   });
   closeBtn.addEventListener('click', () => setOpen(false));
   backdrop.addEventListener('click', () => setOpen(false));
@@ -684,13 +861,14 @@ function wire() {
 
   // gentle one-time auto-open per session (desktop only)
   function maybeAutoOpen() {
-    if (location.hash === '#politics') return;
+    if (roomFromHash()) return;
     if (sessionStorage.getItem(AUTO_OPEN_KEY)) return;
     if (window.innerWidth < 768) return;
     sessionStorage.setItem(AUTO_OPEN_KEY, '1');
     setTimeout(() => setOpen(true, { silent: true }), 900);
   }
 
+  PANEL_API = { setOpen, openRoom, syncFromHash, maybeAutoOpen };
   return { setOpen, syncFromHash, maybeAutoOpen };
 }
 
@@ -707,4 +885,4 @@ wireTooltips(rail);
 const w = wire();
 w.maybeAutoOpen();
 w.syncFromHash();
-loadViews();
+loadRoomContent('politics');

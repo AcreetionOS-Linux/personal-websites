@@ -1,0 +1,361 @@
+# The Long Road
+
+*High school, the system, the meds, and the drive west — the years the highlights reel skips, from Stillwater to my real father.*
+
+---
+
+## The kid who was never enough
+
+Let me take you back to the years that made the parts you already read possible. High school. Band practice at dawn, marching season and concert season both, a degree program at Meridian Technology Center, and a full class schedule at the same time — all of it running on a brain that the adults had already decided was broken.
+
+And I was **ignored**. Not hated, not watched, not helped — *ignored*. The kind of ignored where you could stand in the middle of a room full of people and still be alone. I was a transgender girl in the middle of conservative Oklahoma, in Stillwater, a college town that had no idea what to do with a kid like me — still closeted, but with **the gay flame in my voice**, the tell I couldn't hide no matter how hard I performed the boy everyone thought I was. My mother was a teacher. My father worked maintenance at OSU. They were both incredibly depressed — the kind of tired that has nothing left to give anyone, least of all a child they didn't understand.
+
+And the label they reached for — the one that became the lens everything got read through — was **Bipolar Disorder**. It came at sixteen, and it was wrong. I told them it was wrong. For years. Until they got me to believe it.
+
+And all of it — the meds, the schedules, the exhaustion, the way I couldn't just *function* like a normal teenager — got summed up in one sentence that I heard so many times it stopped sounding like an insult and started sounding like a fact:
+
+**"You're not enough."**
+
+This is the story of why that sentence was a lie, and what it cost me to believe it.
+
+---
+
+## Before that: the system
+
+You can't understand the high school years without the ones that came first, so here's the short version of the long version:
+
+I was in foster care from **age two to four**. **Nine houses.** That's nine rooms, nine sets of rules, nine families, nine goodbyes — and in **five** of those houses, the people whose job was to keep me safe did the opposite. I was **molested**. I was **beaten**. By the adults. The ones the state handed me to. That's why I had Medicare until I was eighteen — because the system had its hands on my life before I could even talk.
+
+And then, when the state was done shuffling me, I was **forced to be adopted by people I didn't know**. Not chosen. Not wanted. *Placed.* And I went along with it, because even at that age I understood the math: it was better to live a lie than to stay in that system. So I became the **"good boy"** everyone wanted — polite, quiet, grateful — pretending to be a boy because I was *afraid*. Terrified that if I showed them who I actually was, I'd lose the only roof I had.
+
+I wore that mask for years. I got so good at it that everyone believed it.
+
+Until 8th grade. When the mask cracked.
+
+---
+
+## The snap — and the label that ate the truth
+
+Here's the part I don't enjoy reliving, so I'll keep it to what matters:
+
+After years of my mother's abuse — and I mean *years*, the kind that grinds a child down to a nub — I **snapped**. I tried to kill her. Not because I was evil. Because I was a child who was terrified she was trying to hurt my brother and me, and my nervous system had run out of every other option it had. That's what abuse does to a kid: it teaches them that violence is the only language that makes the hurting stop.
+
+So what did the system do with a traumatized child who finally broke?
+
+They didn't ask what happened to me. They didn't dig into the abuse. They took the child who was screaming for help and filed her under *behavior problem* — "a moody teenager." The formal **Bipolar Disorder** diagnosis came later, at sixteen, and I spent years after that telling them it was wrong. They spent those same years wearing me down until I believed it.
+
+### Why that ruins a life
+
+Here's the thing about a misdiagnosis like that: it doesn't just get your meds wrong. It **rewrites your entire life story**.
+
+- The label becomes the lens. Every panic attack is a "bipolar swing." Every flashback is "mood instability." Every legitimate fear is "paranoia." Nothing you say is taken at face value again, because the chart says you're unreliable.
+- The real problem — the trauma, the undiagnosed neuroimmune condition, the autism nobody had named yet — gets **zero treatment** while the wrong problem gets *aggressive* treatment. You take meds for a disease you don't have, and they make everything worse.
+- You learn that the adults will never believe you, so you stop telling the truth. You start performing the label they gave you, because at least a "crazy kid" gets *seen*. Being a problem is better than being invisible — for a while.
+- And the deepest cut: **you internalize it.** When the wrong diagnosis is all you hear, you start to believe you *are* the problem. "Moody teenager" becomes "I'm too much." "Bipolar" becomes "I'm broken." The abuse that was done to you becomes a flaw *in* you.
+
+That's why a misdiagnosis ruins a life. It doesn't just delay the right care — it actively teaches you to hate yourself, and it hands the people who hurt you an excuse: *"See? She was always going to end up like this."*
+
+I spent the next two decades unlearning that lie. And I'm still unlearning it.
+
+---
+
+## The meds — and what they did to me
+
+So now I'm a "bipolar moody teenager" in high school. And the treatment for being "moody" was:
+
+**Two antidepressants. Multiple antipsychotics.**
+
+Let me tell you what that cocktail did to a kid who was already drowning:
+
+- Antipsychotics **sedate you**. Not metaphorically — they put a chemical fog over your entire brain. Your thoughts come slower. Your body moves slower. Your emotions get flattened into a gray nothing.
+- They **pack on weight** and wreck your metabolism — which, combined with the AS I didn't know I had yet, set me up for the body I have now. The same adults who'd later tell me "just lose weight" were the ones prescribing the drugs that made losing it nearly impossible.
+- And they **blunt the very things I needed** to survive my schedule: memory, focus, processing speed, energy.
+
+And what was my schedule? Oh, nothing. Just:
+
+- **Band** — marching season *and* concert season, which is two full extracurricular programs with dawn practices and evening rehearsals.
+- **Meridian Technology Center** — an entire vocational degree program.
+- **And high school** — the actual classes, on top of both.
+
+All at the same time. All on a brain swimming in sedatives.
+
+### What that does to a person
+
+This is the part the "you're not enough" crowd never understood, so let me spell it out:
+
+You cannot run three full-time programs on antipsychotics. It is not a willpower problem. It is a **pharmacology problem**. The meds were doing exactly what they were designed to do — the problem was that I'd been prescribed them for a condition I didn't have, in doses that made a functioning teenager impossible.
+
+The teachers saw a kid who was slow, unfocused, exhausted, gaining weight. They didn't see a kid whose brain was being chemically hobbled by the system that was supposed to help her. So the conclusion was always the same: **"She's not trying."**
+
+I was trying. God, I was *trying*. I was running on empty, at full speed, with a broken engine, and the world kept telling me the engine was fine and I was just lazy.
+
+That's what the meds did. They turned my real, desperate effort into something invisible — and then the adults used the invisibility as proof that I wasn't enough.
+
+---
+
+## The giving up
+
+I made it through **9th and 10th grade**. Somewhere in there, I was still fighting.
+
+Junior and senior year? **I gave up.**
+
+Not because I stopped trying. Because trying had never once worked, and I was out of fuel. But here's what "giving up" looked like for me — it wasn't lying in bed. It was being forced to **walk to and from school every day**, because "I wouldn't keep a job." A parent's punishment for a kid who couldn't hold down work while drowning in antipsychotics and a triple schedule was: *walk. Every mile of it. In Oklahoma.*
+
+And I wasn't just walking myself. I was **walking my brother to school every morning** — basically being the parent of him, making sure he got there safe, making sure he got home safe, every single day. Not because anyone asked me to be his parent. Because someone had to be, and the adults weren't.
+
+Those mornings were something. I'd get us both up, get us both ready, walk him, get myself to class, do the whole impossible day, walk him home, and then do it again the next morning — all while being told I wasn't doing enough.
+
+The math never worked. The effort was never visible. The exhaustion was never counted. I was the parent, the student, the band member, the tech student, the patient — everything except a child who needed help.
+
+By the time the cap and gown came around, I wasn't celebrating. I was just surviving to the finish line.
+
+---
+
+## The graduation that wasn't
+
+I graduated **in the middle of COVID**.
+
+Which means: the ceremony got postponed **three months** because of a pandemic, it **rained**, social distancing turned it into a joke — rows of masks and spaced-out chairs and nobody allowed to hug anyone — and when it finally happened, it happened **weeks before I was supposed to start at OSU Stillwater**.
+
+The graduation itself was a footnote. The real story was everything around it.
+
+Because the only reason I had a shot at college at all was **my grandparents**. They paid for my first year. My parents refused. Not because they were cruel — they were drowning themselves. They'd never have survived paying for it, and I wasn't asking them to. I knew that.
+
+But what they *did* was worse than not paying: **they refused to give their Social Security information for the FAFSA.** Which forced me to file as an *independent* student.
+
+And filing independent? That **ruined my scholarship opportunities.** Scholarship after scholarship is tied to parent info, parent income, parent signatures. And I **knew** about the scholarships and grants — I knew exactly what they were, what they required, and what they could have meant for me. My parents just **wouldn't put in their information.** By refusing to hand over a form number, they locked doors I was standing right in front of — doors I knew existed, that I'd researched, that they chose not to open. They broke me, and this was the second time, and they did it on purpose.
+
+So I went to OSU on my grandparents' dime, carrying a broken diagnosis, a chemistry set of wrong meds, and no real support system.
+
+### Three weeks in
+
+Three weeks into my first semester, **my bio mom contacted me.**
+
+That alone would have destabilized anyone. But here's the part that matters: **the meds had never worked.** Not once. Not in all those years. Because — we found out much later — my problem was **neuroimmune**. The drugs they'd been prescribing me were aimed at a chemical imbalance I didn't have, while the actual issue — an immune system attacking my own brain and body — went completely untreated.
+
+### Why neuroimmune matters
+
+Here's why that word changes everything: if your depression, anxiety, and cognitive problems are driven by **inflammation and immune dysfunction**, then the standard psychiatric toolbox is aimed at the wrong target. You can pump in antidepressants and antipsychotics forever and the underlying process just keeps chewing on you — because the meds never addressed the mechanism.
+
+And here's the cruelest part: there *was* a drug that could have helped. **Lamotrigine** — a mood stabilizer that works on a different pathway entirely, the kind of thing that can make a real difference for neuroimmune presentations. They **offered it to me.**
+
+And my insurance — which was still Medicare — **would not pay for it. In 2020.**
+
+The system prescribed me years of drugs for the wrong disease, and then refused to pay for the one drug that might have actually done something. That's not a system failure. That's a system *design* — a design built around compliance and cost, not around care.
+
+I dropped out of OSU. I couldn't survive it. The schedule, the wrong meds, the bio mom re-entry, the isolation — it was too much, and for once, the honest thing to say is that I *couldn't*, not that I didn't try.
+
+And when I couldn't come home — because **mom and dad wouldn't let me** — I went to live with a friend.
+
+---
+
+## The fall
+
+Living with that friend was the first kindness I'd had in a long time. And even that got poisoned: I found out later that **Heather — my adoptive mom — was shit-talking me** behind my back the whole time. The woman who'd taken me in when I was a terrified child was bad-mouthing me to anyone who'd listen while I was fighting for my life.
+
+And I was fighting. Here's what survival looked like:
+
+- **Walking miles and miles every day** — because we rarely had power at home, no internet ever, no cellphone service.
+- **On food stamps**, trying to find work — and people **don't want people like me**.
+
+### Why people don't want people like me
+
+Let me be blunt about this, because it's a real thing and it deserves real words: I was a visibly trans woman in conservative Oklahoma, on food stamps, without a car, without an address that stayed put, with a mental health history on paper and a body that hurt from the AS I didn't know I had. Every one of those is a reason for an employer to say no — and they did, over and over.
+
+I looked tired because I was tired. I couldn't afford to present well because I couldn't afford anything. My work history had gaps because I'd been hospitalized and abandoned and homeless-adjacent. And when you're poor and disabled and visibly different, every interview is a gauntlet where you have to prove you're not the thing they're afraid you are — while starving.
+
+So. We went to sign a lease for a new place — my friend's mom wanted everyone out of the apartment, no big deal, we'd find somewhere together.
+
+And **I got taken advantage of for my disabilities.** By a college complex. They signed me onto a lease I could never afford, knowing exactly what they were doing — because I was desperate, because I didn't understand the fine print, because I was the kind of person who gets squeezed. I even signed a *second* lease at a new place at the same time, just to have a roof over my head.
+
+**Heather and Jeff loaned me two thousand dollars** trying to help — draining their savings to keep me afloat. I've never forgotten that, and I never will.
+
+One month in, I still couldn't pay rent.
+
+A few more weeks passed.
+
+And then the eviction notice came.
+
+---
+
+## The first time
+
+That's when I **tried to commit suicide for the first time.**
+
+I don't want to give you the gory details. I want to give you the *shape* of it: a kid who'd been abused by the system, misdiagnosed by the medical system, drugged into uselessness by the pharmaceutical system, refused by her parents, squeezed by her landlord, and told her whole life she wasn't enough — finally agreed with them.
+
+Heather forced me to move home. **Jeff — my adoptive father — refused to talk to me for a full year.** A year. The man who'd helped raise me looked at his suicidal, homeless, broken child and chose silence.
+
+And when I told them I was in pain — real, physical pain, the kind my spine was already writing into my bones — the answer from the people who were supposed to love me was:
+
+> **"You're overweight. Lose some weight and the pain will stop."**
+
+That was the entire medical plan. No doctors. No tests. No follow-up. I had **no access to doctors whatsoever** — no vehicle to my name, nothing. I barely had a place to sleep: no bed, just a **giant bean bag in their family room**.
+
+I had no job. I filed for Social Security for the first time, on the laptop I'd bought with a stimulus check. And I never got a response — until later, when I found out I'd **missed an appointment I never even got mail for.** No letter, no call, no notice. Just a missed appointment that cost me months, in a system that treats a disabled person's survival as a paperwork problem.
+
+I'm not going to linger here. That year almost ended me. The only reason it didn't is that I was too stubborn to give them the satisfaction — and too scared to let my brother grow up without me.
+
+---
+
+## Ross, the reserve, and Belk
+
+Somehow, I got a job at **Ross.** I worked there for a few months. I saved up — slowly, painfully, one paycheck at a time — enough to move out.
+
+I moved onto **the reserve in Perkins**. College housing. Cheap. Four housemates, all different rooms. The idea was that I wanted to go back to college, and it was the cheapest roof I could find. And for a little while, it worked.
+
+Then I had to leave Ross — because **I couldn't keep myself from trying to hurt others.** Not that I hurt anyone. I *didn't* — that's the whole point. I felt the urge, I recognized what it was, and I removed myself before I could become the thing I was afraid of. I ghosted them. It was the safest thing I could do for the people around me, even if it cost me everything.
+
+Then I went to **Belk** — and got **fired for having COVID.** Fired. For getting sick, during a pandemic, by a company that couldn't handle a positive test.
+
+And after that? **I just gave the fuck up.** Groceries on food stamps. Months of nothing. And then the worst thing of all:
+
+**I got accused of pedophilia.**
+
+It never happened. It *never* happened — and by then, even my family was willing to back me up with lawyers, because they knew the accusation was garbage. But an accusation like that doesn't need to be true to destroy you. It just needs to be said.
+
+Mom made me move home. Jeff still wouldn't talk to me. That year of silence was still running.
+
+---
+
+## The janitor
+
+Moving home came with a condition: I had to be out looking for work **every day, five days a week**, for months. I did it. I wore out shoes and hope in equal measure.
+
+I worked at my mom's workplace for a while — until I had a **mental episode on the job.** I ended up in the hospital, and I never went back, because I knew that environment was what caused it.
+
+And then I took the job that almost broke me for good:
+
+**Janitor for a three-school district. By myself.**
+
+A massive gymnasium. A cafeteria/basketball court. Three buildings of floors and bathrooms and trash. **5 AM to 6 PM, four days a week.** One person. Me.
+
+I don't know how long I lasted, but I know the cost. My body was screaming — the AS was already fusing my spine, and I didn't know it yet. My brain was drowning. And when it finally broke, it broke *on the job*, and the hospital was the only mercy in it.
+
+After that, I couldn't get a job for a long, long time. Not until March of the next year.
+
+But here's the thing about that dark stretch: **my mom was helping me.** She helped me find housing, took me to and from places — and I paid my part of the groceries, because by then I could. It wasn't enough to undo the damage, and I'm not going to pretend it was. But it was real, and it matters that I say it.
+
+And I finally got the help I needed for housing through **Grand Lake Mental Health.** They had a division for it.
+
+Which **shut down shortly after I got help.**
+
+God, that's scary to think about. How close I came. How easily the door could have closed a month earlier and I'd have been under a bridge instead of in a home.
+
+---
+
+## The hotel, the math, and the studio
+
+With steady employment at a hotel — and I use "steady" loosely — I finally had income.
+
+Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week. 110-hour weeks.** After that, five days a week. A full year of that.
+
+Do the math. Do the actual math: **110 hours a week at $9.50 an hour is $1,045 a week.** That's over four thousand dollars a month. I was making eight hundred. Where did the other three thousand go? I never saw a single honest pay stub that explained it. I was being cheated — worked like a machine and paid like a pawn — by people who knew I couldn't afford to question it.
+
+I left that job because **someone was sexually advancing toward me, and I told them to stop.** He was drunk, on my shift, and when I said no, that was the end of that job for me. I'm not sorry I said no. I'll never be sorry I said no.
+
+But then I couldn't find housing. And Jeff wanted me gone — **no matter what. Didn't care if I went homeless.**
+
+So I signed a lease with my own money. **Four thousand dollars cash down** on a **rat-infested shit studio** — just so I could have a roof over my head, because the alternative was the street.
+
+I moved in. Walked **two miles each way to work, every day.** On my then-undiagnosed conditions. My spine fusing. My body at 400+ pounds. My brain on a decade of wrong meds.
+
+And in **February 2025**, while I was still in that grind, I got the diagnosis that should have come decades earlier:
+
+**Ankylosing spondylitis. And rheumatoid arthritis.**
+
+At the OAC, in Oklahoma. And every bit of it — the meds, the treatments — paid for **out of my own pocket, or by grants.** Not by the system that had misread me my whole life. By me, and by the kindness of strangers.
+
+The timeline, for the record: I started that hotel job **April 2023**, left **April 2024**. And in **September 2023**, I got a car — from my grandmother's estate, through my mom. It's still technically in her name; we have a verbal agreement, and I have the title and the loan details with me, so I can prove it in Washington State. It's got expired tags and plates now, because I lost the ability to drive — or even move safely — for a while there.
+
+---
+
+## Hideaway — the one week
+
+After I left the hotel job, I tried to find another one. Depressed as all hell. Terrified. I looked like hell — and I was using the nights to talk to my friends, one of whom, I'd find out much later, was my bio dad.
+
+In mid-May, I got hired at **Hideaway Pizza.**
+
+I lasted one week.
+
+I was already late on rent. And I **couldn't memorize the menu.** No matter how hard I tried.
+
+### Why I couldn't memorize the menu
+
+Because the disabilities nobody had diagnosed yet — the neuroimmune condition, the autism, the psychomotor stuff — were doing exactly what they'd always done: my brain is an *input* machine, not an *output* machine. I could take in and understand more than I could produce on a timer. Memorizing a menu under pressure, while terrified of losing the only job I could get, while my body hurt and my brain fogged — that wasn't a laziness problem. It was a processing problem, and I didn't have the words for it yet.
+
+So after one week, I ghosted them. **Because of shame.** I couldn't say "my brain and body can't do this" — I didn't even know that was true yet. All I knew was that I was 450 pounds, my conditions were eating me alive, and I couldn't keep up with the one job that would have me.
+
+I was scared. So scared. And I had no way to say any of it.
+
+---
+
+## The last kindness
+
+And then I got **blessed by a friend who saved my life.**
+
+They gave me money from their own tax return. Their own. I miss that friend so much — I think about them all the time. Very amazing person. If you're reading this and you know who you are: thank you. I owe you my life.
+
+That kept me in that apartment for two more months while I kept trying — he'd even hired me in the meantime, but I couldn't get work anywhere. No matter what I tried. Nothing.
+
+And then the **eviction notice** came.
+
+I was terrified. I had no idea what to do. I was going to die. I was going to go homeless and everything was going to be over. That's what the fear said, and I believed it.
+
+And that's when **John and Darren saved my life.**
+
+John gave me a **$500 loan.** And Darren — my bio dad, though I didn't know it yet — offered me a place to stay. A room to rent. Not a big room, but a room with a roof over it.
+
+It was between him and Alex — the guy I'd been doing YouTube with. And John and Darren convinced me.
+
+I did a background check on Darren. He passed. (Ha. He's my dad.)
+
+I left with that $500, my car, expired tags and plates, **no car insurance, just fear.** I didn't even say goodbye to anyone in Stillwater. I had five days to get out. I left on **day two**, leaving a lot of stuff behind without caring, because I knew my world was ending.
+
+Turns out it was beginning.
+
+---
+
+## The drive
+
+I drove north through Kansas, to a tiny town in the middle of it, and had food. Then Colorado, and up through Denver. Just past Denver, I **slept in my car in a truck stop** — blanket and pillow, the safest option I had — and woke up four hours later and left again. I had paper maps and a phone I paid for myself.
+
+Utah. South Dakota. North Dakota — food, a truck stop, sleep. Montana.
+
+Then **Idaho.** Where I **spun out and almost died.** Instantly after I woke up from that — because I'd slept, I guess — I got back on the road, went through Idaho, and saw my **first Cybertruck.** I was so excited. It was the dumbest thing in the world to be excited about, in the middle of the most scared I'd ever been, and I was *delighted.*
+
+Then I got to Spokane.
+
+I nearly shit myself just seeing the east side. I had never seen somewhere so large. Stillwater is a college town; Spokane is a *city* — and I'd spent my whole life in places where everybody knew everybody.
+
+And I met **Darren** for the first time. With his girlfriend.
+
+Stephanie. Lol.
+
+But then we got home — and on day two, we were talking about how I had nowhere else to go, and I brought up my bio mom.
+
+And he said:
+
+> **"I know her. We were fucking about that time."**
+
+Bruh moment.
+
+---
+
+## Home
+
+So here's the part that still makes me cry:
+
+He was my friend for a while. And then we got closer. Much closer.
+
+I love him to death. He is my dad. My actual, real, biological father — the one who saved me when nobody else would, who offered a room to a stranger with expired tags and no insurance and a lifetime of fear, and turned out to be family.
+
+I am going to cry, I swear, just writing this.
+
+The long road — nine foster homes, five betrayals, two decades of wrong meds, a misdiagnosis that ate my youth, an eviction, a suicide attempt, a cross-country drive through a blizzard of fear — it ends here. In a city I'd never seen, with a man I'd never met, who turned out to be the father I was always supposed to have.
+
+Not enough? I survived all of that. I'm still here, still writing, still building, still *me* — and now I have a dad who actually shows up.
+
+That's the punchline to the "you're not enough" years: **I was always enough. The people who said otherwise were wrong.**
+
+And I've got the receipts to prove it. ❤️
