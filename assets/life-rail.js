@@ -468,8 +468,6 @@ function buildPanel() {
     '        <span class="lr-search-count" id="lr-search-count"></span>' +
     '      </div>' +
     '    </div>' +
-    INTRO_HTML +
-    '    <div class="lr-divider"><span>my actual views — rendered from <code>political-stance.md</code> + <code>politics-deep-dive.md</code></span></div>' +
     '    <div class="lr-md" id="lr-content"><div class="lr-loading">reading my views… ❤️</div></div>' +
     '  </div>' +
     '</div>' +
