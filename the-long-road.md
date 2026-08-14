@@ -212,7 +212,11 @@ And after that? **I just gave the fuck up.** Groceries on food stamps. Months of
 
 **I got accused of pedophilia.**
 
-It never happened. It *never* happened — and by then, even my family was willing to back me up with lawyers, because they knew the accusation was garbage. But an accusation like that doesn't need to be true to destroy you. It just needs to be said.
+It never happened. It *never* happened. And the accusation didn't come out of nowhere — it came from **the Stillwater Chapter's assistant chapter dad.** A grown man, an adult in a position of authority over the youth order I'd given everything to, accusing *me* — the teenager — of the one thing that would end my life if it stuck. And he is now the **main Chapter Dad.** The man who did this to me got promoted for it.
+
+Here's how I know it was a lie, and here's the part that tells you everything about how these things work: **the minute we brought up lawyers, it all stopped.** Everything was let go. Charges were dropped. Mom pleaded with them. And then — after the charges were dropped — **they even invited me back.** Back to the chapter. Back to the order. As if nothing had happened.
+
+(To be clear: this is from my memory, and I don't rely entirely on my memory for details. But the shape of it is right — an adult in authority accused me, lawyers ended it, and I was invited back. An accusation like that doesn't need to be true to destroy you. It just needs to be said.)
 
 Mom made me move home. Jeff still wouldn't talk to me. That year of silence was still running.
 
@@ -222,15 +226,11 @@ Mom made me move home. Jeff still wouldn't talk to me. That year of silence was 
 
 Moving home came with a condition: I had to be out looking for work **every day, five days a week**, for months. I did it. I wore out shoes and hope in equal measure.
 
-I worked at my mom's workplace for a while — until I had a **mental episode on the job.** I ended up in the hospital, and I never went back, because I knew that environment was what caused it.
+And then I took the job that almost broke me for good — **a janitor at my mom's workplace. By myself.**
 
-And then I took the job that almost broke me for good:
+A massive gymnasium. A cafeteria/basketball court. Three buildings of floors and bathrooms and trash. **5 AM to 6 PM, four days a week.** One person. Me. It was the same job as the "three-school district" one, in case the record ever splits them into two: it was one job, one person, three buildings, no help.
 
-**Janitor for a three-school district. By myself.**
-
-A massive gymnasium. A cafeteria/basketball court. Three buildings of floors and bathrooms and trash. **5 AM to 6 PM, four days a week.** One person. Me.
-
-I don't know how long I lasted, but I know the cost. My body was screaming — the AS was already fusing my spine, and I didn't know it yet. My brain was drowning. And when it finally broke, it broke *on the job*, and the hospital was the only mercy in it.
+I don't know how long I lasted, but I know the cost. My body was screaming — the AS was already fusing my spine, and I didn't know it yet. My brain was drowning. And when it finally broke, it broke *on the job* — I had a **mental episode at work**, ended up in the hospital, and never went back, because I knew that environment was what caused it. The hospital was the only mercy in it.
 
 After that, I couldn't get a job for a long, long time. Not until March of the next year.
 
@@ -246,13 +246,57 @@ God, that's scary to think about. How close I came. How easily the door could ha
 
 ## The hotel, the math, and the studio
 
-With steady employment at a hotel — and I use "steady" loosely — I finally had income.
+With steady employment at a hotel — and I use "steady" loosely — I finally had income. It was a **Holiday Inn Express**, and the company that subcontracted to run it was **Shree Sani Sai**. Remember that name. It's on the receipts.
 
 Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week. 110-hour weeks.** After that, five days a week. A full year of that.
 
-Do the math. Do the actual math: **110 hours a week at $9.50 an hour is $1,045 a week.** That's over four thousand dollars a month. I was making eight hundred. Where did the other three thousand go? I never saw a single honest pay stub that explained it. I was being cheated — worked like a machine and paid like a pawn — by people who knew I couldn't afford to question it.
+Do the math. Do the actual math, because I did, and it still makes me see red:
+
+- **110 hours a week at $9.50 an hour is $1,045 a week.**
+- That's **$4,525 a month** if I got paid for every hour I worked.
+- I was making **$800 a month.**
+
+That means **Shree Sani Sai shorted me somewhere around $3,700 a month** — and that's just the first four months, when I was pulling 110-hour weeks. **Over those four months alone, that's roughly $14,900 they kept.** The rest of the year, five days a week, the same math kept running: even at a conservative 40-hour week I should have cleared $1,600 a month, and I still got eight hundred. Run the whole year and it lands **north of twenty thousand dollars** of my labor that I never saw — no honest pay stub, no explanation, no recourse.
+
+Where did it go? I never saw a single honest pay stub that explained it. I was being cheated — worked like a machine and paid like a pawn — by people who knew I couldn't afford to question it. People who knew the exact same thing that every other person in this story knew: I had no car, no address that stayed put, no money for a lawyer, and a mental health history on paper that made me the easiest person in Oklahoma to rob.
+
+### The logistics of being carless — before the car
+
+And let me tell you what "paid $800 a month" actually looked like on the ground, because the money math only tells half the story.
+
+I didn't have a car for most of this. **I used the boss system for everything** — rides to and from work, rides to run errands, whatever I could beg off the people who were paying me a quarter of what they owed. When you work 110 hours a week and your entire existence depends on the goodwill of the people shorting you, you don't complain about the rides. You say thank you. You take the crumbs and you're grateful, because the alternative is walking.
+
+And I walked a lot.
+
+- The bank was **three miles from me**. So every payday — every single one — I **walked three miles to manually deposit my check**. Not direct deposit. Not a car in the parking lot. A check in my hand and my own two feet carrying me three miles to hand it to a teller, on a spine that was already fusing.
+- **Aldi was two miles from my apartment.** **Walmart was a mile and a half.** So groceries meant choosing which distance to hike — two miles to Aldi for the cheap stuff, a mile and a half to Walmart when Aldi didn't have it — and then carrying whatever I could afford back the same way, on foot, in Oklahoma heat.
+
+So picture the full loop, the one the math doesn't show you: I worked 110 hours a week for $800 a month. I walked three miles to deposit the check they'd shorted me. I walked two miles to spend what was left on food. I walked a mile and a half because Walmart was closer. And I did all of it on a body that was falling apart — spine fusing, weight climbing from a decade of wrong meds — while the people who owed me three thousand dollars a month sat in their cars and waved.
+
+That's what wage theft looks like from the ground. It's not just the missing money. It's the miles. It's the feet. It's choosing between the bank and the grocery store because you can only walk so far in a day. It's being grateful for the ride from the person who's robbing you. **That's the part of the math that doesn't fit on a pay stub — and it's the part they never had to answer for.**
+
+### Why I left — and why the state let them get away with it
 
 I left that job because **someone was sexually advancing toward me, and I told them to stop.** He was drunk, on my shift, and when I said no, that was the end of that job for me. I'm not sorry I said no. I'll never be sorry I said no.
+
+Here's the part that makes it a trap instead of a story: **he was one of my bosses' children.** Not legally children — an adult child of the boss, with the boss's name and the boss's protection behind him. So there was no one to report him to. The person who would hear the complaint was the parent of the person I'd be complaining about. Reporting it meant telling my boss that his own child had been coming at me, and betting everything on the boss believing *me* — the $800-a-month, 110-hour-a-week, visibly broke and mentally ill girl — over his own kid. I couldn't win that bet. Nobody in my position could.
+
+So I said no, and I left. That was the only move I had.
+
+### And then Oklahoma denied my unemployment
+
+I filed for unemployment after leaving. **Oklahoma denied me.**
+
+Why? Because of **Title 40, Section 2-404 of the Oklahoma Statutes**: you're disqualified for benefits if you leave work *"voluntarily without good cause connected to the work."* And the only thing that would have proven "good cause" — that I left because of sexual harassment — was the exact thing the structure made impossible to prove:
+
+- The harassment **wasn't reported**, because the harasser was the boss's child and there was no safe person to report to.
+- With no report, there's no employer response on record, no investigation, no paper trail — nothing the state can point to and say "yes, the workplace was the problem, not the worker."
+- The boss — whose child was the harasser — had every reason to tell the state I quit for personal reasons. And the state believed the employer, because employers are who the state listens to.
+- So it went down as a **voluntary quit without provable good cause**, and under §2-404 I was disqualified for the full period of unemployment — until I got reemployed and earned wages equal to ten times my weekly benefit amount. A punishment designed for people who walk off the job for no reason, applied to the girl who said no to the boss's son and then got robbed of her safety net for it.
+
+That's the whole system in miniature: **the harassment put me out of work, and the structure around it — the boss's child, the un-reportable report, the employer's word over mine — made sure the state sided with the people who drove me out.** I didn't just lose the job. I lost the job, I lost the money they'd stolen, I lost the unemployment that should have caught me, and I walked away with nothing but the knowledge that I'd done the only right thing available and been punished for it.
+
+### The studio
 
 But then I couldn't find housing. And Jeff wanted me gone — **no matter what. Didn't care if I went homeless.**
 
