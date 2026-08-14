@@ -38,6 +38,7 @@ const MD_URL6 = 'stillwater.md';
 const MD_URL7 = 'faith.md';
 const MD_URL8 = 'identity.md';
 const MD_URL9 = 'sexuality.md';
+const MD_URL10 = 'the-cure.md';
 const GATE_KEY = 'lr-dark-gate';
 const AUTO_OPEN_KEY = 'lr-auto-open-done';
 
@@ -108,6 +109,12 @@ const ICONS = [
     id: 'sexuality',
     icon: 'fa-venus-mars',
     label: 'Sexuality — a woman who likes men',
+    active: true,
+  },
+  {
+    id: 'cure',
+    icon: 'fa-brain',
+    label: 'The Cure — root cause resolution',
     active: true,
   },
 ];
@@ -490,6 +497,7 @@ const ROOM_META = {
   faith: { icon: 'fa-book-bible', title: 'Faith', files: [MD_URL7] },
   identity: { icon: 'fa-heart', title: 'Identity', files: [MD_URL8] },
   sexuality: { icon: 'fa-venus-mars', title: 'Sexuality', files: [MD_URL9] },
+  cure: { icon: 'fa-brain', title: 'The Cure', files: [MD_URL10] },
 };
 
 let PANEL_API = null; // set by wire(); lets the gate close the panel
@@ -583,6 +591,7 @@ async function loadRoomContent(room) {
       faith: fb.faith ? [fb.faith] : null,
       identity: fb.identity ? [fb.identity] : null,
       sexuality: fb.sexuality ? [fb.sexuality] : null,
+      cure: fb.cure ? [fb.cure] : null,
     }[room];
     if (fbk) {
       texts = fbk;
