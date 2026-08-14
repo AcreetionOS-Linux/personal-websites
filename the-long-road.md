@@ -63,7 +63,7 @@ I spent the next two decades unlearning that lie. And I'm still unlearning it.
 
 So now I'm a "bipolar moody teenager" in high school. And the treatment for being "moody" was:
 
-**Two antidepressants. Multiple antipsychotics.**
+**Two antidepressants. Multiple antipsychotics.** Including, as the first one — the one that started the whole chemical-fog life — **Invega Sustenna**: the long-acting injectable, the **liquid crystal form**. It's not a pill you can stop taking. It's a depot — crystals injected into muscle that keep dissolving and releasing for roughly a month per shot, lingering for months, with no antidote and no "I'm done with this." One injection when I was sixteen, and the chemical zap it fired through my brain never un-fired. That's the drug that started all of this.
 
 Let me tell you what that cocktail did to a kid who was already drowning:
 
@@ -310,7 +310,37 @@ And in **February 2025**, while I was still in that grind, I got the diagnosis t
 
 At the OAC, in Oklahoma. And every bit of it — the meds, the treatments — paid for **out of my own pocket, or by grants.** Not by the system that had misread me my whole life. By me, and by the kindness of strangers.
 
-The timeline, for the record: I started that hotel job **April 2023**, left **April 2024**. And in **September 2023**, I got a car — from my grandmother's estate, through my mom. It's still technically in her name; we have a verbal agreement, and I have the title and the loan details with me, so I can prove it in Washington State. It's got expired tags and plates now, because I lost the ability to drive — or even move safely — for a while there.
+The timeline, for the record: I started that hotel job **April 2023**, left **April 2024**. And in **September 2023**, I got a car — from my grandmother's estate, through my mom.
+
+### The car, the title, and Washington law
+
+The car is still technically in my mom's name. That's the fact everyone fixates on, so let me explain the law and what it means.
+
+In Washington State, a vehicle's certificate of title is the paper that names the owner — and **whoever holds the title and the loan documents holds the proof**. The car came from my grandmother's estate: the money, the intent, the ownership all traced back to her, and the car was given to me through my mom as the conduit. We have a **verbal agreement** — clear, understood, and consistent on both sides: this is *my* car. And I physically have the **title and the loan details** with me.
+
+So here's what Washington law actually says about that:
+
+- **The title is evidence, not the whole story.** Under RCW 46.12.101 and the title chapter, the certificate of title names the registered owner — but possession of the title document, combined with the loan records and the estate provenance, is exactly the kind of paper trail Washington courts and the DOL look at when ownership is disputed. "It's in my mom's name" is not the end of the argument. It's the beginning of the evidence.
+- **A verbal agreement is a real thing in Washington.** For something like this — a family transfer, an estate asset, a car given to a child — the state recognizes that ownership isn't always a notarized handshake. The title says one thing; the surrounding facts say another; and the facts — who paid, who drove, who kept the title, who had the agreement — are what a dispute resolution would weigh. I have those facts on paper, in my possession.
+- **What the law *can't* do is make me drive it.**
+
+Because here's the part that the legal explanation leads to, and the part that hurts more than any of it:
+
+**I still can't drive. I never will again.**
+
+Not "can't drive right now." Not "can't drive for a while." **Never. Will. Again.** The same system that misdiagnosed me, zapped me with Invega Sustenna, and left my mind half-gone — the same conditions that fused my spine and wrecked my body — took the road from me. The cognitive fog, the memory, the processing speed, the physical inability to move safely, to react, to see a situation and handle it in time — you do not get behind the wheel of a car with that. And you do not get to pretend you will.
+
+That's why the tags are expired. That's why the plates are expired. Under **RCW 46.16A.030**, driving with an expired registration is a traffic infraction — and the state can evaluate and restrict the driving privilege of anyone with a condition that may affect safe driving under **RCW 46.20.041**, including requiring a physician's statement. I don't need the state to take my license, because the state's own medical system already took the ability. The expired tags aren't a legal risk I'm ignoring — they're a **mute confession on the bumper**: the person who owns this car cannot safely operate it, and the paperwork is just the last thing to stop pretending otherwise. The car sits. It stays in her name, because legally it doesn't matter who's on the title if I can't drive it anyway, and because the fight to fix the paperwork is a fight I no longer have the body or the mind to win.
+
+### The housebound — and the ADA accommodation
+
+And the car is the least of it.
+
+**I literally cannot leave home now.** Not "don't like to." Not "have trouble with." **Cannot.** The same body that can't drive can't safely get out the door, can't ambulate, can't manage the world outside the walls. I got a **letter for an ADA-accommodated unit** for exactly this reason — a documented, doctor-backed statement that I need accessible housing because I cannot function as an able-bodied person. That letter isn't a formality. It's the system's own paperwork admitting what it did to me and what I now need to survive.
+
+And **next year, we move into a wheelchair-accommodated unit.** A unit built for someone who can't walk the way other people walk. That's where this story ends up, physically: the girl who built operating systems and designed filesystems and drove a car across five states to escape — in a wheelchair-accommodated apartment, housebound, unable to leave home, unable to drive, with the tags on a car she'll never drive again still sitting in her mother's name.
+
+That's what the system did to me. That's what Invega Sustenna did. That's what "you're just overweight, lose weight and the pain will stop" did. And when people ask why I'm so angry, why I keep receipts, why I write it all down — **this is why.** The end of this story is a wheelchair-accessible unit and a car that will never move again, and every step of the way there was an adult with authority telling me I was the problem.
 
 ---
 

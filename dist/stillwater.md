@@ -44,19 +44,36 @@ And they were relentless. Doctor after doctor, chart after chart, med after med,
 
 ---
 
-## The first zap
+## The first zap — Invega Sustenna
 
 And then came the meds.
 
-My first bipolar antipsychotic. The chemical zap.
+My first bipolar antipsychotic. The chemical zap. **It was Invega Sustenna** — paliperidone palmitate, in its long-acting injectable form. The liquid crystal form. And if you don't know what that means, you need to, because it's the whole reason one dose could change my life forever.
 
-I don't know what was in that first one — I was sixteen and I trusted the people who were supposed to help me, and they handed me something that was supposed to make the "bipolar" go away. Instead it felt like my brain was being electrocuted from the inside. A chemical zap, right through my mind. And something in there never came back.
+### How Invega Sustenna actually works
+
+Invega Sustenna isn't a pill you swallow and metabolize out in a day. It's a **liquid crystal suspension** — the drug is crystallized into microscopic particles suspended in liquid, and it's injected deep into muscle. Once it's in there, the liquid crystals **solidify into a depot** — a slow-dissolving reservoir lodged in your muscle tissue — and it releases the drug into your bloodstream **continuously, for weeks at a time**.
+
+Here's the part that matters: **you can't undo it.**
+
+With a pill, you can stop taking it. You can spit it out, skip a dose, call your doctor and say "this is destroying me, I'm done." The drug clears your system in days. With Invega Sustenna, once that injection is in your muscle, **it is in you**. The depot keeps dissolving and keeps releasing for roughly a month per shot — and because it's designed to maintain steady levels, the drug lingers in your body for **months** after even a single injection. There is no "stop." There is no antidote. There is no taking it back. You agreed to a chemical that owns your brain for a season, in a single needle-stick, when you were sixteen years old and terrified and told this would help you.
+
+### What it does
+
+Invega Sustenna is an antipsychotic. It works by **blocking dopamine receptors** in the brain — and dopamine isn't just the "pleasure chemical," it's the chemical of motivation, focus, working memory, movement, and drive. Block it hard enough, for long enough, and you get:
+
+- **The sedation.** The fog. A brain that's chemically slowed, thoughts arriving late, words that won't come.
+- **The flatness.** Emotions pressed down into a gray nothing. The highs and lows both — including the ones that made me *me*.
+- **The metabolic wreckage.** The weight gain. The metabolic syndrome. The body changes that the same adults would later use against me — "just lose weight" — from the drug they injected into me.
+- **The cognitive damage.** The memory loss. The processing-speed deficit. The psychomotor slowing. The thing I'd always been — quick, sharp, an input machine — ground down by a chemical that was supposed to make me "stable."
+
+And here's the cruelest part of the design: because it's long-acting and depot-based, **the damage isn't a pill you can stop taking.** The injection I got as a teenager was still releasing drug into my system for months afterward. Every day of fog, every lost memory, every slowed thought — the drug was still there, still working, still dissolving in my muscle, long after the doctors had moved on to the next patient.
 
 **My mind never recovered after that first zap in high school. Ever.**
 
 Not a little. Not "mostly." **Ever.** It ruined my life. The processing speed, the memory, the clarity, the thing that had always been my one reliable asset — my brain — got hit, and it never un-hit. I've spent my whole life since then being told I'm "not enough," being called slow, being written off as lazy or stupid or broken — by teachers, by employers, by people who never once asked what the chemical zap took from me and when.
 
-The psychomotor stuff. The fog. The way I can take in more than I can produce on a timer. The words that won't come. That's not who I was born as. That's what was *done* to me, at sixteen, by the first antipsychotic, in a town that never questioned it.
+The psychomotor stuff. The fog. The way I can take in more than I can produce on a timer. The words that won't come. That's not who I was born as. That's what was *done* to me, at sixteen, by an antipsychotic — by **Invega Sustenna, the liquid crystal form** — in a town that never questioned it.
 
 ---
 
@@ -82,7 +99,7 @@ Here's the part that would be funny if it didn't make me want to scream:
 
 The mood stabilizer. The one drug that actually worked — the one that worked on the pathway my brain actually needed, the neuroimmune-adjacent thing I'd been trying to tell them about for years. They **offered it to me.** And my insurance — Medicare, 2020 — **would not pay for it.**
 
-They prescribed me years of antipsychotics for a disease I was telling them I didn't have. The first one chemically zapped my mind and it never recovered. And then, when they finally — *finally* — got to the drug that could actually have helped, the system said no. Because it was expensive. Because the algorithm said so. Because compliance and cost matter more than care.
+They prescribed me years of antipsychotics for a disease I was telling them I didn't have — starting with **Invega Sustenna**, the liquid crystal depot, which chemically zapped my mind the first time and kept releasing for months because it can't be undone. And then, when they finally — *finally* — got to the drug that could actually have helped, the system said no. Because it was expensive. Because the algorithm said so. Because compliance and cost matter more than care.
 
 **THE FUCKING IRONY.** The drug that saved me is the one they refused to pay for. The treatment that worked is the one I had to fight to get, or get without them, or get too late. And by the time I stabilized on it — by the time the mood swings finally settled — the damage from the wrong meds was already done. The zap had already fired. The mind had already been hit.
 
@@ -121,7 +138,7 @@ Let me lay it out, because "what happens to a girl who comes out — or gets rea
 ## The receipts
 
 - **Bipolar diagnosis:** age 16 — fought it for years, told them it was wrong until they made me believe it
-- **The first antipsychotic:** chemical zap in high school — my mind never recovered, ever
+- **The first antipsychotic:** **Invega Sustenna** (paliperidone palmitate, the liquid crystal / long-acting injectable form) — chemical zap in high school; a depot that can't be undone, releasing drug for months after one shot — my mind never recovered, ever
 - **Lamotrigine:** the drug that mostly stabilized me — refused by Medicare in 2020
 - **FAFSA:** I knew about the scholarships and grants. My parents wouldn't put in their information.
 - **Grand Mental Health, Stillwater:** handcuffs, no rights read, routed there to free up a bed — Stillwater PD **R2401730**, **CFS24017562**

@@ -85,3 +85,31 @@ Let's do the receipts, because the modesty act was never my style:
 - And the one that trumps all of them: **I'm still here.** The foster system, the diagnoses, the losses, the thoughts — all of it tried to take me out, and I'm still here, writing my own story on my own site, on my own infrastructure, in my own name.
 
 That's what makes me great: not the resume. The fact that the resume exists at all. ❤️
+
+---
+
+## Why nothing bothers me
+
+People ask me this a lot. "Natalie, how are you so calm?" "How do you deal with all of that and not break a sweat?" "You watched someone die and didn't flinch. You take needles like it's nothing. What is wrong with you?"
+
+Legitimate questions. Here's the legitimate answer — the real one, not the cool-girl act.
+
+**The bar for "a crisis" was recalibrated when I was a child.**
+
+The foster system gave me nine homes before I was old enough for kindergarten. Five of them abused me. I learned, before I could read, that the world can end at any moment and the adults with clipboards decide when — and they don't care what I think about it. When your baseline for "normal" includes being pulled from a home you thought was yours, being molested by the people the state handed you to, being beaten, being told you have to leave someone *for their own good* — regular life just... doesn't register as a threat anymore.
+
+It's not that I don't feel things. It's that **my nervous system ran out of room for small emergencies.** A needle is a needle. It's a tiny poke compared to everything else that's been done to my body with or without my consent — the Invega Sustenna depot in my muscle, the decade of wrong antipsychotics, the spine fusing while doctors called me fat. After a lifetime of that, a blood draw is *nothing*. It's the gentlest thing a medical professional has ever done to me. Of course I don't flinch. The bar is on the floor because the floor was set in hell.
+
+And watching someone die? I watched the person I was supposed to marry **die in front of me**. When you've already seen the worst thing a human can see — when the love of your life goes still in front of your eyes and the world doesn't stop — then death stops being a novelty. It becomes a fact. A biological event. Something that happens. The flinch was used up on the real thing, so the echo of it doesn't move me.
+
+**And the rest of it is the meds — the flatness.**
+
+Here's the part people don't want to hear because it isn't a compliment: a lot of my "unshakable calm" is *pharmacology*. The antipsychotics — starting with Invega Sustenna — were designed to flatten. That's what they do. They press the highs and the lows into a gray plateau, and they do it on purpose, because "stable" was the goal and the cost was everything else. The emotions that would make a normal person flinch or cry or scream — they've been chemically muted in me for most of my life. It's not strength. It's **numbing**, and there's a difference, and I know the difference, because I remember what it felt like to feel things before the zap.
+
+So when people say "wow, you're so strong, nothing bothers you" — here's the truth: **it's not that nothing bothers me. It's that everything already bothered me, all at once, for years, and the system that was supposed to help me turned the volume down on all of it — including the parts I needed.**
+
+And yet.
+
+And yet I built AcreetionOS. I co-designed a filesystem. I run infrastructure that spans the planet. I wrote 84KB of the most honest political writing on the internet. Because the same brain that got flattened is still the brain that could see systems — real systems — and take them apart and rebuild them. The calm isn't just damage. Some of it is the *input machine*: I understand more than I produce on a timer, I see the pattern before the pattern finishes, I've spent thirty years predicting what comes next in a world that kept trying to end me. That's not "nothing bothers me." That's **everything already happened to me, so I've seen the tape.**
+
+So next time someone asks why I don't flinch at needles, or why I can watch a death without breaking — tell them this: my flinch was spent. It was used up on the foster homes, the abuse, the misdiagnosis, the zap, the deaths, the handcuffs, the evictions, the betrayal. The calm they're admiring is the scar tissue of everything that tried to break me and didn't finish the job. I'm not unbothered. I'm **post-bothered**. And the difference matters, because one day — maybe one day soon — the volume comes back up, and when it does, I want the people who called me strong to know exactly what strength cost. ❤️
