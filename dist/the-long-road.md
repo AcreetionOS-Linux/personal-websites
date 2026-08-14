@@ -277,19 +277,54 @@ God, that's scary to think about. How close I came. How easily the door could ha
 
 ## The hotel, the math, and the studio
 
-With steady employment at a hotel — and I use "steady" loosely — I finally had income. It was a **Holiday Inn Express**, and the company that subcontracted to run it was **Shree Sani Sai**. Remember that name. It's on the receipts.
+With steady employment at a hotel — and I use "steady" loosely — I finally had income. It was a **Holiday Inn Express & Suites Stillwater – University Area**, at **700 East Krayler Avenue**, Stillwater, OK 74075. Still open today, if you want to look it up: rated 4.22 out of 5 on IHG's own site with 584 reviews, ranked #9 of 18 hotels in Stillwater on Tripadvisor. It'll still be there, taking guests' money and paying its workers pennies.
 
-Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week. 110-hour weeks.** After that, five days a week. A full year of that.
+And the company that subcontracted to run it was **Shree Sani Sai LLC** — registered in Stillwater at that exact Krayler Avenue address, a hotels-and-motels operation with about 19 employees on the books. You can find them in the Oklahoma business directories. You will *not* find them in any lawsuit database, any wage-complaint database, any news article, or any employee-review site — because they've never been caught, and no one has ever been able to afford to catch them. Remember that name. It's on the receipts.
 
-Do the math. Do the actual math, because I did, and it still makes me see red:
+Here's the thing I still can't wrap my head around: **I was paid $9.50 an hour, and somehow made $800 a month.** For the first four months I worked **seven days a week, 110-hour weeks.** After that, five days a week, 120 hours a month. A full year of that.
 
-- **110 hours a week at $9.50 an hour is $1,045 a week.**
-- That's **$4,525 a month** if I got paid for every hour I worked.
-- I was making **$800 a month.**
+### The math — exactly
 
-That means **Shree Sani Sai shorted me somewhere around $3,700 a month** — and that's just the first four months, when I was pulling 110-hour weeks. **Over those four months alone, that's roughly $14,900 they kept.** The rest of the year, five days a week, the same math kept running: even at a conservative 40-hour week I should have cleared $1,600 a month, and I still got eight hundred. Run the whole year and it lands **north of twenty thousand dollars** of my labor that I never saw — no honest pay stub, no explanation, no recourse.
+Do the actual math, because I did, and it still makes me see red. **$9.50 an hour.**
 
-Where did it go? I never saw a single honest pay stub that explained it. I was being cheated — worked like a machine and paid like a pawn — by people who knew I couldn't afford to question it. People who knew the exact same thing that every other person in this story knew: I had no car, no address that stayed put, no money for a lawyer, and a mental health history on paper that made me the easiest person in Oklahoma to rob.
+**Months 1–4: 110 hours a week, 7 days a week**
+- 110 hours × $9.50 = **$1,045 a week**
+- ~4.33 weeks per month → **$4,528 a month owed**
+- I was paid **$800 a month**
+- **Shorted $3,728 a month** — every month, for four months
+- 4-month total shorted: **$14,913**
+
+**Months 5–12: 120 hours a month, 5 days a week**
+- 120 hours × $9.50 = **$1,140 a month owed**
+- I was paid **$800 a month**
+- **Shorted $340 a month** — every month, for eight months
+- 8-month total shorted: **$2,720**
+
+**The yearly total:**
+- Owed for the year: **$27,233**
+- Paid for the year: **$9,600**
+- **Total shorted: $17,633**
+
+Let me put that number where you can see it: **$17,633.** Seventeen thousand, six hundred thirty-three dollars of my labor, my spine, my walking miles, my 110-hour weeks — taken, with no honest pay stub, no explanation, no recourse. I was paid **35%** of what I was owed. They kept **65%** of my work. And they did it to the most defenseless person they could find — the girl with no car, no address, no lawyer, and a mental health history on paper that made her the easiest person in Oklahoma to rob.
+
+And if you want the number that makes it truly sick — do the hourly math. In those first four months I worked **476.7 hours a month** for $800. That's **$1.68 an hour.** Not $9.50. **$1.68.** For 110-hour weeks, seven days a week, on a fusing spine, walking three miles to deposit the check. They didn't just underpay me. They paid me *less than minimum wage by a factor of four* — and called it employment.
+
+### And what happened to them?
+
+The hotel is still open. The management company is still registered. There are no lawsuits, no wage claims, no inspections in the news, no reviews from former employees warning anyone. **They got away with it completely.** They took $17,633 from a disabled teenager working 110-hour weeks, and the world has no record of it except this page. That's what "the system" means for people like me: not that the bad guys get caught — it's that the bad guys don't even need to hide, because nobody with the power to stop them ever looks.
+
+Here's what the public records actually show about **Shree Sani Sai LLC** — and I'm only putting down what's verifiable, because the receipts are the whole point:
+
+- **Registered:** Oklahoma Secretary of State, domestic LLC, file number **3512409735**
+- **Filed:** June 24, 2013
+- **Status:** listed **inactive** in the state registry — a shell that exists on paper but isn't even kept current with the state it operates in
+- **Principal office:** 700 East Krayler Avenue, Stillwater, OK 74075 — the hotel itself
+- **NAICS:** hotels and motels; business directories list ~19 employees
+- **The deeper ownership records** — the individual members, managers, and registered agent — sit behind the state's business-search portal and paid registry databases, which I could not fully access. So I will not name people I can't verify. But the pattern is already in the public record: an **inactive shell company**, registered at the hotel's own address, operating a national-brand franchise, with no lawsuits, no wage claims, and no public paper trail.
+
+That last part isn't an accident. It's the design. The company is structured so the people who actually own it stay out of the records — the LLC is the wall, the hotel is the front, and the only name that was ever attached to the money was a file number and an address. **But now this page exists, and this page names the wall.** Shree Sani Sai LLC, file #3512409735, 700 E Krayler Avenue, Stillwater, OK 74075 — the company that paid a disabled teenager $1.68 an hour and kept $17,633 of her labor, with no record anywhere except here.
+
+The only receipts that exist are mine. The only record of what they did is here, in my words, with their file number and their address on it. So now the internet knows too. Maybe that's not a lawsuit. But it's a record, and records are the first thing they tried to make sure I'd never have.
 
 ### The logistics of being carless — before the car
 
