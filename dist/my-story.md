@@ -10,6 +10,17 @@ Let's start where every family story starts: with the receipts.
 
 **I'm a Spiva.** And the line I come from? That's its own story — my dad's line, the people who carried the name down to me. But the wild part of the family tree belongs to the other side: the recorded line on my brother's father's side — **Pontius** — traces back through the **gens Pontia**, the old Roman clan of **Pontius Pilate**, the prefect of Judea who condemned Jesus. That's my family's claim, and I'll die on it: a recalled governor whose clan outlived the empire, two thousand years of family trees doing what family trees do, and the man the church whitewashed into a sympathetic villain is an ancestor by that road. The heretic is related to the governor who made the heretic famous. On-brand as hell.
 
+### The name — all four pieces of it
+
+My name is **Natalie Cole-Clift Spiva**, and every piece of it is a family that gave me something, so let me break it down:
+
+- **Spiva** — my adoptive last name. The family that took me in when the state was done shuffling me. The name on the record, the name on the paperwork, the name that carried me through the years when I had to pretend to be someone else to keep a roof over my head.
+- **Clift** — my bio father's last name. My dad's name. The one that connects me to **Darren** — the man who turned out to be my real father, who offered a room to a stranger with expired tags and no insurance and said we'd figure out the bills when I got there. The name I didn't know was waiting for me.
+- **Cole** — my bio last name from my bio mom's side. The maternal line, the one that traces back to her family — the other half of the biology that made me.
+- **Natalie** — the one I chose. The one that was always true, underneath the mask and the foster homes and the "Johnathan" everyone thought I was. The name I walked toward for thirty years.
+
+So **Natalie Cole-Clift Spiva** is a sentence, if you read it right: the girl who was born into one family, adopted into another, found her father at the end of a cross-country drive, and finally got to be herself out loud. Every name on that list is a door that opened or closed in my life — and the whole thing, all four names, is *mine* now. ❤️
+
 The modern chapter of the story ran through **Stillwater, Oklahoma** — where I grew up, where everybody knew everybody, where the chapter house and the church and the school all sat on the same few streets. And the family I actually grew up inside? It was complicated. The people who raised me weren't always the people who birthed me — Oklahoma's foster system had its hands on my life before I could talk.
 
 ### The foster years in Oklahoma
