@@ -103,9 +103,21 @@ Not because I stopped trying. Because trying had never once worked, and I was ou
 
 And I wasn't just walking myself. I was **walking my brother to school every morning** — basically being the parent of him, making sure he got there safe, making sure he got home safe, every single day. Not because anyone asked me to be his parent. Because someone had to be, and the adults weren't.
 
+And when I walked him to work — because sometimes it was work, not school, and the destination didn't matter, only that he got there — **it was there. The walk. The job. The bus. It was all there.**
+
+Here's what the mornings actually looked like, the whole loop, the part I never tell because it doesn't fit the "walking to school" story:
+
+- I'd get us both up. Get us both ready. Get him to where he needed to be — school, work, wherever the day demanded.
+- And then it was my turn to figure out the rest of *my* day, alone, from wherever his drop-off left me.
+- **Home was via the bus.** If I was going home, it was a bus ride I had to time and pay for and wait for — no car, no ride, no "someone will pick you up." Just the bus schedule and me.
+- **Or I had to go look for a job.** The walk didn't end at his drop-off. It continued into door after door after door — going in, asking, being told no, walking to the next one — because the adults had made it clear that a kid who couldn't hold down work while drowning in antipsychotics and a triple schedule was a kid who had to *keep trying anyway*.
+- **Or I had to go to therapy.** Another appointment, another waiting room, another hour of being processed — on top of the walk, on top of the job hunt, on top of the whole impossible day.
+
+So much more. So much more than the walk, every single morning, every single day. The walk was the part people could see — the visible chore, the one that looked like effort. The rest of it — the bus, the job hunt, the therapy, the endless standing in line at the world — was the invisible load that never got counted.
+
 Those mornings were something. I'd get us both up, get us both ready, walk him, get myself to class, do the whole impossible day, walk him home, and then do it again the next morning — all while being told I wasn't doing enough.
 
-The math never worked. The effort was never visible. The exhaustion was never counted. I was the parent, the student, the band member, the tech student, the patient — everything except a child who needed help.
+The math never worked. The effort was never visible. The exhaustion was never counted. I was the parent, the student, the band member, the tech student, the patient, the job-seeker, the bus-rider, the therapy-attender — everything except a child who needed help.
 
 By the time the cap and gown came around, I wasn't celebrating. I was just surviving to the finish line.
 
