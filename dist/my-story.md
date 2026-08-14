@@ -123,17 +123,25 @@ The antipsychotics didn't just flatten me — **they put me to sleep. All the ti
 
 So when people say "wow, you're so strong, nothing bothers you" — here's the truth: **it's not that nothing bothers me. It's that everything already bothered me, all at once, for years, and the system that was supposed to help me turned the volume down on all of it — including the parts I needed.**
 
-**They required this. They demanded it — the flatness, the compliance, the "stability" at any cost. And then they left me for dead.**
+**They required this. They forced it on me — the meds, against my will — and then they left me for dead.**
 
-That's the part nobody says out loud, so let me say it: the system didn't just ask me to numb myself. It *required* it — the meds, the "compliant patient" performance, the accepting of a label I told them was wrong, the being calm and agreeable while they processed me like inventory. Every single institution in this story demanded the volume-down version of me: the version that doesn't argue, doesn't flinch, doesn't make trouble, doesn't make *them* uncomfortable.
+That's the part nobody says out loud, so let me say it, and let me be precise about it: **they did not ask. They demanded the medication against my will.** The Invega Sustenna depot — the liquid crystal in my muscle that I could not stop, could not refuse, could not remove — was put in me whether I wanted it or not. The handcuffs, the transport, the "no choice" at Grand Mental Health: that was the system's way of saying my consent was optional. I told them the diagnosis was wrong, I told them the meds were destroying me, and they told me I was the patient and patients do what they're told. They made me stupid — chemically, deliberately, on purpose — and they called it treatment.
 
-And the moment I gave it to them — the moment I was properly numb, properly compliant, properly *stable* — they left me for dead.
+**And when it came to everything else — jobs, housing, a place to sleep at night — the same system looked at the person they'd made and said: "You figure it out."**
 
-No support. No follow-up. No "here's what comes next." No one checked if the girl who stopped feeling things was okay. The handcuffs delivered me to Grand Mental Health to free up a bed, and nobody came back to see if the bed helped. The wrong meds fogged my brain for years, and when I stopped taking them, nobody was there to help me through it. The unemployment was denied, the disability claim was lost in the mail, the housing program shut down the month after it helped me. Every time I did exactly what they required, they cashed the compliance and moved on to the next patient, the next bed, the next form.
+You are hilarious.
 
-So here's the fuller truth about "nothing bothers me": **I turned the volume down because they demanded it — and then they walked away and left me alone with the silence.** The calm they admire is the aftermath of being required to be calm and then abandoned for succeeding at it. They wanted the quiet girl. They got her. And then nobody wanted her at all.
+That's the whole joke of it. They force the medication into you against your will, they sedate you into a fog, they hand you a label that makes every employer and landlord see a risk instead of a person — and then, when you can't hold a job or get a lease or find somewhere to sleep, they shrug and say "you figure it out." Figure it out. With what? With the brain they drugged? With the work history they hollowed out with hospitalizations? With the record they built that makes everyone say no? **You figure it out — from the person who's effectively a retard, because that's what your medication made me.** That's not a system failure. That's a system *design*: force the compliance, collect the compliance, and when the compliance makes you useless, blame you for being useless.
 
-That's not strength either. That's what it looks like when you survive being used as a solution to someone else's problem. ❤️
+No support. No follow-up. No "here's what comes next." No one checked if the girl who stopped feeling things was okay. The handcuffs delivered me to Grand Mental Health to free up a bed, and nobody came back to see if the bed helped. The wrong meds fogged my brain for years, and when I stopped taking them, nobody was there to help me through it. The unemployment was denied, the disability claim was lost in the mail, the housing program shut down the month after it helped me. Every time I did exactly what they forced, they cashed the compliance and moved on to the next patient, the next bed, the next form.
+
+So here's the fuller truth about "nothing bothers me": **I turned the volume down because they forced the volume down — and then they walked away and left me alone with the silence.** The calm they admire is the aftermath of being drugged into calm and then abandoned for being calm. They wanted the quiet girl. They made her. And then nobody wanted her at all.
+
+### The vow
+
+And I will never let someone make me stupid again. **Ever.** For any reason. I don't even care if it's for their safety. This is my life. Not theirs. I make my choices. I know the consequences. And I will take the hallucinations, the paranoia, the whole terrifying noisy mess of being me — awake, alert, *here* — before I ever hand another person the keys to my own brain.
+
+The world can kindly fuck itself. ❤️
 
 And yet.
 
