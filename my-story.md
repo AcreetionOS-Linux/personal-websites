@@ -115,7 +115,7 @@ And watching someone die? I watched the person I was supposed to marry **die in 
 
 **And the rest of it is the meds — the flatness.**
 
-Here's the part people don't want to hear because it isn't a compliment: a lot of my "unshakable calm" is *pharmacology*. The antipsychotics — starting with Invega Sustenna — were designed to flatten. That's what they do. They press the highs and the lows into a gray plateau, and they do it on purpose, because "stable" was the goal and the cost was everything else. The emotions that would make a normal person flinch or cry or scream — they were chemically muted in me for years. It's not strength. It's **numbing**, and there's a difference, and I know the difference, because I remember what it felt like to feel things before the zap.
+Here's the part people don't want to hear because it isn't a compliment: a lot of my "unshakable calm" is *pharmacology*. The antipsychotics — starting with Abilify, then Invega Sustenna — were designed to flatten. That's what they do. They press the highs and the lows into a gray plateau, and they do it on purpose, because "stable" was the goal and the cost was everything else. The emotions that would make a normal person flinch or cry or scream — they were chemically muted in me for years. It's not strength. It's **numbing**, and there's a difference, and I know the difference, because I remember what it felt like to feel things before the zap.
 
 And then I stopped taking them. All of them.
 

@@ -63,7 +63,7 @@ I spent the years after that unlearning the lie. And I'm still unlearning it.
 
 So now I'm a "bipolar moody teenager" in high school. And the treatment for being "moody" was:
 
-**Two antidepressants. Multiple antipsychotics.** Including, as the first one — the one that started the whole chemical-fog life — **Invega Sustenna**: the long-acting injectable, the **liquid crystal form**. It's not a pill you can stop taking. It's a depot — crystals injected into muscle that keep dissolving and releasing for roughly a month per shot, lingering for months, with no antidote and no "I'm done with this." One injection when I was sixteen, and the chemical zap it fired through my brain never un-fired. That's the drug that started all of this.
+**Two antidepressants. Multiple antipsychotics.** It started with **Abilify** — the first one, the pill that began the whole chemical-fog life. And then they moved me to **Invega Sustenna**: the long-acting injectable, the **liquid crystal form**. It's not a pill you can stop taking. It's a depot — crystals injected into muscle that keep dissolving and releasing for roughly a month per shot, lingering for months, with no antidote and no "I'm done with this." One injection when I was sixteen, and the chemical zap it fired through my brain never un-fired. Abilify started the fire; Invega made sure it couldn't be put out. That's how the fog-life began.
 
 Let me tell you what that cocktail did to a kid who was already drowning:
 
@@ -423,7 +423,7 @@ People like to tell the story of me getting out of Oklahoma as a happy ending: *
 Oklahoma didn't fail to help me. Oklahoma *actively* hurt me, with paperwork.
 
 - **The misdiagnosis at 16.** I told them it was wrong for years. They wore me down until I believed it. The label went in the chart, and the chart followed me everywhere.
-- **The forced medication.** Invega Sustenna, the liquid crystal depot, put in my muscle against my will — I couldn't refuse it, couldn't stop it, couldn't remove it. It chemically zapped my mind at sixteen, and the damage never un-did itself.
+- **The forced medication.** It started with Abilify, then Invega Sustenna, the liquid crystal depot, put in my muscle against my will — I couldn't refuse it, couldn't stop it, couldn't remove it. Together they chemically zapped my mind at sixteen, and the damage never un-did itself.
 - **The spine.** I told adults my back hurt as a kid. They said "you're just obese." One spine appointment. Never again. The AS fused my spine while the system argued with me about my weight. Diagnosed February 2025 — at the OAC, out of my own pocket or by grants, *not* by the system.
 - **The handcuffs.** Grand Mental Health in Stillwater — routed there to free up a bed, in handcuffs, nobody read me my rights. Stillwater PD **R2401730**, **CFS24017562**. The state's own records say I was inventory.
 - **The denial.** Lamotrigine — the drug that actually worked — refused by Medicare in 2020. The unemployment denial under Title 40 §2-404. The disability claim lost in the mail. **Sixty dollars a month of food stamps** as the state's entire answer to "what do I eat."

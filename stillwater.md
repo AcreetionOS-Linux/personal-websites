@@ -44,11 +44,13 @@ And they were relentless. Doctor after doctor, chart after chart, med after med,
 
 ---
 
-## The first zap — Invega Sustenna
+## The first zap — Abilify, then Invega Sustenna
 
 And then came the meds.
 
-My first bipolar antipsychotic. The chemical zap. **It was Invega Sustenna** — paliperidone palmitate, in its long-acting injectable form. The liquid crystal form. And if you don't know what that means, you need to, because it's the whole reason one dose could change my life forever.
+It started with **Abilify** — aripiprazole — my first antipsychotic, in pill form. That was the first chemical fog, the first flattening, the first time my own brain started to feel like it belonged to someone else's treatment plan. A pill, in theory, that you could stop taking — but nobody told me that, and nobody offered me a way out.
+
+And then they moved me to **Invega Sustenna** — paliperidone palmitate, in its long-acting injectable form. The liquid crystal form. The zap was A and B together: **Abilify fired the first shot, and Invega made sure it could never be un-fired.** And if you don't know what Invega means, you need to, because it's the whole reason one dose could change my life forever.
 
 ### How Invega Sustenna actually works
 
@@ -99,7 +101,7 @@ Here's the part that would be funny if it didn't make me want to scream:
 
 The mood stabilizer. The one drug that actually worked — the one that worked on the pathway my brain actually needed, the neuroimmune-adjacent thing I'd been trying to tell them about for years. They **offered it to me.** And my insurance — Medicare, 2020 — **would not pay for it.**
 
-They prescribed me years of antipsychotics for a disease I was telling them I didn't have — starting with **Invega Sustenna**, the liquid crystal depot, which chemically zapped my mind the first time and kept releasing for months because it can't be undone. And then, when they finally — *finally* — got to the drug that could actually have helped, the system said no. Because it was expensive. Because the algorithm said so. Because compliance and cost matter more than care.
+They prescribed me years of antipsychotics for a disease I was telling them I didn't have — starting with **Abilify**, then **Invega Sustenna**, the liquid crystal depot, which together chemically zapped my mind and kept releasing for months because it can't be undone. And then, when they finally — *finally* — got to the drug that could actually have helped, the system said no. Because it was expensive. Because the algorithm said so. Because compliance and cost matter more than care.
 
 **THE FUCKING IRONY.** The drug that saved me is the one they refused to pay for. The treatment that worked is the one I had to fight to get, or get without them, or get too late. And by the time I stabilized on it — by the time the mood swings finally settled — the damage from the wrong meds was already done. The zap had already fired. The mind had already been hit.
 
@@ -109,9 +111,11 @@ And here's the part you should know, because it explains where I actually am rig
 
 **I do not take Invega Sustenna anymore. I take no antipsychotics at all.**
 
+And let me be precise about how that happened, because the record will get it wrong: **I didn't go off on my own, and this wasn't recent.** The antipsychotics ended years ago, in the aftermath of a suicide-attempt hospitalization — the wrong meds for the wrong diagnosis finally ending the way they began, with the system's hand somewhere in it. The chart will call it non-compliance either way.
+
 Not because the doctors took me off them. Because **they made me sleep all of the time.** That was the whole experience of being on them — not fixed, not better, not "stable" in any way that felt like living. Just... asleep. A chemically-induced fog where the illness was quiet only because *I* was quiet — unconscious, unresponsive, present in body and gone in every other way. That's not treatment. That's a chemical coma with a co-pay.
 
-So I stopped them. All of them. I walked away from the antipsychotics and never looked back.
+And here's what happens when antipsychotics aren't continued after a suicide-attempt hospitalization — I know, because I lived it. **The chart changes first:** whatever the real story, the record lands as *non-compliance* — patient-caused, never system-caused. **Then the worsening becomes proof:** the rebound, the supersensitivity psychosis, every symptom after the stop gets read as evidence the meds were necessary, never as evidence the stop was mishandled. **The autonomy loss compounds:** "can't live alone, can't do your own meds" — the system that caused or mishandled the damage certifies it permanent, and the certification becomes the reason the autonomy never comes back. **And if you land back in crisis, the answer isn't "what went wrong with the stop" — it's the depot.** The injection. Abilify was a pill you could stop; Invega was the system's answer to people who stopped. Non-compliance gets punished with the most coercive compliance technology they have. **And nobody ever asks who stopped it.** Whether it was your call, the hospital's, or a system that just... didn't continue... the paperwork lands on the patient either way. The pharmacology is brutal too — the brain grows supersensitive dopamine receptors under blockade, so stopping can trigger rebound psychosis worse than baseline, with the highest risk in the first three months — but the system never reads that as the system's fault. It reads it as proof the meds were necessary.
 
 **And yes — I have the hallucinations. I have the paranoia.** They're still there. They didn't go away when I stopped the meds; they were there *underneath* the meds the whole time, just buried under the sedation. The illness is real and it doesn't care about my opinions of it.
 
@@ -164,7 +168,7 @@ Let me lay it out, because "what happens to a girl who comes out — or gets rea
 ## The receipts
 
 - **Bipolar diagnosis:** age 16 — fought it for years, told them it was wrong until they made me believe it
-- **The first antipsychotic:** **Invega Sustenna** (paliperidone palmitate, the liquid crystal / long-acting injectable form) — chemical zap in high school; a depot that can't be undone, releasing drug for months after one shot — my mind never recovered, ever
+- **The first antipsychotic:** **Abilify** (aripiprazole) — the first chemical fog; then **Invega Sustenna** (paliperidone palmitate, the liquid crystal / long-acting injectable form) — the depot that can't be undone, releasing drug for months after one shot — the zap was both, together — my mind never recovered, ever
 - **Lamotrigine:** the drug that mostly stabilized me — refused by Medicare in 2020
 - **FAFSA:** I knew about the scholarships and grants. My parents wouldn't put in their information.
 - **Grand Mental Health, Stillwater:** handcuffs, no rights read, routed there to free up a bed — Stillwater PD **R2401730**, **CFS24017562**
