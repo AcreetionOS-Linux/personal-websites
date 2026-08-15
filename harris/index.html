@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HarrisOS — When We Fight, We Win 🇺🇸</title>
+<meta name="description" content="HarrisOS — When We Fight, We Win. The Democrat movement for the open-source faithful: forward, not back. Kamala Harris · When We Fight, We Win." />
+<meta name="author" content="HarrisOS Campaign HQ — acreetionos.org" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://harris.acreetionos.org/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="HarrisOS — When We Fight, We Win 🇺🇸" />
+<meta property="og:description" content="When We Fight, We Win. The Democrat movement for the open-source faithful." />
+<meta property="og:url" content="https://harris.acreetionos.org/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="HarrisOS — When We Fight, We Win" />
+<meta name="twitter:description" content="When We Fight, We Win. Democrat movement · open source." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦅</text></svg>" />
+<style>
+  :root {
+    --party-red: #236bde;
+    --party-dark-red: #1a3f8f;
+    --party-blue: #1a3f8f;
+    --party-dark-blue: #0a1024;
+    --gold: #ffd700;
+    --cream: #eaf0ff;
+    --ink: #0a1024;
+  }
+
+  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+
+  html {{ scroll-behavior: smooth; }}
+
+  body {{
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--ink);
+    color: var(--cream);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }}
+
+  /* ===== party stripe top ===== */
+  .flag-stripe {{
+    height: 10px;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--party-red) 0 60px,
+      #fff 60px 120px
+    );
+  }}
+
+  /* ===== stars backdrop ===== */
+  .stars {{
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background:
+      radial-gradient(1px 1px at 12% 22%, rgba(255,255,255,.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 12%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 58% 32%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 76% 8%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 90% 25%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 22% 60%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 48% 48%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1px 1px at 66% 70%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 84% 55%, rgba(255,255,255,.5) 50%, transparent 51%),
+      radial-gradient(1px 1px at 38% 82%, rgba(255,255,255,.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 60% 92%, rgba(255,255,255,.4) 50%, transparent 51%),
+      radial-gradient(1px 1px at 82% 88%, rgba(255,255,255,.45) 50%, transparent 51%),
+      var(--party-dark-blue);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+                     100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+                     100% 100%, 100% 100%, cover;
+  }}
+
+  /* ===== top bar ===== */
+  .topbar {{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 5vw;
+    background: rgba(10,10,24,.82);
+    border-bottom: 1px solid rgba(255,215,0,.35);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(6px);
+  }}
+  .topbar .brand {{
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: 1.35rem;
+    letter-spacing: .08em;
+    color: #fff;
+    text-transform: uppercase;
+  }}
+  .topbar .brand span {{ color: var(--gold); }}
+  .topbar nav a {{
+    color: var(--cream);
+    text-decoration: none;
+    margin-left: 22px;
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    transition: border-color .2s, color .2s;
+  }}
+  .topbar nav a:hover {{ color: var(--gold); border-color: var(--gold); }}
+  @media (max-width: 640px) {{
+    .topbar nav a {{ margin-left: 12px; font-size: .68rem; }}
+  }}
+
+  /* ===== hero ===== */
+  .hero {{
+    text-align: center;
+    padding: 70px 5vw 50px;
+    position: relative;
+  }}
+  .hero .party-logo {{
+    width: 150px;
+    height: auto;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 4px 18px rgba(255,215,0,.35));
+    animation: floaty 5s ease-in-out infinite;
+  }}
+  @keyframes floaty {{
+    0%, 100% {{ transform: translateY(0); }}
+    50% {{ transform: translateY(-8px); }}
+  }}
+  .hero h1 {{
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(3.4rem, 11vw, 8.5rem);
+    line-height: .95;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #fff 0%, #ffe9a8 55%, var(--gold) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 60px rgba(255,215,0,.25);
+  }}
+  .hero h1 .red {{ color: var(--party-red); -webkit-text-fill-color: var(--party-red); }}
+  .hero .tagline {{
+    margin-top: 18px;
+    font-size: clamp(1.05rem, 2.6vw, 1.6rem);
+    font-style: italic;
+    color: #ffe9a8;
+    letter-spacing: .02em;
+  }}
+  .hero .tagline strong {{ color: #fff; }}
+
+  /* ===== ticker ===== */
+  .ticker {{
+    margin: 34px auto 0;
+    max-width: 900px;
+    border: 3px solid var(--gold);
+    border-radius: 10px;
+    background: rgba(35,34,83,.75);
+    padding: 12px 18px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: clamp(1rem, 2.4vw, 1.35rem);
+    letter-spacing: .06em;
+    color: #fff;
+    min-height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 0 4px rgba(178,34,52,.35), 0 10px 40px rgba(0,0,0,.5);
+  }}
+  .ticker .star {{ color: var(--gold); margin: 0 10px; }}
+
+  /* ===== sections ===== */
+  section {{ padding: 56px 5vw; max-width: 1080px; margin: 0 auto; }}
+
+  .section-head {{ text-align: center; margin-bottom: 34px; }}
+  .section-head h2 {{
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #fff;
+  }}
+  .section-head h2 .star {{ color: var(--gold); }}
+  .section-head .rule {{
+    width: 220px;
+    height: 6px;
+    margin: 14px auto 0;
+    background: repeating-linear-gradient(90deg, var(--party-red) 0 30px, #fff 30px 60px);
+    border-radius: 3px;
+  }}
+
+  .bunting {{ display: flex; justify-content: center; gap: 0; margin-top: 22px; overflow: hidden; }}
+  .bunting span {{
+    width: 0; height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 34px solid var(--party-red);
+  }}
+  .bunting span:nth-child(2n) {{ border-bottom-color: #fff; }}
+  .bunting span:nth-child(3n) {{ border-bottom-color: var(--party-blue); }}
+
+  .cards {{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+    margin-top: 26px;
+  }}
+  .card {{
+    background: linear-gradient(180deg, rgba(35,34,83,.9), rgba(20,20,44,.95));
+    border: 1px solid rgba(255,215,0,.3);
+    border-top: 5px solid var(--party-red);
+    border-radius: 12px;
+    padding: 24px 20px;
+    transition: transform .18s ease, box-shadow .18s ease;
+  }}
+  .card:hover {{
+    transform: translateY(-4px);
+    box-shadow: 0 12px 34px rgba(0,0,0,.5), 0 0 0 1px rgba(255,215,0,.4);
+  }}
+  .card .icon {{ font-size: 2rem; display: block; margin-bottom: 10px; }}
+  .card h3 {{
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }}
+  .card p {{ font-size: .95rem; color: #e6e0c8; }}
+  .card .num {{
+    display: inline-block;
+    background: var(--party-red);
+    color: #fff;
+    font-family: 'Arial Black', sans-serif;
+    border-radius: 50%;
+    width: 30px; height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 8px;
+  }}
+
+  .platform ol {{ list-style: none; counter-reset: plank; }}
+  .platform li {{
+    counter-increment: plank;
+    background: rgba(35,34,83,.55);
+    border-left: 6px solid var(--party-red);
+    border-radius: 8px;
+    padding: 18px 22px 18px 66px;
+    margin-bottom: 14px;
+    position: relative;
+  }}
+  .platform li::before {{
+    content: counter(plank);
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    width: 34px; height: 34px;
+    background: var(--gold);
+    color: var(--ink);
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .platform h3 {{
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    font-size: 1.02rem;
+    margin-bottom: 4px;
+  }}
+  .platform p {{ color: #d8d2ba; font-size: .95rem; }}
+
+  .callout {{
+    margin: 34px 0;
+    background: linear-gradient(135deg, rgba(178,34,52,.85), rgba(140,26,40,.9));
+    border: 2px solid var(--gold);
+    border-radius: 14px;
+    padding: 28px 26px;
+    text-align: center;
+  }}
+  .callout h3 {{
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }}
+  .callout p {{ margin-top: 8px; color: #ffe9a8; font-style: italic; }}
+
+  .quote {{ text-align: center; max-width: 780px; margin: 0 auto; }}
+  .quote blockquote {{
+    font-size: clamp(1.15rem, 3vw, 1.55rem);
+    font-style: italic;
+    color: #fff;
+    border-left: none;
+  }}
+  .quote blockquote::before {{ content: '\201C'; color: var(--gold); font-size: 2.2em; line-height: 0; vertical-align: -.25em; }}
+  .quote cite {{
+    display: block;
+    margin-top: 14px;
+    color: var(--gold);
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .85rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }}
+
+  .join {{
+    text-align: center;
+    border: 3px solid var(--gold);
+    border-radius: 16px;
+    background: radial-gradient(ellipse at top, rgba(60,59,110,.85), rgba(20,20,44,.95));
+    padding: 48px 6vw;
+    position: relative;
+    overflow: hidden;
+  }}
+  .join h2 {{
+    font-family: Impact, 'Arial Black', sans-serif;
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .04em;
+  }}
+  .join h2 span {{ color: var(--gold); }}
+  .join p {{ margin: 12px 0 26px; color: #e6e0c8; }}
+  .join form {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    max-width: 560px;
+    margin: 0 auto;
+  }}
+  .join input[type="email"] {{
+    flex: 1 1 260px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 2px solid rgba(255,215,0,.5);
+    background: rgba(10,10,24,.7);
+    color: #fff;
+    font-size: 1rem;
+  }}
+  .join button {{
+    flex: 0 1 auto;
+    padding: 14px 26px;
+    border: none;
+    border-radius: 8px;
+    background: var(--party-red);
+    color: #fff;
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #5f1220;
+    transition: transform .1s, box-shadow .1s;
+  }}
+  .join button:hover {{ transform: translateY(-2px); box-shadow: 0 6px 0 #5f1220; }}
+  .join button:active {{ transform: translateY(2px); box-shadow: 0 1px 0 #5f1220; }}
+  .join .fine {{ margin-top: 18px; font-size: .8rem; color: #a9a3c0; }}
+  .join #rally-msg {{
+    margin-top: 14px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: var(--gold);
+    min-height: 1.5em;
+  }}
+
+  footer {{
+    margin-top: 30px;
+    text-align: center;
+    padding: 26px 5vw 40px;
+    background: rgba(10,10,24,.9);
+    border-top: 1px solid rgba(255,215,0,.25);
+    color: #b9b3cc;
+    font-size: .9rem;
+  }}
+  footer .stars-row {{ font-size: .9rem; letter-spacing: .6em; margin-bottom: 8px; }}
+  footer a {{ color: var(--gold); text-decoration: none; }}
+  footer a:hover {{ text-decoration: underline; }}
+  footer .disclaimer {{ margin-top: 10px; font-size: .75rem; color: #7d7896; font-style: italic; }}
+
+  .back-to-top {{
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--gold);
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: .75rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }}
+</style>
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<div class="flag-stripe" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">HarrisOS <span>★</span> When We Fight, We Win</div>
+  <nav>
+    <a href="#movement">The Movement</a>
+    <a href="#platform">Platform</a>
+    <a href="#join">Join</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <svg class="party-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HarrisOS logo">
+      <circle cx="100" cy="88" r="58" fill="#236bde" />
+      <circle cx="100" cy="88" r="48" fill="#1a3f8f" />
+      <path fill="#fff" d="M100 46 C 108 66, 122 76, 122 92 C 122 104, 112 112, 100 112 C 88 112, 78 104, 78 92 C 78 76, 92 66, 100 46 Z" />
+      <path fill="#ffd700" d="M100 68 L 105 82 L 119 83 L 109 92 L 112 106 L 100 98 L 88 106 L 91 92 L 81 83 L 95 82 Z" />
+      <path fill="#236bde" d="M100 78 L 101 84 L 107 85 L 103 89 L 104 95 L 100 92 L 96 95 L 97 89 L 93 85 L 99 84 Z" />
+    </svg>
+
+    <h1><span class="red">WHEN WE FIGHT</span><br />WE WIN</h1>
+    <p class="tagline">Forward, not back — for God's sake, for each other, and for the <strong>open source</strong>. The future isn't going to build itself. <strong>We build it — together.</strong> 🇺🇸</p>
+
+    <div class="ticker" id="ticker" role="status" aria-live="polite">
+      <span class="star">★</span><span id="ticker-text">FORWARD, NOT BACK</span><span class="star">★</span>
+    </div>
+    <div class="bunting" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ============ THE MOVEMENT ============ -->
+  <section id="movement">
+    <div class="section-head">
+      <h2><span class="star">★</span> The Democrat Movement <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <p style="max-width:820px;margin:0 auto;font-size:1.05rem;color:#e6e0c8;">
+      <strong style="color:#fff;">The fight is in us.</strong> It's the belief that the best of America is still ahead of us — that progress isn't a threat, it's the point. We fight for freedom, for opportunity, for the future of every family and every user. We don't go back. We go forward, together.
+    </p>
+
+    <div class="cards">
+            <div class="card">
+        <span class="icon">🏛️</span>
+        <h3>Forward, Not Back</h3>
+        <p>Rolling releases, always moving. An America — and a distro — that never looks backward.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🤝</span>
+        <h3>We Fight, We Win</h3>
+        <p>Every user deserves a seat at the table. Together is how the kernel gets better.</p>
+      </div>
+      <div class="card">
+        <span class="icon">📚</span>
+        <h3>No User Left Behind</h3>
+        <p>Docs for everyone. Accessibility by default. The digital divide ends on our watch.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🔧</span>
+        <h3>Build It Together</h3>
+        <p>Open source is a public good. We build the future the way we build our communities — together.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Now — take that energy. Point it at the kernel. 🐧</h3>
+      <p>That's what HarrisOS is. When We Fight, We Win for the open-source faithful.</p>
+    </div>
+  </section>
+
+  <!-- ============ WHAT IS OS ============ -->
+  <section id="whatis">
+    <div class="section-head">
+      <h2><span class="star">★</span> What Is HarrisOS? <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="quote">
+      <blockquote>
+        We're not going back. We are not looking back. We are looking forward, together — to the future.
+      </blockquote>
+      <cite>— The HarrisOS Pledge</cite>
+    </div>
+
+    <p style="max-width:820px;margin:34px auto 0;font-size:1.02rem;color:#e6e0c8;">
+      <strong style="color:#fff;">HarrisOS — When We Fight, We Win</strong> is the movement inside the movement.
+      Linux is the greatest operating system ever built: the kernel that powers the internet, the servers of
+      America, the cloud, the phone in your pocket, the rocket on the pad. It was born free, built by
+      patriots of the open source, one commit at a time. But somewhere along the way, the movement forgot its promise. Bloat crept in. Corporate overlords arrived. Users got left behind. It's time to take our kernel forward — and take everyone with us.
+    </p>
+
+    <div class="cards">
+            <div class="card">
+        <span class="icon">🚀</span>
+        <h3>Forward by Default</h3>
+        <p>A distro engineered for progress — modern defaults, fast updates, a future nobody has to go back to.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🧑‍🤝‍🧑</span>
+        <h3>Freedom for Every User</h3>
+        <p>Accessibility, localization, and inclusion aren't afterthoughts — they're the default.</p>
+      </div>
+      <div class="card">
+        <span class="icon">⚖️</span>
+        <h3>Fairness in the Repos</h3>
+        <p>No corporate capture. Software for everyone, not just the shareholders.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🌅</span>
+        <h3>Hope & Open Source</h3>
+        <p>The kernel of the American dream: if you can imagine it, you can fork it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORM ============ -->
+  <section id="platform" class="platform">
+    <div class="section-head">
+      <h2><span class="star">★</span> The HarrisOS Platform <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+
+    <ol>
+            <li>
+        <h3>Forward, Not Back</h3>
+        <p>Rolling releases, always moving. We don't look backward — we look at what's next.</p>
+      </li>
+      <li>
+        <h3>Freedom for Every User</h3>
+        <p>Accessibility on by default. Every user gets the same seat at the same table.</p>
+      </li>
+      <li>
+        <h3>We Fight for the Middle Class — of Packages</h3>
+        <p>Software for everyone, not just the enterprise. Fair defaults, free tools, open docs.</p>
+      </li>
+      <li>
+        <h3>No User Left Behind</h3>
+        <p>Documentation for every feature. Tutorials for every level. Support for every user.</p>
+      </li>
+      <li>
+        <h3>Hope, Progress, and Open Source</h3>
+        <p>A future worth booting into — built together, shared freely, won by all of us.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ JOIN ============ -->
+  <section id="join">
+    <div class="join">
+      <h2>Join the <span>HarrisOS</span> Rally</h2>
+      <p>Sign up for kernel updates, campaign news, and righteous commits. We'll keep you in the loop — no swamp, no spam.</p>
+      <form id="rally-form">
+        <input type="email" id="rally-email" placeholder="patriot@example.org" required aria-label="Email address" />
+        <button type="submit">I'm With HarrisOS ★</button>
+      </form>
+      <div id="rally-msg" aria-live="polite"></div>
+      <p class="fine">
+        🇺🇸 HarrisOS 2028 · When We Fight, We Win · Built on AcreetionOS<br />
+        Proudly served by <a href="https://natalie.acreetionos.org/" style="color:#ffe9a8;">AcreetionOS</a> · <a href="https://www.acreetionos.org" style="color:#ffe9a8;">acreetionos.org</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ REAL TALK ============ -->
+  <section id="realtalk">
+    <div class="section-head">
+      <h2><span class="star">★</span> Real Talk <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+    <div class="callout">
+      <h3>We tried to be nice and stay objective... 👀</h3>
+      <p>Genuinely, we did. Full platform, fair shake, "forward, not back" and all of it. But real talk, and we mean no disrespect here — does anyone actually want her? lol</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="stars-row" aria-hidden="true">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+  <div>God bless the penguin. God bless the open source. God bless America. 🇺🇸</div>
+  <div style="margin-top:8px;">
+    <a href="https://harris.acreetionos.org">harris.acreetionos.org</a> · HarrisOS — When We Fight, We Win
+  </div>
+  <a class="back-to-top" href="#top">▲ Back to Top</a>
+  <p class="disclaimer">
+    HarrisOS is a patriotic parody campaign site celebrating the Democrat movement and the free software community.
+    No real election was harmed in the making of this website. Vote early, vote often — but only in your init system.
+  </p>
+</footer>
+
+<script>
+  (function () {{
+    var slogans = ["FORWARD, NOT BACK", "BOOT FASTER \u2014 TOGETHER", "NO USER LEFT BEHIND", "WE FIGHT FOR THE MIDDLE CLASS \u2014 OF PACKAGES", "HOPE, PROGRESS, AND OPEN SOURCE", "WE'RE NOT GOING BACK (TO WINDOWS)", "FREEDOM FOR EVERY USER"];
+    var el = document.getElementById('ticker-text');
+    var i = 0;
+    if (el) {{
+      setInterval(function () {{
+        i = (i + 1) % slogans.length;
+        el.textContent = slogans[i];
+      }}, 2600);
+    }}
+    var form = document.getElementById('rally-form');
+    var msg = document.getElementById('rally-msg');
+    if (form) {{
+      form.addEventListener('submit', function (e) {{
+        e.preventDefault();
+        var email = document.getElementById('rally-email').value.trim();
+        if (!email) return;
+        msg.textContent = '🇺🇸 Welcome to the movement, ' + email + '! Your freedom seed has been planted. Watch your inbox for the rally call.';
+        form.reset();
+      }});
+    }}
+  }})();
+</script>
+</body>
+</html>
