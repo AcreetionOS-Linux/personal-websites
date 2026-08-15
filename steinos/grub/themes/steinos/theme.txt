@@ -1,0 +1,20 @@
+# SteinOS GRUB theme — minimal, Green colors
+# Derived from the AcreetionOS GRUB theme layout.
+# Reference: https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Theme
+
+title-text: "SteinOS"
+title-color: "#ffffff"
+title-bgcolor: "#179540"
+
+message-color: "#ffffff"
+message-bgcolor: "#179540"
+
+# Menu
+menu-color: "#ffffff"
+menu-highlight-color: "#ffd700"
+menu-bgcolor: "#000000"
+menu-highlight-bgcolor: "#0e5c28"
+
+# Terminal
+terminal-border-color: "#ffd700"
+terminal-box: "terminal_box_*.png"

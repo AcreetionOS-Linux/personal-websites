@@ -1,0 +1,17 @@
+SteinOS — Green Edition (parody project)
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+This is a parody/commentary OS branding project based on AcreetionOS
+(https://acreetionos.org, GPL-3.0-or-later) and Arch Linux. All OS
+machinery, build scripts, and base packages remain under their original
+licenses (GPL-3.0 / GPL-2.0 / MIT etc. per package).
+
+Political figure names, likenesses, and party slogans are used in
+satire. This project is not affiliated with, endorsed by, or connected
+to any campaign, party, or candidate. "Make Linux Great Again" is a
+parody of "Make America Great Again".
+
+You are free to fork, modify, and redistribute this branding per the
+GPL-3.0-or-later terms. The full license text is at:
+https://www.gnu.org/licenses/gpl-3.0.html

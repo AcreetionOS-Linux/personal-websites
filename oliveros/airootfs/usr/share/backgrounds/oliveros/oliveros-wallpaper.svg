@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="120" cy="140" r="3"/><circle cx="480" cy="80" r="2.4"/><circle cx="900" cy="120" r="3"/>
+    <circle cx="1300" cy="90" r="2.6"/><circle cx="1700" cy="160" r="3.2"/><circle cx="320" cy="980" r="3"/>
+    <circle cx="700" cy="1020" r="2.4"/><circle cx="1150" cy="990" r="3"/><circle cx="1560" cy="1030" r="2.6"/>
+    <circle cx="1820" cy="940" r="3"/><circle cx="90" cy="560" r="2.2"/><circle cx="1830" cy="520" r="2.4"/>
+  </g>
+  <!-- party stripe bar -->
+  <rect x="0" y="0" width="1920" height="14" fill="#f5c518"/>
+  <rect x="0" y="1066" width="1920" height="14" fill="#f5c518"/>
+  <!-- logo -->
+  <g transform="translate(760 240) scale(2.0)">
+    <circle cx="100" cy="88" r="58" fill="#f5c518" />
+      <circle cx="100" cy="88" r="48" fill="#111111" />
+      <path fill="#f5c518" d="M100 40 C 112 56, 128 66, 128 82 C 128 98, 116 110, 100 110 C 84 110, 72 98, 72 82 C 72 66, 88 56, 100 40 Z" />
+      <path fill="#111111" d="M100 52 C 107 62, 114 70, 114 82 C 114 92, 108 100, 100 100 C 92 100, 86 92, 86 82 C 86 70, 93 62, 100 52 Z" />
+      <path fill="#ffd700" d="M100 60 L 103 76 L 112 80 L 104 88 L 106 100 L 100 94 L 94 100 L 96 88 L 88 80 L 97 76 Z" />
+  </g>
+  <!-- slogans -->
+  <text x="960" y="760" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="92" font-weight="900" letter-spacing="10" fill="#ffffff">OLIVEROS</text>
+  <text x="960" y="840" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" letter-spacing="6" fill="#f5c518">LIVE AND LET LIVE</text>
+  <text x="960" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="8" fill="#ffffff" opacity="0.7">BUILT ON ACREETIONOS · ARCH LINUX</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- HarrisOS logo — Democrat Edition -->
+  <circle cx="100" cy="88" r="58" fill="#236bde" />
+      <circle cx="100" cy="88" r="48" fill="#1a3f8f" />
+      <path fill="#fff" d="M100 46 C 108 66, 122 76, 122 92 C 122 104, 112 112, 100 112 C 88 112, 78 104, 78 92 C 78 76, 92 66, 100 46 Z" />
+      <path fill="#ffd700" d="M100 68 L 105 82 L 119 83 L 109 92 L 112 106 L 100 98 L 88 106 L 91 92 L 81 83 L 95 82 Z" />
+      <path fill="#236bde" d="M100 78 L 101 84 L 107 85 L 103 89 L 104 95 L 100 92 L 96 95 L 97 89 L 93 85 L 99 84 Z" />
+</svg>

@@ -1,0 +1,20 @@
+# TrumpOS GRUB theme — minimal, Republican colors
+# Derived from the AcreetionOS GRUB theme layout.
+# Reference: https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Theme
+
+title-text: "TrumpOS"
+title-color: "#ffffff"
+title-bgcolor: "#b22234"
+
+message-color: "#ffffff"
+message-bgcolor: "#b22234"
+
+# Menu
+menu-color: "#ffffff"
+menu-highlight-color: "#ffd700"
+menu-bgcolor: "#000000"
+menu-highlight-bgcolor: "#3c3b6e"
+
+# Terminal
+terminal-border-color: "#ffd700"
+terminal-box: "terminal_box_*.png"

@@ -1,0 +1,20 @@
+# OliverOS GRUB theme — minimal, Libertarian colors
+# Derived from the AcreetionOS GRUB theme layout.
+# Reference: https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Theme
+
+title-text: "OliverOS"
+title-color: "#ffffff"
+title-bgcolor: "#f5c518"
+
+message-color: "#ffffff"
+message-bgcolor: "#f5c518"
+
+# Menu
+menu-color: "#ffffff"
+menu-highlight-color: "#f5c518"
+menu-bgcolor: "#000000"
+menu-highlight-bgcolor: "#111111"
+
+# Terminal
+terminal-border-color: "#f5c518"
+terminal-box: "terminal_box_*.png"

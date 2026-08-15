@@ -1,0 +1,16 @@
+# OliverOS package overrides — Libertarian Edition
+# Derived from AcreetionOS packages.x86_64 v2.0 (minimal Cinnamon base).
+# Package overrides use archiso syntax: plain lines add packages,
+# "-pkg" lines remove them. This brand variant keeps the base desktop
+# and adds optional patriotic/quality-of-life extras (commented below).
+
+# --- OliverOS recommended extras (uncomment to add) ---
+# neofetch        # show your OliverOS pride in the terminal
+# figlet          # big bold slogans: "MAKE LINUX GREAT AGAIN"
+# cowsay          # wise patriotic cows
+# htop            # keep an eye on the swamp (processes)
+# firefox         # the Libertarian way to browse
+# libreoffice-fresh
+# gimp
+# vlc
+# flatpak

@@ -1,0 +1,20 @@
+# HarrisOS GRUB theme — minimal, Democrat colors
+# Derived from the AcreetionOS GRUB theme layout.
+# Reference: https://wiki.archlinux.org/title/GRUB/Tips_and_tricks#Theme
+
+title-text: "HarrisOS"
+title-color: "#ffffff"
+title-bgcolor: "#236bde"
+
+message-color: "#ffffff"
+message-bgcolor: "#236bde"
+
+# Menu
+menu-color: "#ffffff"
+menu-highlight-color: "#ffd700"
+menu-bgcolor: "#000000"
+menu-highlight-bgcolor: "#1a3f8f"
+
+# Terminal
+terminal-border-color: "#ffd700"
+terminal-box: "terminal_box_*.png"
