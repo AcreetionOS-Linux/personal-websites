@@ -205,3 +205,38 @@ body.lr-naked {
   body::before { animation: none; }
   .card:hover, .item:hover, .repo-item:hover { transform: none; }
 }
+
+/* ── network hub ─────────────────────────────────────────────── */
+.network-hub {
+  max-width: 1080px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+.network-hub h2 {
+  display: flex; align-items: center; gap: .5rem;
+  font-size: 1.6rem; margin-bottom: .35rem;
+}
+.network-hub .section-sub {
+  opacity: .7; margin: 0 0 1.25rem;
+}
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.net-card {
+  display: flex; flex-direction: column; gap: .4rem;
+  padding: 1.1rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.05);
+  color: inherit; text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease, background .15s ease;
+}
+.net-card:hover, .net-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(255,255,255,.4);
+  background: rgba(255,255,255,.09);
+}
+.net-card strong { font-size: 1.02rem; }
+.net-card span { font-size: .86rem; opacity: .75; line-height: 1.45; }
