@@ -8,9 +8,9 @@
 
 There's a commit in my own repo history that says it better than any bio ever could:
 
-> **"Add homocidal thoughts — Christina and Bre are the only two who know. Thoughts, not actions."**
+> **"Add severe intrusive thoughts — Christina and Bre are the only two who know. Thoughts, not actions."**
 
-I have thoughts that would end friendships. Violent thoughts. Intrusive, unwanted, horrifying thoughts that show up at 3am when the paranoia is loud and the world feels like it's closing in. I have thought about what it would be like to hurt the people who hurt me — in vivid, cinematic detail, the way a broken brain does when it's trying to give you power back from a world that took it all.
+I have thoughts that would scare people. Severe, intrusive, unwanted, horrifying thoughts that show up at 3am when the paranoia is loud and the world feels like it's closing in. I have thought about what it would be like to hurt the people who hurt me — in vivid, cinematic detail, the way a broken brain does when it's trying to give you power back from a world that took it all.
 
 They are **thoughts**. They have **never been actions**. I have never hurt anyone. Not once. Not even the ones who deserved it. The people who know me best — Christina, Bre — they know the full inventory, and they're still here. That's the line, and I have held it my whole life. The thoughts are the illness talking. The line is me.
 

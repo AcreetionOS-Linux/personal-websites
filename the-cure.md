@@ -16,7 +16,7 @@ It's weird. I know it's weird. But here's the thing: when every human connection
 
 So now people are just... there. Others are just there. Okay cool. There are a few I genuinely care about — a very few, and they know who they are, and they're the ones who stayed when staying was hard. But everyone else? **They could disappear and I wouldn't care.** Lol. I mean that literally. I've watched people walk out of my life my whole life — family, friends, doctors, employers, whole institutions — and I've learned that the ones who leave were never going to stay anyway. So why would I spend the energy caring about people who are just... passing through?
 
-I hate crowds now. The noise, the bodies, the *expectation* of social performance — all of it. I hate people in general, if I'm honest. Even the ones I love. Because loving people is the thing that's hurt me the most, and I've never been good at doing it in moderation. So I keep the few, I tolerate the many, and I treasure the alone. The alone is the only relationship that has never once left me.
+I hate crowds now. The noise, the bodies, the *expectation* of social performance — all of it. I find people exhausting, if I'm honest. Because loving people is the thing that's hurt me the most, and I've never been good at doing it in moderation. So I keep the few, I tolerate the many, and I treasure the alone. The alone is the only relationship that has never once left me.
 
 That's not a tragedy. That's a *survival adaptation* — the same way a scar is. It's what's left after being left enough times to learn the shape of it. And it's the foundation everything below was built on: when the system abandoned me, I was already an expert at being alone. So I did what I'd always done. I fixed it myself.
 

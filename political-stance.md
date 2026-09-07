@@ -135,7 +135,7 @@ Meanwhile, the "sinner" — the atheist volunteer who gives their last dollar to
 
 Jesus said: "Not everyone who says to me 'Lord, Lord' will enter the kingdom of heaven, but only the one who *does the will* of my Father." (Matthew 7:21 — and yes, I read my bible, lmfao). That's the whole thing. Words don't count. **Action counts. Authenticity counts.**
 
-So yeah. The average Christian is going to hell, because the average Christian is a fake. And the fake-ness is the sin. The good news? Hell isn't a life sentence. It's a wake-up call. Even the fakes can drop the act, be real, and find their way back. God's a piece of shit, but He's not a sore loser. ❤️
+So yeah. The average Christian is going to hell, because the average Christian is a fake. And the fake-ness is the sin. The good news? Hell isn't a life sentence. It's a wake-up call. Even the fakes can drop the act, be real, and find their way back. God is a piece of shit, but He's not a sore loser. ❤️
 
 ### Transgender people are in the Bible
 

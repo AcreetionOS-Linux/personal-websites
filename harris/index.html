@@ -409,6 +409,7 @@
   <nav>
     <a href="#movement">The Movement</a>
     <a href="#platform">Platform</a>
+    <a href="#realtalk">Real Talk</a>
     <a href="#join">Join</a>
   </nav>
 </header>
@@ -560,6 +561,7 @@
         <input type="email" id="rally-email" placeholder="patriot@example.org" required aria-label="Email address" />
         <button type="submit">I'm With HarrisOS ★</button>
       </form>
+      <p class="fine" style="margin-top:10px;">Parody site — signups go nowhere. No email is collected or sent.</p>
       <div id="rally-msg" aria-live="polite"></div>
       <p class="fine">
         🇺🇸 HarrisOS 2028 · When We Fight, We Win · Built on AcreetionOS<br />
@@ -612,7 +614,7 @@
         e.preventDefault();
         var email = document.getElementById('rally-email').value.trim();
         if (!email) return;
-        msg.textContent = '🇺🇸 Welcome to the movement, ' + email + '! Your freedom seed has been planted. Watch your inbox for the rally call.';
+        msg.textContent = '🇺🇸 Welcome to the movement, ' + email + '! Full transparency: this is a parody site — nothing was saved and no newsletter is coming. We said we would not lie to you. Forward, honestly.';
         form.reset();
       });
     }

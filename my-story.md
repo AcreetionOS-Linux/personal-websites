@@ -147,6 +147,18 @@ And yet.
 
 And yet I built AcreetionOS. I co-designed a filesystem. I run infrastructure that spans the planet. I wrote 84KB of the most honest political writing on the internet. Because the same brain that got flattened is still the brain that could see systems — real systems — and take them apart and rebuild them. The calm isn't just damage. Some of it is the *input machine*: I understand more than I produce on a timer, I see the pattern before the pattern finishes, I've spent my whole life predicting what comes next in a world that kept trying to end me. That's not "nothing bothers me." That's **everything already happened to me, so I've seen the tape.**
 
+### The experience of autism and psychomotor slowing
+
+People talk about the autism spectrum like it's a list of deficits — like it's just missing social cues or not making eye contact. For me, it is that *input machine*. It's seeing the entire system at once. It's why I can co-design a filesystem or run global infrastructure, but why a noisy room or forced social performance feels like a physical assault.
+
+Now, combine that autistic input machine with psychomotor slowing. I can design and build amazing things—*very* amazing things—fully formed in my head, even if my processing time is a bit delayed. And here's the funny part: I can type them out entirely. The code, the documentation, the 84KB essays—if it goes through a keyboard, the channel is wide open. But when it comes to *verbally* expressing those same ideas, the psychomotor deficit hits and the output mechanism slows to a crawl. The bridge between the incredible things my brain is doing and my physical ability to speak them out loud just... jams. 
+
+It is absolutely infuriating. You have a supercomputer running in your head, but you're forced to verbally communicate the results through a dial-up connection. And because the world only hears the dial-up speed of your speech, they assume that's how fast your brain is working. 
+
+The world expects someone like me to fit into its specific, neurotypical boxes — to produce on a timer, to perform the exact right social rituals, to communicate exactly the way everyone else does. But when you are just *different*, the world interprets that difference as a failure or a behavior problem. It's not a failure. It's an operating system that wasn't built for their hardware.
+
+I don't need to be fixed, and I don't need to be managed. All I need is the opportunity to excel in my own way. When you stop forcing a systems thinker to perform like a socialite, you get AcreetionOS. You get the architecture. I just need the space to run my own code, on my own terms.
+
 So next time someone asks why I don't flinch at needles, or why I can watch a death without breaking — tell them this: my flinch was spent. It was used up on the foster homes, the abuse, the misdiagnosis, the zap, the deaths, the handcuffs, the evictions, the betrayal. The calm they're admiring is the scar tissue of everything that tried to break me and didn't finish the job. I'm not unbothered. I'm **post-bothered**. And the difference matters, because one day — maybe one day soon — the volume comes back up, and when it does, I want the people who called me strong to know exactly what strength cost.
 
 And if they still call me strong — if they still say "wow, Natalie, you're so strong" — here's the answer I want you to have:

@@ -409,6 +409,7 @@
   <nav>
     <a href="#movement">The Movement</a>
     <a href="#platform">Platform</a>
+    <a href="#realtalk">Real Talk</a>
     <a href="#join">Join</a>
   </nav>
 </header>
@@ -560,11 +561,24 @@
         <input type="email" id="rally-email" placeholder="patriot@example.org" required aria-label="Email address" />
         <button type="submit">I'm With OliverOS ★</button>
       </form>
+      <p class="fine" style="margin-top:10px;">Parody site — signups go nowhere. No email is collected or sent.</p>
       <div id="rally-msg" aria-live="polite"></div>
       <p class="fine">
         🇺🇸 OliverOS 2028 · Live and Let Live · Built on AcreetionOS<br />
         Proudly served by <a href="https://natalie.acreetionos.org/" style="color:#ffe9a8;">AcreetionOS</a> · <a href="https://www.acreetionos.org" style="color:#ffe9a8;">acreetionos.org</a>
       </p>
+    </div>
+  </section>
+
+  <!-- ============ REAL TALK ============ -->
+  <section id="realtalk">
+    <div class="section-head">
+      <h2><span class="star">★</span> Real Talk <span class="star">★</span></h2>
+      <div class="rule"></div>
+    </div>
+    <div class="callout">
+      <h3>We tried to be nice and stay objective... 🗽</h3>
+      <p>Genuinely, we did. Full platform, fair shake, live-and-let-live and all of it. But real talk, zero pressure — do you actually want us? Answer or don't. We'd never make you. That's kind of the whole platform. lol</p>
     </div>
   </section>
 </main>
@@ -600,7 +614,7 @@
         e.preventDefault();
         var email = document.getElementById('rally-email').value.trim();
         if (!email) return;
-        msg.textContent = '🇺🇸 Welcome to the movement, ' + email + '! Your freedom seed has been planted. Watch your inbox for the rally call.';
+        msg.textContent = '🗽 Welcome aboard, ' + email + '! Voluntary disclosure: this is a parody site — nothing was saved and nothing gets sent. Your consent means everything to us.';
         form.reset();
       });
     }
