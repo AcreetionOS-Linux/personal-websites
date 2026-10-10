@@ -90,6 +90,16 @@ Liberals want you to pick the future and hate the past. The GOP wants you to pic
 
 That's not "liberal." That's not "conservative." It's both at once — and I'm done apologizing for it.
 
+### Not because it feels good
+
+And one more thing, because I need it on the record: **I didn't land here because it makes me feel good.**
+
+That's the whole disease, isn't it. People pick a side the way they pick a sports team — for the dopamine. The merch, the in-group, the rush of being one of the good guys, the cozy certainty that your party is the only thing standing between the world and hell. Politics as a *mood*. Politics as *belonging*. And the problem with belonging is that it stops being about what's true and becomes about who's warmest. That simplicity — "I belong to this side because it makes me feel good" — is exactly the simplicity that's dooming this country.
+
+I know how it feels to be inside the warm room. I spent years in the Republican one. It felt good to believe in an America where everything was simple, my values were the right ones, and the other side was just wrong. It felt good right up until it stopped being true, and I had to choose between the comfort of belonging and the cost of looking at reality. I chose reality. It does not feel good. It feels like having your illusions peeled off one by one. And it's the only thing that's ever going to save us.
+
+So: I'm not a libertarian because of a feeling. It frequently feels *awful* — it means I don't get to hate anyone, I don't get to be smug, I don't get to pretend biology doesn't exist when it's inconvenient, and I don't get a safe little team to hide in. I'm a libertarian because it's *true* — because it's the set of rules that still works when nobody's feelings are on the line. Truth doesn't have to feel good to be worth building a country on. The country that figures that out is the one that survives. The one that votes for the warm feeling is doing exactly what ours is doing right now — and that, in one sentence, is why we're doomed.
+
 The founding fathers didn't die so a landlord could tell me how to identify — and they sure as hell didn't die so the state could decide my existence is a crime. Freedom is for everyone, or it isn't freedom at all.
 
 ---
