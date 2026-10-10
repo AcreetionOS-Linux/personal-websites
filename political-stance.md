@@ -74,6 +74,22 @@ They take a legitimate conversation — sports fairness, safe spaces, government
 
 Real problems deserve real solutions. Real problems don't deserve hate. I'm not a Republican precisely because they're wrong about the one thing that matters most: how you're allowed to treat a person. You can be right about the deficit and still be a monster. They were.
 
+### I'm not a liberal — I'm progressive and conservative at the same time
+
+One more label I need to burn down before I go: **I'm not a liberal.** Say it loud for the people in the back.
+
+Not because I'm a conservative — I mean, I *am*, sort of — but because "liberal" in the modern American sense means a specific thing: big government, top-down fixes, identity slots, and the assumption that change is always good and tradition is always wrong. That whole bundle? Not me. I already told you why — I don't want the state running my life "for my own good," and I don't want a prefabricated identity with a party banner stapled to it.
+
+But here's the thing people genuinely can't get their heads around: **I'm progressive and conservative at the same time.** And that's not a contradiction — it's the only honest way to be.
+
+**I'm progressive about people.** Individual liberty should keep *expanding*, not contracting. The arc of human history is one long argument for letting more people live as themselves — the abolition of slavery, the vote for women, the end of Jim Crow, the acceptance of people like me and mine. On all of that I'm not just progressive, I'm *impatient*. Whatever the future holds for freedom, I'm in favor of getting there faster.
+
+**I'm conservative about the stuff that actually works.** Money has to come from somewhere — that's conservatism, fiscal reality. Innovation is driven by money — that's conservatism, cherishing the market machinery that built the modern world. Biology is real, male is a sex category, chromosomes don't change with your pronouns — that's conservatism, refusing to break the truths that hold the world together. And I'm deeply conservative about the *institutions that function*: courts, cops, contracts — the boring scaffolding of civilization you only miss when it's gone. Progress on top of a foundation is building a house. Progress on rubble is just rearranging the rubble.
+
+Liberals want you to pick the future and hate the past. The GOP wants you to pick the past and fear the future. I refuse the whole false choice: **progress for people, conservation for what works.** That isn't a mashup of two parties — it's the default position of an adult who's lived a real life. And the only label whose grid that actually fits is libertarian: maximally free people, minimally broken machine.
+
+That's not "liberal." That's not "conservative." It's both at once — and I'm done apologizing for it.
+
 The founding fathers didn't die so a landlord could tell me how to identify — and they sure as hell didn't die so the state could decide my existence is a crime. Freedom is for everyone, or it isn't freedom at all.
 
 ---
@@ -244,6 +260,7 @@ The people who tell you trans people aren't in the Bible haven't read it. They'v
 ## So yeah. I changed. Deal with it.
 
 I'm a libertarian who believes in freedom — for *everyone*, including me and mine.
+I'm not a liberal. I'm progressive about people and conservative about what works — both at once.
 I'm a woman who likes men — the people, not the parts.
 I'm a woman whose biology is male — a contradiction to anyone who thinks biology and identity are the same room, and a fact to everyone else.
 I'm a Unitarian Christian who believes Jesus was a brave man, God is real (and kind of an asshole), the Bible is a storybook (that people weaponize), the church is a cult (that Jesus would hate), and that authenticity — not performance — is the whole ballgame.
