@@ -76,5 +76,5 @@
     card.style.transitionDelay = `${(i % 5) * 0.06}s`;
   });
 
-  console.log('🇺🇸 The Republican Spectrum — loaded');
+  console.log('🇺🇸 The Political Spectrum — loaded');
 })();

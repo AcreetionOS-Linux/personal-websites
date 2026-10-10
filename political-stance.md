@@ -1,22 +1,56 @@
-# A Walking Contradiction, and Proud of It
+# From the GOP to the Side of the People
 
-*Or: how I'm a Republican who likes men, a woman, and a heretic — all at once*
+*Or: why I'm a libertarian now, and why the hell it took me this long — the girl who just wanted to be left alone*
 
-Look. I know how this looks. I'm a trans woman. I'm a traditional Republican. I like men. I'm a Unitarian Christian who thinks God is a piece of shit. Pick any two of those and the internet would have a field day with me. But here's the thing — none of these are in conflict, because none of them are the same *kind* of thing. My politics aren't my identity. My identity isn't my faith. My faith isn't my sexuality. They're four different rooms in the same house, and I'm allowed to decorate each one however I want.
+Look. I know how this looks. I'm a trans woman. I'm a libertarian. I like men. I'm a Unitarian Christian who thinks God is a piece of shit. Pick any two of those and the internet would have a field day with me. But here's the thing — none of these are in conflict, because none of them are the same *kind* of thing. My politics aren't my identity. My identity isn't my faith. My faith isn't my sexuality. They're four different rooms in the same house, and I'm allowed to decorate each one however I want.
 
-People act like you have to be a monolith. Like if you're one thing, you have to be the whole bundle. Fuck that. Let me show you around my house. ❤️
+**And all I've ever asked for, in every one of those rooms, is to be left alone.** That's the whole thing. That's what this page is about, and that's what the rest of my life has been about. People act like you have to be a monolith. Like if you're one thing, you have to be the whole bundle. Fuck that. And listen, I used to call myself a Republican — a *traditional* one, the party of Lincoln, don't-tread-on-me, all of it. And I'm going to tell you exactly what changed, because if you're wondering "what's going on with Natalie," it's this: **I finally noticed who the modern Republican Party is actually hurting — and I can't support hurting my fellow sisters and brothers. I just wanted to be left alone, and they decided that was a crime.**
+
+Let me show you around my house. ❤️
 
 ---
 
-## Politics: Traditional Republican
+## Politics: Libertarian (and what the hell happened)
 
-Yeah, you read that right. I'm a traditional Republican. Not the loud Twitter kind, not the "own the libs" kind — the *traditional* kind. Fiscal responsibility. Small government. Personal responsibility. The idea that you earn what you have, that your word is your bond, that the government should stay the hell out of your life and your wallet and your bedroom.
+I was a "traditional Republican" for years. Fiscal responsibility. Small government. Personal responsibility. The idea that you earn what you have, that your word is your bond, that the government should stay the hell out of your life and your wallet and your bedroom.
 
-I believe in the individual. I believe in hard work. I believe in the Constitution, the Bill of Rights, and the idea that freedom means you get to live your life without someone else's boot on your neck — *including* the government's boot.
+Here's the thing — I still believe all of that. I believe in the individual. I believe in hard work. I believe in the Constitution, the Bill of Rights, and the idea that freedom means you get to live your life without someone else's boot on your neck — *including* the government's boot.
 
-And here's the beautiful irony: the traditional Republican values — liberty, personal autonomy, don't-tread-on-me — are the *exact* same values that say a trans woman like me should be able to live as herself, love who she loves, and be left the hell alone. The founding fathers didn't die so a landlord could tell me how to identify. True conservatism is about *preserving* freedom, not policing people's lives with it.
+So why the hell would somebody who believes all that walk away from the Republican Party?
 
-A lot of the modern party would hate me. That's fine. I'm not a modern Republican. I'm a *traditional* one. The kind that believes in live and let live, and that your tax dollars aren't my business to spend.
+Because I looked at the party that's wearing that name now, and it isn't that. The party I grew up believing in believed that freedom was for *everyone* — and that the government should be small enough that it couldn't care less about what's in your bedroom or what's between your legs. That's what made me defend it for so long: the principles were beautiful on paper.
+
+But the modern party traded those principles for cruelty. The anti-trans bills. The bathroom wars. The bans on care that save lives. The book bans. The dog whistles that turned into open contempt. The party of "small government" decided that the *most important thing in the world* was policing the bodies and the lives of people exactly like me. State after state wrote laws designed to make people like my sisters and brothers not exist. And every single one of those laws is an answer to the question "how big should government power be?" — and the answer they chose was "big enough to hurt you."
+
+I can't do that. I can't stand next to people whose entire platform is my erasure. I can't tell myself "it's about fiscal responsibility" while they pass cruelty after cruelty aimed at the communities I love. I've been through too much, and I've watched too many of my people suffer, to spend one more minute pretending that's my team.
+
+So where did I land? **Libertarian.** And honestly? It was never not where I was headed.
+
+The values I loved about the "traditional Republican" idea — individual liberty, personal autonomy, don't-tread-on-me, the government out of your life, your wallet, *and your bedroom* — were never the property of the GOP. They're libertarian to the bone. I just spent years calling a thing by the wrong name because the old party used to at least *pretend* to wear the same clothes.
+
+Libertarianism is the Non-Aggression Principle with its sleeves rolled up: you don't get to use the state to start a war on your neighbors. You don't get to point the IRS at people you don't like. You don't get to pass laws that say who can exist, who can love, who gets to make their own medical decisions, who gets to live their own life. Live and let live isn't a slogan — it's the whole operating system. Your freedom ends where mine begins, and the government's job is to defend that boundary, not to bully people behind it.
+
+That's why libertarianism and trans rights aren't a contradiction — they're the same sentence. A government too small to tell you what to do with your body is too small to tell you what to do with your money. The people who think "freedom" and "human rights for everyone" are enemies have never understood either one.
+
+So: I'm a libertarian now. Not a "libertarian Republican" — I stopped holding my nose. The party made its choice, and it chose cruelty, so I left. If that makes me a flip-flopper, so be it. I'd rather be a flip-flopper than a bystander while the people I love get torn apart. Some of us flip because we were always standing in the wrong room, and turning around is the only honest move.
+
+The founding fathers didn't die so a landlord could tell me how to identify — and they sure as hell didn't die so the state could decide my existence is a crime. Freedom is for everyone, or it isn't freedom at all.
+
+---
+
+## All I've Ever Asked For: To Be Left Alone
+
+Look. Strip away every label — libertarian, trans woman, heretic, whatever. Underneath all of it, the whole goddamn thing has always been one sentence: **I just want to be left alone.**
+
+That's it. That's the entire political journey. I never wanted a movement. I never wanted a seat at the table. I wanted what I wanted when I was a kid in Stillwater, Oklahoma, before I even had words for any of this: to wake up, be my own weird self, love who I love, work hard, pay my bills, and go to bed without anyone trying to legislate my existence.
+
+"Leave me alone" isn't antisocial. It's the most polite thing you can ask for in a free country. It means: you do you, I'll do me, the state stays out of both of our bedrooms, and my freedom ends exactly where yours begins.
+
+And that's why I left the Republican Party. Not because I adopted new values — I've had this one since forever. Because the party I was registered with decided that "leave me alone" was a crime whenever the person asking was me or anyone like me. The bathroom bills. The bans on care. The "she's not a real woman" legislation. Every single one is a law that says the same thing: *you are not allowed to be left alone. You will be noticed. You will be regulated. You will be debated, in public, by people who have never spent one second of their lives being you.*
+
+Libertarianism is just the grown-up name for "leave people alone." The Non-Aggression Principle is that sentence wearing a suit. Don't start a war on your neighbors. Don't aim the government at your fellow human beings. Live and let live — and *mean* it.
+
+So if you're reading this and wondering what happened, wonder no more. A girl just wanted to be left alone. The party crossed that line. She packed her bags. End of story. ❤️
 
 ---
 
@@ -159,17 +193,21 @@ The people who tell you trans people aren't in the Bible haven't read it. They'v
 
 ---
 
-## So yeah. I'm a contradiction. Deal with it.
+## So yeah. I changed. Deal with it.
 
-I'm a traditional Republican who believes in liberty — which includes my liberty.
+I'm a libertarian who believes in freedom — for *everyone*, including me and mine.
 I'm a woman who likes men — the people, not the parts.
 I'm a Unitarian Christian who believes Jesus was a brave man, God is real (and kind of an asshole), the Bible is a storybook (that people weaponize), the church is a cult (that Jesus would hate), and that authenticity — not performance — is the whole ballgame.
 And I'm Natalie. Just Natalie. Enough said. LMFAO.
 
+If you're wondering "what's going on" — this is it. The party I used to defend decided that the people I love are the enemy. I can't support hurting my fellow sisters and brothers, so I left, and I landed where I was probably always standing: on the side of live and let live. Some people call me a flip-flopper. I call it finally reading the label on the box I was already carrying.
+
+All I've ever asked for is to be left alone. That hasn't changed — not once, not for one day of my life. What changed is that the party I used to vote for stopped pretending to agree. Let me live. Let her live. Let all of us live. That's not a platform, it's a prayer — and I've been praying it since I was old enough to know what to pray for.
+
 You don't have to fit in a box. Boxes are for shipping. I'm not a product, I'm a person — and so are you. Live your truth, be authentic, love people with your actions not your words, and read everything — including the Bible — with your brain switched ON.
 
-And if a Christian in a suit tells you you're going to hell for being yourself?
+And if someone in a nice suit tells you you're going to hell for being yourself — or that the government should decide who gets to exist?
 
 Smile, look them in the eye, and quote the man they claim to follow: *"Let anyone accept this who can."*
 
-*— Natalie, a walking contradiction, in the best way* ❤️
+— Natalie, living on the side of the people now ❤️

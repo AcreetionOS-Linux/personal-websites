@@ -52,9 +52,9 @@ Then the twentieth century happened, and the parties **traded places**:
 
 Republicans: Reaganism warped into **Trumpism** — populism, nationalism, MAGA, the culture war as a permanent campaign. Democrats: center-left with a progressive wing, identity politics, and a coalition that now includes the LGBTQ community they spent a century excluding.
 
-And me? I'm a **traditional Republican**. Not the Twitter kind, not the MAGA kind — the *original* kind. The party of Lincoln: **individual liberty, equality under the law, personal responsibility, don't tread on me.** The party that wrote "all men are created equal" into law with blood. The party whose whole thesis is that the government should get the hell out of your life — which is exactly the same thesis that says a trans woman should be able to live her life in peace.
+And me? I'm a **libertarian**. I spent a long time calling myself a "traditional Republican" — the party of Lincoln: **individual liberty, equality under the law, personal responsibility, don't tread on me.** The party whose whole thesis is that the government should get the hell out of your life — which is exactly the same thesis that says a trans woman should be able to live her life in peace. Turns out that thesis was never actually the GOP's property. It's libertarian.
 
-The modern party would hate me. Fine. **I'm not a modern Republican. I'm the original model.** The coat changed hands. I kept the receipt.
+The modern party would hate me. Fine. **I left it.** I can't support hurting my fellow sisters and brothers — and a party that made the biggest war in American politics about my community isn't the party that wrote "all men are created equal" into law with blood. I didn't change which values I hold. I changed which label I'll let take credit for them.
 
 ---
 
@@ -697,7 +697,7 @@ And honestly? I love it. Being connected to the man who killed Jesus is the most
 
 Let's take stock of what we just did:
 
-- The **parties** were born, grew, and **swapped bases** — and "traditional Republican" means Lincoln, not the culture war.
+- The **parties** were born, grew, and **swapped bases** — "traditional Republican" meant Lincoln and liberty, not the culture war. When the real party abandoned that meaning, I abandoned the label — I'm a libertarian now.
 - The **Republic** was built by Enlightenment men, many of them **Freemasons**, who laid the Capitol's cornerstone in Masonic regalia — and I was a **DeMolay**, the young men's order named for a man who died rather than lie, which taught me to be real even when it costs everything.
 - **Being trans is not a mental illness** — the WHO, the APA, and every major medical body say so, the older studies said so, and the modern studies prove the harm comes from stigma and the healing comes from support.
 - **Liking men is not a mental illness** — Kinsey, Hooker, the 1973 vote, the century of precedent where the exact same claim was made and then retracted, in writing.

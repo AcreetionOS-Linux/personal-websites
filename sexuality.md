@@ -6,7 +6,7 @@
 
 ## The sentence that breaks the internet
 
-I'm a trans woman. I'm a Republican. I like men. I'm a Unitarian Christian who thinks God is a piece of shit. Pick any two of those and the internet would have a field day with me. But here's the thing — none of these are in conflict, because none of them are the same *kind* of thing. My politics aren't my identity. My identity isn't my faith. My faith isn't my sexuality. They're four different rooms in the same house, and I'm allowed to decorate each one however I want.
+I'm a trans woman. I'm a libertarian. I like men. I'm a Unitarian Christian who thinks God is a piece of shit. Pick any two of those and the internet would have a field day with me. But here's the thing — none of these are in conflict, because none of them are the same *kind* of thing. My politics aren't my identity. My identity isn't my faith. My faith isn't my sexuality. They're four different rooms in the same house, and I'm allowed to decorate each one however I want.
 
 But since this page is the one about the last room — let's talk about the men.
 

@@ -91,7 +91,7 @@ Let's do the receipts, because the modesty act was never my style:
 - **Cloudflare backend optimization** — edge, DNS, Workers, DDoS mitigation, the works.
 - **FlatFree** — a community Flatpak distribution.
 - **trans-tracker-101** — and a site that maps my own community's needs onto the same infrastructure skills.
-- **The politics deep-dive** — 84KB of the most honest political writing on the internet, from a Republican trans woman who likes men and thinks God is a cosmic asshole. Nobody else could have written it. That's the point.
+- **The politics deep-dive** — 84KB of the most honest political writing on the internet, from a libertarian trans woman who likes men and thinks God is a cosmic asshole. Nobody else could have written it. That's the point.
 - **A full DeMolay rack** — Master Councilor, Representative DeMolay, Meritorious Service, Blue Honor Key, Chevalier, Life Member — earned as "the boy everyone thought I was."
 - And the one that trumps all of them: **I'm still here.** The foster system, the diagnoses, the losses, the thoughts — all of it tried to take me out, and I'm still here, writing my own story on my own site, on my own infrastructure, in my own name.
 
