@@ -100,6 +100,16 @@ I know how it feels to be inside the warm room. I spent years in the Republican 
 
 So: I'm not a libertarian because of a feeling. It frequently feels *awful* — it means I don't get to hate anyone, I don't get to be smug, I don't get to pretend biology doesn't exist when it's inconvenient, and I don't get a safe little team to hide in. I'm a libertarian because it's *true* — because it's the set of rules that still works when nobody's feelings are on the line. Truth doesn't have to feel good to be worth building a country on. The country that figures that out is the one that survives. The one that votes for the warm feeling is doing exactly what ours is doing right now — and that, in one sentence, is why we're doomed.
 
+### Base it on real people
+
+And now the liberal magic trick — the one that sounds like wisdom for exactly two seconds: *"Let's leave the past behind. It was arrogant. We'll do better. We just won't make emotional, irrational decisions based on wealth — we'll be new and smart, unlike them."*
+
+That is the foolish part. It sounds humble and it's the most arrogant sentence a person can say: *we* are finally the ones smart enough not to be idiots, the past was just arrogant rich men making mistakes, and all we have to do is mean well and the scales fall off. Every era that thought "we'll be rational, unlike those fools before us" then went and built the next catastrophe. History isn't a line of dumb people waiting for us to be the first ones who get it. Every generation is the same flesh and blood with the same ego, and "we'll be better than the arrogant past" isn't a plan — it's a prayer from people who think praying counts as planning.
+
+So fine: don't build on arrogance, don't let wealth alone steer the machine, don't act on emotion and unreason. Words. You can't ban yourself out of human nature. The only thing that survives contact with ideology is grounding it in **real people** — not "the people" as a slogan, not "the market" as a god, not "the past" as gospel and not "the future" as a promise. Real people, with real bodies, real families, real money problems, real love, really here right now. Judge every law by one question: does this help a real person, or does it just make somebody in a boardroom or a pulpit feel righteous? Keep asking that until it's the only question and you end up with a country. Answer it with slogans about being better than the arrogant past and you end up with what we've got.
+
+We don't need to be smarter than the past. We need to be *more real* than the past. That starts with admitting the past wasn't all stupid, the future isn't all bright — and the only honest ruler for any of it is a real human being trying to live.
+
 The founding fathers didn't die so a landlord could tell me how to identify — and they sure as hell didn't die so the state could decide my existence is a crime. Freedom is for everyone, or it isn't freedom at all.
 
 ---
