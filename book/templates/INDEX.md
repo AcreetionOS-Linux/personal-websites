@@ -1,6 +1,6 @@
 # Digital Twin Template Pack
 
-Based on the Sprungles Hive Mind architecture by Natalie Spiva & AcreetionOS.
+Based on the Sprungles Hive Mind architecture by Natalie Spiva [ by paperwork only ] & AcreetionOS.
 
 ## Templates Available
 
@@ -35,4 +35,4 @@ All models accessed through standard opencode-go integrations.
 ## License
 
 GPL-3.0 — Free to use, modify, and distribute.
-Built by Natalie Spiva for the AcreetionOS Project.
+Built by Natalie Spiva [ by paperwork only ] for the AcreetionOS Project.

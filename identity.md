@@ -26,9 +26,9 @@ People heard it. They didn't always know what they were hearing, but they knew s
 
 ## The name
 
-**Natalie Cole-Clift Spiva.** Every piece of it is a family that gave me something:
+**Natalie Cole-Clift Spiva [ by paperwork only ].** Every piece of it is a family that gave me something:
 
-- **Spiva** — my adoptive last name. The name on the record, the name on the paperwork, the roof over my head during the years I had to pretend.
+- **Spiva [ by paperwork only ]** — my adoptive last name. The name on the record, the name on the paperwork, the roof over my head during the years I had to pretend.
 - **Clift** — my bio father's last name. My dad's name. The one that connects me to Darren — the man who turned out to be my real father, who offered a room to a stranger with expired tags and no insurance and said we'd figure out the bills when I got there.
 - **Cole** — my bio last name from my bio mom's side. The maternal line, the other half of the biology.
 - **Natalie** — the one I chose. The one that was always true, underneath the mask and the foster homes and the "Johnathan" everyone thought I was.
@@ -51,7 +51,7 @@ And I'm here now, in my own name, on my own site, on my own infrastructure — b
 
 - **The mask:** "Johnathan," the good boy, the DeMolay rack, the boy everyone thought I was
 - **The flame:** the gay flame in my voice — the tell I couldn't hide, in Stillwater, in band, in every room
-- **The name:** Natalie Cole-Clift Spiva — adopted, biological, and chosen
+- **The name:** Natalie Cole-Clift Spiva [ by paperwork only ] — adopted, biological, and chosen
 - **The paperwork:** name change Court Order, Case 260018; HRT; the long medical road
 - **The truth:** I was never "becoming" a girl. I was *stopping pretending I wasn't one.*
 

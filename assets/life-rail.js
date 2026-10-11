@@ -25,6 +25,7 @@
 // Documents rendered (update either .md → page updates, no rebuild):
 //   political-stance.md   (short views)
 //   politics-deep-dive.md (Parts I–XXII)
+//   perfect-record.md     (the whole story, start to finish)
 // ============================================================================
 
 const MARKED = window.marked;
@@ -39,6 +40,7 @@ const MD_URL7 = 'faith.md';
 const MD_URL8 = 'identity.md';
 const MD_URL9 = 'sexuality.md';
 const MD_URL10 = 'the-cure.md';
+const MD_URL11 = 'perfect-record.md';
 const GATE_KEY = 'lr-dark-gate';
 const AUTO_OPEN_KEY = 'lr-auto-open-done';
 
@@ -78,6 +80,12 @@ const ICONS = [
     id: 'story',
     icon: 'fa-book-open',
     label: 'My Story',
+    active: true,
+  },
+  {
+    id: 'whole',
+    icon: 'fa-scroll',
+    label: 'Perfect Record — the whole story, start to finish',
     active: true,
   },
   {
@@ -492,6 +500,7 @@ function buildPanel() {
 const ROOM_META = {
   politics: { icon: 'fa-flag-usa', title: 'Politics & Views', files: [MD_URL, MD_URL2] },
   story: { icon: 'fa-book-open', title: 'My Story', files: [MD_URL3, MD_URL5] },
+  whole: { icon: 'fa-scroll', title: 'Perfect Record — the whole story', files: [MD_URL11] },
   dark: { icon: 'fa-skull', title: 'The Not So Great', files: [MD_URL4] },
   stillwater: { icon: 'fa-map-location-dot', title: 'Coming Out in Stillwater', files: [MD_URL6] },
   faith: { icon: 'fa-book-bible', title: 'Faith', files: [MD_URL7] },
@@ -586,6 +595,7 @@ async function loadRoomContent(room) {
     const fbk = {
       politics: fb.stance && fb.deep ? [fb.stance, fb.deep] : null,
       story: fb.story && fb.road ? [fb.story, fb.road] : (fb.story ? [fb.story] : null),
+      whole: fb.whole ? [fb.whole] : null,
       dark: fb.dark ? [fb.dark] : null,
       stillwater: fb.stillwater ? [fb.stillwater] : null,
       faith: fb.faith ? [fb.faith] : null,

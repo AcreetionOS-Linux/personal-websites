@@ -660,7 +660,7 @@ And the monster-check: a God who needed his own son tortured as a *transaction* 
 
 ## Part XXII — I'm Related to Pontius Pilate (Here's How That Actually Happened)
 
-And now the family secret, out loud. **I'm related to Pontius Pilate.** The man who condemned Jesus. Yes. That one. And no, it's not a mystical thing — it's a *family tree* thing, and here's how it actually happened. (To keep the record straight: the Pilate connection runs through the **Pontius** line — my brother's father's side — not the Spiva name itself.)
+And now the family secret, out loud. **I'm related to Pontius Pilate.** The man who condemned Jesus. Yes. That one. And no, it's not a mystical thing — it's a *family tree* thing, and here's how it actually happened. (To keep the record straight: the Pilate connection runs through the **Pontius** line — my brother's father's side — not the Spiva [ by paperwork only ] name itself.)
 
 ### Who he was
 
@@ -687,7 +687,7 @@ His *personal* fate is legend. But here's the part that matters: **he had a fami
 
 Pilate was a member of the **gens Pontia** — one of the old Roman families. And here's the thing about Roman aristocrats: **they don't die with one man.** While Pilate's own end is legend, his *family* — the Pontii — continued. Roman noble families survived the empire's fall the same way they survived its rise: by being connected, marrying well, and keeping the name alive. The gens Pontia didn't vanish when Pilate's body did. The family line continued through the centuries — through the empire, through the fall of Rome, through the kingdoms that carved it up — and **my brother's father's recorded line traces back through that house.**
 
-That's how it actually happened. No mysticism. No conspiracy. A Roman governor with an aristocratic family name, a recalled official whose clan outlived him, and two thousand years of family trees doing what family trees do. The man who condemned Jesus is my family's ancestor by that road — the Pontius line, not the Spiva name — and the story the church tells about him isn't even true — they *edited him* to make him sympathetic. The telephone game is so thorough it rewrote our family's villain.
+That's how it actually happened. No mysticism. No conspiracy. A Roman governor with an aristocratic family name, a recalled official whose clan outlived him, and two thousand years of family trees doing what family trees do. The man who condemned Jesus is my family's ancestor by that road — the Pontius line, not the Spiva [ by paperwork only ] name — and the story the church tells about him isn't even true — they *edited him* to make him sympathetic. The telephone game is so thorough it rewrote our family's villain.
 
 And honestly? I love it. Being connected to the man who killed Jesus is the most on-brand thing about this family. A walking contradiction, in the best way. The heretic is related to the governor who made the heretic famous. God's a piece of shit, but He's got a sense of humor. ❤️
 

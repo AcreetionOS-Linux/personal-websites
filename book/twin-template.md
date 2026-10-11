@@ -1,6 +1,6 @@
 # SKILL.md — Digital Twin Template
 
-> Based on the Sprungles Hive Mind architecture by Natalie Spiva & AcreetionOS
+> Based on the Sprungles Hive Mind architecture by Natalie Spiva [ by paperwork only ] & AcreetionOS
 > Over 194 specialized agents deployed across 582 skill files
 > This template lets you create your own digital twin using the same architecture
 
@@ -172,7 +172,7 @@ When no existing twin covers a domain, any twin can spawn a new one:
 
 ## Architecture Credits
 
-This architecture was designed and built by **Natalie Spiva** for the **AcreetionOS Project**. The Sprungles Hive Mind currently consists of 194+ specialized agents across 582 skill files, all operating on the same shared infrastructure described in this template.
+This architecture was designed and built by **Natalie Spiva [ by paperwork only ]** for the **AcreetionOS Project**. The Sprungles Hive Mind currently consists of 194+ specialized agents across 582 skill files, all operating on the same shared infrastructure described in this template.
 
 - **Website**: acreetionos.org
 - **GitHub**: github.com/spivanatalie64

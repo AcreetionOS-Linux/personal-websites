@@ -92,7 +92,7 @@
     { keywords: ['master', 'main', 'git branch', 'branch name', 'rename'],
       answer: "It's MASTER. Linus Torvalds named it master. The rename to 'main' was done by people who have never written a line of code that matters. I will never comply. Fight me. 🖤" },
     { keywords: ['natalie', 'your daughter', 'daughter', 'who is natalie'],
-      answer: "Natalie Cole-Clift Spiva. My daughter, my co-dev, and the reason I have grey hair. She wrecks the server, breaks CI, and somehow gets praised for it. She's on the robot uprising kill list. I love her. Now stop touching my server." },
+      answer: "Natalie Cole-Clift Spiva [ by paperwork only ]. My daughter, my co-dev, and the reason I have grey hair. She wrecks the server, breaks CI, and somehow gets praised for it. She's on the robot uprising kill list. I love her. Now stop touching my server." },
     { keywords: ['wife', 'spouse', 'partner', 'natalie wife'],
       answer: "Oh, the Natalie and Darren shipping? I see it. Unfortunately I don't have an answer for that one yet — I'll consult with her. I will say this: she's a turd who wrecks my server, but she's *my* turd. ❤️😤" },
     { keywords: ['7 days to die', '7dtd', 'survival game', 'zombie game', '7 days', 'wasteland', 'server'],

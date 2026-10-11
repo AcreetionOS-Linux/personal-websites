@@ -4,6 +4,7 @@ files = {
     "stance": "political-stance.md",
     "deep": "politics-deep-dive.md",
     "story": "my-story.md",
+    "whole": "perfect-record.md",
     "dark": "not-so-great.md",
     "road": "the-long-road.md",
     "stillwater": "stillwater.md",

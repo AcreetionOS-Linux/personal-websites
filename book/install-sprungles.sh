@@ -2,7 +2,7 @@
 # ================================================================
 #  Sprungles Hive Mind — One-Line Installer
 #  Installs the complete digital twin agent architecture
-#  Built by Natalie Spiva — AcreetionOS Project
+#  Built by Natalie Spiva [ by paperwork only ] — AcreetionOS Project
 #  License: GPL-3.0
 # ================================================================
 set -e
@@ -158,7 +158,7 @@ echo "  2. Create variants: agent-edualc, agent-gemini, agent-max"
 echo "  3. Read the book:  ${BOOK_URL}"
 echo "  4. Browse skills:  ${BOOK_URL}/skills/"
 echo ""
-echo "  Built by Natalie Spiva — AcreetionOS Project"
+echo "  Built by Natalie Spiva [ by paperwork only ] — AcreetionOS Project"
 echo "  Live with no shame. Build without permission."
 echo "================================================================"
 
