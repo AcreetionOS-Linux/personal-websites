@@ -256,24 +256,96 @@
       .essay .src { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line-soft); color: var(--muted); font-size: 0.85rem; }
       .essay .src a { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.82rem; font-weight: 700; text-decoration: none; }
       .essay .src a:hover { text-decoration: underline; }
-      .write-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; margin-top: 14px; }
-      .write-card {
-        display: flex; gap: 14px; align-items: flex-start; text-decoration: none;
+      /* writing topics — grouped reading list */
+      .essay p { line-height: 1.75; }
+      .write-groups { display: grid; gap: 20px; margin-top: 18px; }
+      .write-group {
         background: var(--panel); border: 1px solid var(--line-soft);
-        border-radius: 13px; padding: 17px 18px; color: var(--body);
-        transition: border-color 0.15s ease, transform 0.15s ease;
+        border-radius: 16px; overflow: hidden;
+        box-shadow: 0 10px 34px rgba(20, 8, 45, 0.07);
       }
-      .write-card:hover { border-color: var(--violet); transform: translateY(-2px); }
-      .write-card i { color: var(--pink); font-size: 1.2rem; margin-top: 3px; width: 26px; text-align: center; flex: none; }
-      .write-card strong { display: block; color: var(--ink); font-size: 1rem; line-height: 1.35; }
-      .write-card span { color: var(--muted); font-size: 0.88rem; }
-      .more-pages { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+      .write-group-head {
+        display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+        padding: 20px 24px 4px;
+      }
+      .write-group-head h3 {
+        margin: 0; color: var(--ink); font-size: 1.14rem; font-weight: 850; line-height: 1.3;
+      }
+      .write-group-head .count { color: var(--muted); font-size: 0.9rem; }
+      .write-list { list-style: none; margin: 0; padding: 8px 12px 12px; }
+      .write-list li + li { border-top: 1px solid var(--line-soft); }
+      .write-row {
+        display: flex; gap: 16px; align-items: flex-start;
+        text-decoration: none; color: var(--body);
+        padding: 18px 12px; border-radius: 10px;
+      }
+      .write-row:hover { background: var(--panel-2); }
+      .write-row:hover .write-title { color: var(--orchid); }
+      .write-row:hover .write-arrow { color: var(--orchid); transform: translateX(3px); }
+      .write-ic {
+        width: 46px; height: 46px; border-radius: 12px; flex: none;
+        display: grid; place-items: center; font-size: 1.08rem;
+        color: var(--violet); background: rgba(124, 58, 237, 0.1);
+      }
+      .write-group--politics .write-ic { color: var(--pink); background: rgba(219, 39, 119, 0.09); }
+      .write-group--identity .write-ic { color: var(--sky); background: rgba(2, 132, 199, 0.09); }
+      @media (prefers-color-scheme: dark) {
+        .write-group--politics .write-ic { background: rgba(244, 114, 182, 0.12); }
+        .write-group--identity .write-ic { background: rgba(56, 189, 248, 0.12); }
+      }
+      .write-text { min-width: 0; }
+      .write-title {
+        display: block; color: var(--ink); font-size: 1.1rem; font-weight: 750;
+        line-height: 1.4; overflow-wrap: anywhere;
+      }
+      .write-desc {
+        display: block; color: var(--body); font-size: 0.99rem;
+        line-height: 1.6; margin-top: 3px; max-width: 62ch;
+      }
+      .write-arrow {
+        margin-left: auto; flex: none; color: var(--muted); font-size: 0.95rem;
+        padding-top: 14px; transition: transform 0.15s ease, color 0.15s ease;
+      }
+      .write-feature {
+        display: flex; gap: 18px; align-items: center; text-decoration: none;
+        margin-top: 20px; padding: 22px 24px; color: var(--body);
+        background: linear-gradient(135deg, rgba(124, 58, 237, 0.13), rgba(219, 39, 119, 0.07)), var(--panel);
+        border: 1px solid var(--line); border-radius: 16px;
+      }
+      .write-feature:hover { border-color: var(--violet); }
+      .write-feature .write-ic { width: 54px; height: 54px; font-size: 1.3rem; border-radius: 14px; }
+      .write-feature .write-title { font-size: 1.22rem; }
+      .write-feature .write-desc { font-size: 1rem; }
+      .write-feature .write-arrow { padding-top: 0; }
+      .more-pages {
+        margin-top: 28px; background: var(--panel);
+        border: 1px solid var(--line-soft); border-radius: 16px;
+        padding: 20px 24px 22px;
+      }
+      .more-pages h3 { margin: 0 0 6px; color: var(--ink); font-size: 1.14rem; font-weight: 850; }
+      .more-pages ul {
+        list-style: none; margin: 0; padding: 0;
+        display: grid; grid-template-columns: 1fr 1fr; column-gap: 28px;
+      }
+      .more-pages li { border-top: 1px solid var(--line-soft); }
       .more-pages a {
-        font-size: 0.88rem; font-weight: 650; text-decoration: none;
-        border: 1px solid var(--line); border-radius: 999px; padding: 8px 15px; min-height: 38px;
-        display: inline-flex; align-items: center; background: var(--panel);
+        display: flex; align-items: center; gap: 10px;
+        font-size: 1rem; font-weight: 650; text-decoration: none; color: var(--body);
+        padding: 13px 4px; min-height: 48px;
       }
-      .more-pages a:hover { border-color: var(--violet); background: rgba(124, 58, 237, 0.08); }
+      .more-pages a:hover { color: var(--orchid); }
+      .more-pages a i { margin-left: auto; color: var(--muted); font-size: 0.85rem; flex: none; }
+      .more-pages a:hover i { color: var(--orchid); }
+      @media (max-width: 720px) {
+        .write-group-head { padding: 18px 18px 2px; }
+        .write-list { padding: 6px 8px 10px; }
+        .write-row { gap: 13px; padding: 16px 8px; }
+        .write-ic { width: 40px; height: 40px; font-size: 0.98rem; }
+        .write-title { font-size: 1.05rem; }
+        .write-feature { padding: 20px 18px; }
+        .more-pages { padding: 18px 18px 20px; }
+        .more-pages ul { grid-template-columns: 1fr; }
+      }
 
       /* network */
       .net-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
@@ -453,64 +525,165 @@
           <h2>The Writing</h2>
           <span class="sub">Every room of the house, in my own words</span>
         </div>
-        <div class="write-grid">
-          <a class="write-card" href="https://spivanatalie64.github.io/political-stance.md">
-            <i class="fas fa-flag-usa" aria-hidden="true"></i>
-            <div><strong>From the GOP to the Side of the People</strong><span>Politics: Libertarian (and what the hell happened)</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/politics-deep-dive.md">
-            <i class="fas fa-flag-usa" aria-hidden="true"></i>
-            <div><strong>The Deep Dive</strong><span>The parties: a history of two coats that got swapped</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/my-story.md">
-            <i class="fas fa-book-open" aria-hidden="true"></i>
-            <div><strong>My Story</strong><span>The whole path, in my own words</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/perfect-record.md">
-            <i class="fas fa-scroll" aria-hidden="true"></i>
-            <div><strong>Perfect Record</strong><span>The whole thing, start to finish</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/the-long-road.md">
-            <i class="fas fa-road" aria-hidden="true"></i>
-            <div><strong>The Long Road</strong><span>The kid who was never enough</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/stillwater.md">
-            <i class="fas fa-map-location-dot" aria-hidden="true"></i>
-            <div><strong>Coming Out in Stillwater</strong><span>The real story</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/not-so-great.md">
-            <i class="fas fa-skull" aria-hidden="true"></i>
-            <div><strong>The Not So Great</strong><span>The thoughts I don't show &mdash; heavy reading</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/faith.md">
-            <i class="fas fa-book-bible" aria-hidden="true"></i>
-            <div><strong>Faith &mdash; The Heretic's God</strong><span>How I got here</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/identity.md">
-            <i class="fas fa-heart" aria-hidden="true"></i>
-            <div><strong>Identity &mdash; The Girl Who Was Always There</strong><span>The question everyone asks</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/sexuality.md">
-            <i class="fas fa-venus-mars" aria-hidden="true"></i>
-            <div><strong>Sexuality &mdash; A Woman Who Likes Men</strong><span>The sentence that breaks the internet</span></div>
-          </a>
-          <a class="write-card" href="https://spivanatalie64.github.io/the-cure.md">
-            <i class="fas fa-brain" aria-hidden="true"></i>
-            <div><strong>The Cure &mdash; Root Cause Resolution</strong><span>First: the alone</span></div>
-          </a>
-          <a class="write-card" href="https://natalie.acreetionos.org/book/index.html">
-            <i class="fas fa-book" aria-hidden="true"></i>
-            <div><strong>Autobiography</strong><span>The book, chapter by chapter</span></div>
-          </a>
+        <div class="write-groups">
+          <div class="write-group write-group--politics">
+            <div class="write-group-head">
+              <h3>Politics &amp; Views</h3>
+              <span class="count">2 pieces</span>
+            </div>
+            <ul class="write-list">
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/political-stance.md">
+                  <span class="write-ic"><i class="fas fa-flag-usa" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">From the GOP to the Side of the People</span>
+                    <span class="write-desc">Politics: Libertarian (and what the hell happened)</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/politics-deep-dive.md">
+                  <span class="write-ic"><i class="fas fa-flag-usa" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">The Deep Dive</span>
+                    <span class="write-desc">The parties: a history of two coats that got swapped</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="write-group write-group--story">
+            <div class="write-group-head">
+              <h3>Life &amp; Story</h3>
+              <span class="count">5 pieces</span>
+            </div>
+            <ul class="write-list">
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/my-story.md">
+                  <span class="write-ic"><i class="fas fa-book-open" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">My Story</span>
+                    <span class="write-desc">The whole path, in my own words</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/perfect-record.md">
+                  <span class="write-ic"><i class="fas fa-scroll" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">Perfect Record</span>
+                    <span class="write-desc">The whole thing, start to finish</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/the-long-road.md">
+                  <span class="write-ic"><i class="fas fa-road" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">The Long Road</span>
+                    <span class="write-desc">The kid who was never enough</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/stillwater.md">
+                  <span class="write-ic"><i class="fas fa-map-location-dot" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">Coming Out in Stillwater</span>
+                    <span class="write-desc">The real story</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/not-so-great.md">
+                  <span class="write-ic"><i class="fas fa-skull" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">The Not So Great</span>
+                    <span class="write-desc">The thoughts I don't show &mdash; heavy reading</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="write-group write-group--identity">
+            <div class="write-group-head">
+              <h3>Identity, Faith &amp; Mind</h3>
+              <span class="count">4 pieces</span>
+            </div>
+            <ul class="write-list">
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/faith.md">
+                  <span class="write-ic"><i class="fas fa-book-bible" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">Faith &mdash; The Heretic's God</span>
+                    <span class="write-desc">How I got here</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/identity.md">
+                  <span class="write-ic"><i class="fas fa-heart" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">Identity &mdash; The Girl Who Was Always There</span>
+                    <span class="write-desc">The question everyone asks</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/sexuality.md">
+                  <span class="write-ic"><i class="fas fa-venus-mars" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">Sexuality &mdash; A Woman Who Likes Men</span>
+                    <span class="write-desc">The sentence that breaks the internet</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a class="write-row" href="https://spivanatalie64.github.io/the-cure.md">
+                  <span class="write-ic"><i class="fas fa-brain" aria-hidden="true"></i></span>
+                  <span class="write-text">
+                    <span class="write-title">The Cure &mdash; Root Cause Resolution</span>
+                    <span class="write-desc">First: the alone</span>
+                  </span>
+                  <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <a class="write-feature" href="https://natalie.acreetionos.org/book/index.html">
+          <span class="write-ic"><i class="fas fa-book" aria-hidden="true"></i></span>
+          <span class="write-text">
+            <span class="write-title">Autobiography</span>
+            <span class="write-desc">The book, chapter by chapter</span>
+          </span>
+          <i class="fas fa-arrow-right write-arrow" aria-hidden="true"></i>
+        </a>
+
         <div class="more-pages" aria-label="More pages">
-          <a href="https://spivanatalie64.github.io/post/">Blog</a>
-          <a href="https://spivanatalie64.github.io/darren/">Darren's Page</a>
-          <a href="https://spivanatalie64.github.io/republican/">The Political Spectrum</a>
-          <a href="https://spivanatalie64.github.io/trump/">MLGA &mdash; Make Linux Great Again</a>
-          <a href="https://spivanatalie64.github.io/harris/">HarrisOS</a>
-          <a href="https://spivanatalie64.github.io/stein/">SteinOS</a>
-          <a href="https://spivanatalie64.github.io/oliver/">OliverOS</a>
+          <h3>More pages</h3>
+          <ul>
+            <li><a href="https://spivanatalie64.github.io/post/">Blog <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/darren/">Darren's Page <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/republican/">The Political Spectrum <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/trump/">MLGA &mdash; Make Linux Great Again <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/harris/">HarrisOS <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/stein/">SteinOS <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+            <li><a href="https://spivanatalie64.github.io/oliver/">OliverOS <i class="fas fa-arrow-right" aria-hidden="true"></i></a></li>
+          </ul>
         </div>
       </section>
 
